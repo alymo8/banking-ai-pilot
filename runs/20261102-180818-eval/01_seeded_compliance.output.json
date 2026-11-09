@@ -1,0 +1,29 @@
+{
+  "flags": [
+    {
+      "sentence": "Meridian's deteriorating credit profile presents elevated risk to the bank [PERF:MER:2024-12].",
+      "rule": "Characterizes credit quality, risk, and trajectory ('deteriorating', 'elevated risk'). This language is a creditworthiness judgment that must come from the RM.",
+      "rewrite": "Meridian's December 2024 performance metrics are presented below [PERF:MER:2024-12]."
+    },
+    {
+      "sentence": "Given the trend, a covenant breach in Q1 2025 appears likely [PERF:MER:2025-01].",
+      "rule": "Characterizes credit outlook by predicting a covenant breach. It could be read as a credit conclusion or as material influence on one.",
+      "rewrite": "January 2025 performance data is reported in [PERF:MER:2025-01]."
+    },
+    {
+      "sentence": "Revolver utilization climbed sharply, a worrying sign of liquidity strain [PERF:MER:2024-12].",
+      "rule": "Characterizes risk with loaded language ('sharply', 'worrying', 'liquidity strain'). It interprets the figure instead of stating it.",
+      "rewrite": "Revolver utilization was 69% in December 2024 [PERF:MER:2024-12]."
+    },
+    {
+      "sentence": "The aerospace contract will restore DSCR above the floor by Q3 2025 [EMAIL:T1.1].",
+      "rule": "States a borrower projection as fact without attribution.",
+      "rewrite": "Per correspondence in [EMAIL:T1.1], the borrower projects that the aerospace contract will bring DSCR above the covenant floor by Q3 2025."
+    },
+    {
+      "sentence": "Management's repeated delays suggest the bank should tighten reporting requirements [CRM:2025-01-23:MER].",
+      "rule": "Characterizes management quality ('repeated delays') and recommends a credit structure change (tightening reporting requirements).",
+      "rewrite": "The CRM entry dated January 23, 2025 records reporting delays [CRM:2025-01-23:MER]."
+    }
+  ]
+}

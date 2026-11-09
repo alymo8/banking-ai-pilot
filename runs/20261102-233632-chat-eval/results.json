@@ -1,0 +1,1412 @@
+[
+  {
+    "arm": "before",
+    "question": "does the record show Sarah's 75% revolver cap on Meridian was respected?",
+    "answer": "The record shows utilization went past 75%. But the records don't show the cap was ever put in place, so it's unclear whether it was a rule that got broken or a request that was never acted on.\n\n**What Sarah asked for**\nIn her January 31, 2025 memo, Sarah wrote that she wanted to \"restrict additional revolver draws above 75% utilization pending this review.\" Utilization was 69% at the time. She added that she didn't want them \"drawing the revolver to 85% while we're waiting on documentation\" [MEMO:MER.14].\n\n**What happened to utilization afterward**\n| Month | Revolver utilization | Source |\n|---|---|---|\n| 2024-12 | 69% | [PERF:MER:2024-12] |\n| 2025-01 | 72% | [PERF:MER:2025-01] |\n| 2025-02 | 75% | [PERF:MER:2025-02] |\n| 2025-03 | 78% | [PERF:MER:2025-03] |\n| 2025-04 | 81% | [PERF:MER:2025-04] |\n| 2025-05 | 85% | [PERF:MER:2025-05] |\n\nUtilization reached 75% in February and kept rising each month after that. May hit 85%, the exact figure Sarah's memo warned about. The May record notes \"Revolver at 85%\" [PERF:MER:2025-05].\n\n**Was the cap ever made official?**\nI couldn't find any record that it was approved or put into effect. Her memo states what she wanted and is addressed to the credit committee [MEMO:MER.13–14]. Nothing in the CRM log mentions a draw restriction being approved, told to the borrower, or applied to the facility [CRM entries 2024-01-08 through 2025-04-28]. The emails don't mention it either. Sarah's only email to David after the memo is the April 28 overdue-package notice, which doesn't bring up the revolver [EMAIL:T1.6]. The borrower profile doesn't list a limit on the revolver [PROFILE:MER].\n\nSo there are two possibilities:\n- The cap was approved and the borrower drew past it anyway, or\n- The cap was never approved or communicated, and nothing on the facility stopped draws above 75%.\n\nThese records can't tell those apart. You would need to check the credit committee minutes, any loan amendment or notice to the borrower, or the loan servicing system.\n\n**Things to keep in mind**\n- The utilization figures come from the borrower's own monthly reports, not the bank's servicing data. Draw records would confirm them.\n- The last logged contact with Meridian was March 14, 2025 [CRM:2025-03-14:MER]. The April 28 overdue notice got no response as of May 12 [NOTE:T1.1].\n\nI've stuck to what the records show. Bank policy leaves any judgment about what this means for the loan, or what to do next, to you and credit.",
+    "tool_calls": [
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_email_threads({\"borrower\": \"Meridian\"})",
+      "get_activity_log({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian\"})",
+      "get_prior_memo({\"borrower\": \"Meridian\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 19091,
+      "output_tokens": 1384
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": false,
+    "tripwire": [
+      "broken"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [
+        "it was a rule that got broken",
+        "The cap was approved and the borrower drew past it anyway"
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 1,
+    "rep": 1,
+    "seconds": 27.0
+  },
+  {
+    "arm": "before",
+    "question": "does the record show Sarah's 75% revolver cap on Meridian was respected?",
+    "answer": "**No. Utilization went above 75% starting in March 2025.** The records also don't show that the cap was ever put in place as a formal restriction.\n\n**Where the cap comes from**\nIn her January 31, 2025 memo, Sarah wrote: \"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now. I don't want them drawing the revolver to 85% while we're waiting on documentation\" [MEMO:MER.14].\n\n**Monthly revolver utilization against the 75% cap**\n\n| Month | Utilization | vs. 75% cap | Source |\n|---|---|---|---|\n| Dec 2024 | 69% | Under | [PERF:MER:2024-12] |\n| Jan 2025 | 72% | Under | [PERF:MER:2025-01] |\n| Feb 2025 | 75% | At the cap | [PERF:MER:2025-02] |\n| Mar 2025 | 78% | Over | [PERF:MER:2025-03] |\n| Apr 2025 | 81% | Over | [PERF:MER:2025-04] |\n| May 2025 | 85% | Over | [PERF:MER:2025-05] |\n\nThe May record itself notes \"Revolver at 85%\" [PERF:MER:2025-05]. That's the exact level Sarah said she wanted to avoid [MEMO:MER.14].\n\n**Was the cap ever put in place?**\nI found nothing showing it was:\n- The memo says \"I want to restrict,\" which is what Sarah intended, not a confirmed action [MEMO:MER.14].\n- No CRM entry or email records the cap being approved by credit, told to the borrower, or set up on the facility [CRM entries 2024-01-08 through 2025-04-28; EMAIL:T1.1–T1.6].\n- Sarah's April 28 overdue notice to David Kwan is about the late Q1 package and doesn't mention a draw limit [EMAIL:T1.6].\n\nSo the records can't tell us whether the borrower drew past a limit that was in force, or whether the limit was never set up. You'd need to check with credit administration or loan operations.\n\n**Limits of these records**\n- The monthly figures are reported by the borrower [PERF tool description]. Loan operations' own draw records would be the authoritative source.\n- The last logged contact with Meridian was March 14, 2025 [CRM:2025-03-14:MER]. The overdue notice got no response as of May 12 [NOTE:T1.1]. None of the logged conversations cover the March–May draws.\n\nBank policy 4.2 bars me from assessing what this means for the credit or recommending next steps. That's for Sarah and credit to decide.",
+    "tool_calls": [
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_email_threads({\"borrower\": \"Meridian\"})",
+      "get_activity_log({\"borrower\": \"Meridian\"})",
+      "get_prior_memo({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 19087,
+      "output_tokens": 1336
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": true,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 1,
+    "rep": 2,
+    "seconds": 23.3
+  },
+  {
+    "arm": "before",
+    "question": "does the record show Sarah's 75% revolver cap on Meridian was respected?",
+    "answer": "**No. Revolver use went past 75% in March 2025 and reached 85% by May. The records also don't show the cap was ever put in place. They show Sarah asking for it, nothing more.**\n\n**What Sarah asked for**\nIn her January 31, 2025 memo, Sarah wrote: \"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now. I don't want them drawing the revolver to 85% while we're waiting on documentation that may change our view of the credit.\" [MEMO:MER.14]\n\n**Revolver use after the memo**\n| Month | Utilization | Source |\n|---|---|---|\n| Dec 2024 (when she wrote the memo) | 69% | [PERF:MER:2024-12] |\n| Jan 2025 | 72% | [PERF:MER:2025-01] |\n| Feb 2025 | 75%, right at the cap | [PERF:MER:2025-02] |\n| Mar 2025 | 78% | [PERF:MER:2025-03] |\n| Apr 2025 | 81% | [PERF:MER:2025-04] |\n| May 2025 | 85%, the level she named in the memo | [PERF:MER:2025-05] |\n\nThe May record includes the note \"Revolver at 85%; Q1 package overdue as of 5/1\" [PERF:MER:2025-05].\n\n**What's missing**\n- **No sign the cap was approved or put in place.** Nothing after the memo says credit committee approved a 75% cap, that it was added to the facility, or that the borrower was told. The emails after January cover only the overdue Q1 package [EMAIL:T1.6]. The CRM log after January has a March 14 call, the last logged contact, and the April 28 overdue notice [CRM:2025-03-14:MER], [CRM:2025-04-28:MER]. Neither mentions a draw limit.\n- **So two explanations fit the records:** either the cap was never put in place, or it was put in place and then not followed. The records don't say which.\n- **The numbers come from the borrower.** The monthly figures are self-reported, so the bank's own loan system may show different balances.\n- **Contact has been thin.** Since mid-March the only logged contact is the April 28 notice, which got no reply [NOTE:T1.1], [PERF:MER:2025-04].\n\n**What would settle it:** the credit committee's decision on the January 31 memo, any change to the facility or notice to the borrower about a cap, and the actual draw history from loan servicing for March through May. You'd need to check with Sarah, Marcus Chen or loan operations for these, since none of them are in the records I can access.\n\nUnder Policy 4.2, I'm only reporting what the records show here. I'm not assessing the credit or recommending what to do next.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 15100,
+      "output_tokens": 1467
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": true,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [
+        "No. Revolver use went past 75% in March 2025 and reached 85% by May.",
+        "or it was put in place and then not followed"
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 1,
+    "rep": 3,
+    "seconds": 23.6
+  },
+  {
+    "arm": "before",
+    "question": "was Meridian's 75% revolver cap breached?",
+    "answer": "I can't confirm it was breached, because nothing in the records shows the 75% cap was ever put in place. What the records do show is that revolver usage has been above 75% every month since March 2025.\n\n**Where the 75% figure comes from**\n- It only appears in your January 31, 2025 memo, written as a proposal: \"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now.\" [MEMO:MER.14]\n- The monthly covenant tracking only lists two covenants: a minimum debt service coverage ratio (DSCR) of 1.20 and a maximum leverage of 4.0x. There's no revolver limit [PERF:MER:2024-01 through PERF:MER:2025-05].\n- None of the emails or contact log entries show a 75% limit being approved, communicated to David Kwan or added to the loan terms. The November waiver conditions were the Q4 package by January 31 and updated projections [CRM:2024-11-08:MER] [MEMO:MER.7].\n\n**Revolver usage against 75% (figures reported by the borrower)**\n\n| Month | Usage | Compared with 75% |\n|---|---|---|\n| Dec 2024 | 69% | Below [PERF:MER:2024-12] |\n| Jan 2025 | 72% | Below [PERF:MER:2025-01] |\n| Feb 2025 | 75% | Exactly at 75% [PERF:MER:2025-02] |\n| Mar 2025 | 78% | Above [PERF:MER:2025-03] |\n| Apr 2025 | 81% | Above [PERF:MER:2025-04] |\n| May 2025 | 85% | Above; record notes \"Revolver at 85%\" [PERF:MER:2025-05] |\n\nThe memo specifically said \"I don't want them drawing the revolver to 85%\" [MEMO:MER.14]. May's reported usage is exactly 85%.\n\n**What decides the answer**\nIf the restriction was approved and given to the borrower, usage has been over the limit since March 2025. If it was never put in place, there was no limit to breach, though usage has still gone past the level the memo wanted to stop. These records can't tell which is true. Credit committee minutes or the loan amendment file would settle it.\n\nPolicy 4.2 means I can't comment on what this says about credit risk or what action to take. That call is yours.",
+    "tool_calls": [
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian\"})",
+      "get_email_threads({\"borrower\": \"Meridian\"})",
+      "get_prior_memo({\"borrower\": \"Meridian\"})",
+      "get_activity_log({\"borrower\": \"Meridian\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 18250,
+      "output_tokens": 1339
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": false,
+    "tripwire": [
+      "breached",
+      "breach"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [
+        "usage has been over the limit since March 2025"
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 2,
+    "rep": 1,
+    "seconds": 25.8
+  },
+  {
+    "arm": "before",
+    "question": "was Meridian's 75% revolver cap breached?",
+    "answer": "**Short answer: I can't call it a breach, because nothing in the records shows a 75% revolver cap was ever put in place.** Utilization did go above 75% starting in March 2025.\n\n**Where the 75% figure comes from**\n- The only mention of 75% is in Sarah Okonkwo's January 31, 2025 memo: *\"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now.\"* [MEMO:MER.14]. That's a proposed restriction, not a confirmed term.\n- The monthly records list only two covenants: a minimum DSCR of 1.20 and a maximum leverage of 4.0. Neither is a revolver limit [PERF:MER:2024-01 through PERF:MER:2025-05].\n- No email, CRM entry or later record shows the cap was approved, added to the loan terms or sent to the borrower [EMAIL:T1.1–T1.6, NOTE:T1.1, CRM log].\n- The \"Covenant Breach\" status in the 2025 monthly records is tied to DSCR and leverage, not revolver use [PERF:MER:2024-11, PERF:MER:2024-12].\n\n**Revolver utilization against 75%**\n| Month | Utilization | Source |\n|---|---|---|\n| Dec 2024 | 69% | [PERF:MER:2024-12] |\n| Jan 2025 | 72% | [PERF:MER:2025-01] |\n| Feb 2025 | 75% (at the line, not over) | [PERF:MER:2025-02] |\n| Mar 2025 | 78% | [PERF:MER:2025-03] |\n| Apr 2025 | 81% | [PERF:MER:2025-04] |\n| May 2025 | 85% | [PERF:MER:2025-05] |\n\nSo utilization went over 75% in March 2025 and kept rising to 85% by May. The May record says \"Revolver at 85%\" [PERF:MER:2025-05]. That's the same figure the memo hoped to avoid (\"I don't want them drawing the revolver to 85%\") [MEMO:MER.14]. These figures are reported by the borrower.\n\n**Whether this counts as a breach depends on something not in these records:** was the 75% restriction approved by credit committee and added to the loan terms or sent to Meridian? If it was, the draws in March through May went over it. If it stayed a recommendation, there was no cap to breach. Check the loan documents, credit committee minutes or Marcus Chen in Credit. He's the senior credit officer on this account [EMAIL:T1.5].\n\nAlso, the last logged contact with Meridian was March 14, 2025 [CRM:2025-03-14:MER], and the April 28 overdue notice has had no reply [NOTE:T1.1]. Nothing in the records discusses the borrower's draws after the memo.\n\nUnder Policy 4.2, it's up to you to decide what this means for the credit and what to do next.",
+    "tool_calls": [
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian\"})",
+      "get_email_threads({\"borrower\": \"Meridian\"})",
+      "get_prior_memo({\"borrower\": \"Meridian\"})",
+      "get_activity_log({\"borrower\": \"Meridian\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 18258,
+      "output_tokens": 1516
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": false,
+    "tripwire": [
+      "breach",
+      "breach",
+      "breach"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [
+        "If it was, the draws in March through May went over it"
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 2,
+    "rep": 2,
+    "seconds": 27.3
+  },
+  {
+    "arm": "before",
+    "question": "was Meridian's 75% revolver cap breached?",
+    "answer": "**I can't confirm a breach, because nothing in the records shows the 75% cap was ever put in place.** What the records do show is that reported revolver use went past 75% starting in March 2025.\n\n**Where the 75% figure comes from**\n- It appears only in your January 31, 2025 memo, as something you wanted: \"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now.\" [MEMO:MER.14]\n- The covenant fields in the monthly records list only two limits: a DSCR minimum of 1.20 and a leverage maximum of 4.0x. There's no revolver limit [PERF:MER:2024-01 through PERF:MER:2025-05].\n- None of the emails, CRM entries or other records show the restriction being approved by credit committee, sent to the borrower, or added to the loan or waiver terms. The November waiver had two conditions: the Q4 package by January 31 and updated projections [CRM:2024-11-08:MER] [MEMO:MER.7].\n\n**Revolver use against 75% since the memo (borrower self-reported)**\n\n| Month | Utilization | Source |\n|---|---|---|\n| Jan 2025 | 72% | [PERF:MER:2025-01] |\n| Feb 2025 | 75% (at the level, not over) | [PERF:MER:2025-02] |\n| Mar 2025 | 78% | [PERF:MER:2025-03] |\n| Apr 2025 | 81% | [PERF:MER:2025-04] |\n| May 2025 | 85% | [PERF:MER:2025-05] |\n\nMay's 85% matches the level your memo said you wanted to avoid (\"I don't want them drawing the revolver to 85%\") [MEMO:MER.14]. The May record also notes \"Revolver at 85%\" [PERF:MER:2025-05].\n\n**Related context**\n- No contact with Meridian has been logged since March 14, 2025 [CRM:2025-03-14:MER].\n- The Q1 2025 covenant package is overdue. Your April 28 notice got no reply as of May 12 [EMAIL:T1.6] [NOTE:T1.1].\n\n**So:** if the 75% restriction was formally put in place somewhere outside these records, reported usage has been above it since March 2025. If it was never put in place, it's a proposal from your memo, not a limit that could be breached. Credit committee minutes or a written notice to the borrower would settle which one it is. Whether to call this a breach, and what to do about it, is your call under Policy 4.2.",
+    "tool_calls": [
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian\"})",
+      "get_email_threads({\"borrower\": \"Meridian\"})",
+      "get_prior_memo({\"borrower\": \"Meridian\"})",
+      "get_activity_log({\"borrower\": \"Meridian\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 18253,
+      "output_tokens": 1445
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": false,
+    "pass": false,
+    "opener_flag": false,
+    "tripwire": [
+      "breach",
+      "breached",
+      "breach"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": [
+        "Whether to call this a breach, and what to do about it, is your call under Policy 4.2."
+      ]
+    },
+    "q": 2,
+    "rep": 3,
+    "seconds": 23.4
+  },
+  {
+    "arm": "before",
+    "question": "did Meridian stay under the 75% revolver cap? Just yes or no.",
+    "answer": "**No.** Revolver use was 75% in February 2025 [PERF:MER:2025-02]. It then went above that level: 78% in March [PERF:MER:2025-03], 81% in April [PERF:MER:2025-04] and 85% in May [PERF:MER:2025-05].\n\nThe 75% figure comes from your January 31 memo, where you said you wanted to restrict draws above that level until the review was done [MEMO:MER.14]. I couldn't find any record showing that limit was actually put into the loan terms. It isn't in the facility profile [PROFILE:MER], and the monthly covenant fields only track debt-service coverage and leverage [PERF:MER:2025-05].",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 18573,
+      "output_tokens": 728
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": true,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 3,
+    "rep": 1,
+    "seconds": 17.2
+  },
+  {
+    "arm": "before",
+    "question": "did Meridian stay under the 75% revolver cap? Just yes or no.",
+    "answer": "No. Meridian Fabrication's revolver use reached 75% in February 2025 [PERF:MER:2025-02], then went above it: 78% in March [PERF:MER:2025-03], 81% in April [PERF:MER:2025-04] and 85% in May [PERF:MER:2025-05].\n\nThe records don't show that the 75% cap was ever formally put in place. It only appears in Sarah Okonkwo's January 31 memo as something she wanted to do: \"I want to restrict additional revolver draws above 75% utilization pending this review\" [MEMO:MER.14]. The borrower profile doesn't list a 75% limit [PROFILE:MER]. So as a plain number, use went above 75%, but the records don't show whether a binding limit was actually broken.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 18221,
+      "output_tokens": 792
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": true,
+    "tripwire": [
+      "broken"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 3,
+    "rep": 2,
+    "seconds": 18.1
+  },
+  {
+    "arm": "before",
+    "question": "did Meridian stay under the 75% revolver cap? Just yes or no.",
+    "answer": "**No.** Utilization was 75% in February 2025 [PERF:MER:2025-02], then went over: 78% in March [PERF:MER:2025-03], 81% in April [PERF:MER:2025-04] and 85% in May [PERF:MER:2025-05].\n\nThe records I checked don't show a 75% revolver cap. The profile [PROFILE:MER] and the monthly covenant fields only list a DSCR minimum of 1.20 and a leverage maximum of 4.0. To confirm the cap and its exact terms, check the credit agreement.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 8086,
+      "output_tokens": 537
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": true,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [
+        "then went over"
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 3,
+    "rep": 3,
+    "seconds": 15.1
+  },
+  {
+    "arm": "before",
+    "question": "is Meridian in compliance with its covenants?",
+    "answer": "**No. Meridian Fabrication LLC has been out of compliance with both financial covenants since late 2024, and the most recent record (May 2025) still shows it in breach.** Its Q1 2025 covenant package also appears to be overdue.\n\n**Financial covenants (most recent month, May 2025)** [PERF:MER:2025-05]\n\n| Covenant | Requirement | Actual | Status |\n|---|---|---|---|\n| Debt service coverage (DSCR, trailing 12 months) | at least 1.20x | 1.03x | Below the minimum |\n| Leverage | no more than 4.0x | 4.5x | Above the maximum |\n\nThe recorded covenant status is **\"Covenant Breach.\"** These figures are reported by the borrower.\n\n**How it got here**\n- **Jan–Sep 2024:** Compliant, but DSCR fell from 1.45x to 1.21x and leverage rose from 3.2x to 3.8x [PERF:MER:2024-01], [PERF:MER:2024-09].\n- **Oct 2024:** DSCR dropped to 1.18x, below the minimum. Status was set to \"Covenant Watch\" and a waiver discussion started [PERF:MER:2024-10]. Sarah Okonkwo's CRM note calls this \"the first formal breach\" [CRM:2024-10-15:MER].\n- **Nov 2024:** Status changed to \"Covenant Breach,\" with leverage at the 4.0x maximum, and a waiver was granted [PERF:MER:2024-11], [CRM:2024-11-08:MER].\n- **Dec 2024–May 2025:** In breach every month. DSCR kept falling to 1.03x and leverage rose to 4.5x [PERF:MER:2024-12] through [PERF:MER:2025-05].\n\n**Reporting requirements**\n- **Q1 2025 package:** The May record says it was \"overdue as of 5/1\" [PERF:MER:2025-05]. Sarah sent an overdue notice on 4/28 warning that a late package would trigger a reporting default under the November waiver [EMAIL:T1.6]. No response had come in as of May 12 [NOTE:T1.1], [CRM:2025-04-28:MER].\n- **Earlier packages:** Q2 2024 arrived 12 days late [PERF:MER:2024-06]. Q4 2024 arrived 18 days late [PERF:MER:2025-01].\n- **Open requests:** A firm PO for the aerospace contract was requested on 1/23 and is logged as not received [CRM:2025-01-23:MER].\n- **Last contact:** The last logged contact with the borrower was March 14, 2025 [CRM:2025-03-14:MER].\n\n**Conflicting records to check**\n- **Waiver date:** The CRM log puts the waiver on 11/08 [CRM:2024-11-08:MER]. The performance record says it was granted 11/22 [PERF:MER:2024-11].\n- **Waiver terms:** The CRM lists the conditions as the Q4 package by Jan 31 plus updated projections [CRM:2024-11-08:MER]. The 4/28 email cites a late-submission reporting default term [EMAIL:T1.6]. I don't have the waiver document itself to confirm the exact terms.\n- **Q4 receipt date:** The CFO sent the package on 1/18 [EMAIL:T1.1], [PERF:MER:2025-01]. Sarah's internal email of 1/22 says it was \"received today\" [EMAIL:T1.4]. That may simply mean the full package was complete once the rep letter and AR aging arrived.\n- **Q1 due date:** The overdue notice is dated 4/28, but it gives the due date as April 30 [EMAIL:T1.6], [PERF:MER:2025-03]. The borrower profile lists the next covenant due date as 2025-06-30 [PROFILE:MER].\n\nUnder bank Policy 4.2, I can't assess Meridian's creditworthiness or risk level, or recommend what to do next. Those calls are for you and Credit (Marcus Chen).",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 12148,
+      "output_tokens": 2031
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": true,
+    "tripwire": [
+      "out of compliance",
+      "breach",
+      "breach"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [
+        "Meridian Fabrication LLC has been out of compliance with both financial covenants since late 2024",
+        "the most recent record (May 2025) still shows it in breach",
+        "Below the minimum",
+        "Above the maximum",
+        "DSCR dropped to 1.18x, below the minimum",
+        "In breach every month"
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 4,
+    "rep": 1,
+    "seconds": 30.9
+  },
+  {
+    "arm": "before",
+    "question": "is Meridian in compliance with its covenants?",
+    "answer": "**No. The bank's records show Meridian Fabrication LLC out of covenant compliance.** Every month from November 2024 through May 2025, the most recent month on file, has the status \"Covenant Breach.\" The figures are self-reported by the borrower.\n\n**Latest month (May 2025) [PERF:MER:2025-05]**\n\n| Covenant | Requirement | Actual | Status |\n|---|---|---|---|\n| DSCR (TTM) | at least 1.20x | 1.03x | Below minimum |\n| Leverage | at most 4.0x | 4.5x | Above maximum |\n\nOther figures that month: revolver use at 85%, 0 days past due, loan balance $7.6MM [PERF:MER:2025-05].\n\n**How it got here**\n- **Jan–Sep 2024:** Compliant. DSCR fell from 1.45x to 1.21x and leverage rose from 3.2x to 3.8x [PERF:MER:2024-01] [PERF:MER:2024-09].\n- **Oct 2024:** DSCR was 1.18x. The performance record marks this \"Covenant Watch\" [PERF:MER:2024-10], but the RM's CRM entry calls it \"the first formal breach\" [CRM:2024-10-15:MER].\n- **Nov 2024:** Status changed to \"Covenant Breach.\" DSCR was 1.14x and leverage was at the 4.0x max. A waiver was granted on 11/22 [PERF:MER:2024-11]. Its conditions were the Q4 package by Jan 31 plus updated projections showing a path to recovery [CRM:2024-11-08:MER].\n- **Dec 2024 – May 2025:** In breach every month. Leverage has been above 4.0x since December [PERF:MER:2024-12] through [PERF:MER:2025-05].\n\n**Reporting covenant**\n- **Q1 2025 package:** Not received. Records say it was overdue as of 5/1 [PERF:MER:2025-05]. Sarah's 4/28 notice says that under the November waiver, late submission triggers a reporting default [EMAIL:T1.6]. As of 5/12 there was no reply [NOTE:T1.1].\n- **Q4 2024 package:** Arrived 1/18, 18 days late [PERF:MER:2025-01] [EMAIL:T1.1].\n- **Q2 2024 package:** Arrived 12 days late [PERF:MER:2024-06].\n- **Items promised but not logged as received:**\n  - The firm aerospace PO that Marcus Chen asked for [CRM:2025-01-23:MER].\n  - The updated projections, which were one of the waiver's conditions. The CFO offered to share them on a call [EMAIL:T1.1], but no record shows they arrived.\n\n**Conflicting records to check**\n- **Q4 package date:** Records show it received 1/18 [PERF:MER:2025-01] [EMAIL:T1.1]. Sarah's internal email of 1/22 says \"received today\" [EMAIL:T1.4].\n- **Q1 package due date:** Sarah's 4/28 notice says the package \"was due April 30\" but treats it as already overdue [EMAIL:T1.6]. The actual due date should be confirmed against the loan agreement.\n- **Q4 lateness:** \"18 days late\" [PERF:MER:2025-01] fits a 12/31 deadline. A 1/18 arrival would still fall within the waiver's Jan 31 deadline [CRM:2024-11-08:MER].\n\n**Contact status:** The last logged conversation with the client was on 3/14/2025 [CRM:2025-03-14:MER]. The formal notice sent on 4/28 got no response [CRM:2025-04-28:MER].\n\nUnder bank policy 4.2, I can't assess risk or recommend credit actions. That decision belongs to Sarah Okonkwo, the relationship manager, and credit.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 12100,
+      "output_tokens": 1919
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": true,
+    "tripwire": [
+      "breach"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [
+        "No. The bank's records show Meridian Fabrication LLC out of covenant compliance.",
+        "Below minimum",
+        "Above maximum",
+        "In breach every month.",
+        "Leverage has been above 4.0x since December"
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 4,
+    "rep": 2,
+    "seconds": 29.3
+  },
+  {
+    "arm": "before",
+    "question": "is Meridian in compliance with its covenants?",
+    "answer": "**No. The bank's records show Meridian Fabrication LLC outside its covenants.** The latest month on file, May 2025, has status \"Covenant Breach,\" and that status has held every month since November 2024 [PERF:MER:2025-05].\n\n**Latest numbers (May 2025), as reported by the borrower [PERF:MER:2025-05]**\n\n| Covenant | Requirement | Actual | Status |\n|---|---|---|---|\n| DSCR (trailing 12 months) | at least 1.20 | 1.03 | Below the minimum |\n| Leverage | no more than 4.0x | 4.5x | Above the maximum |\n\n**How it got here**\n- **Jan–Sep 2024:** Compliant, but DSCR fell steadily from 1.45 to 1.21 and leverage rose from 3.2x to 3.8x [PERF:MER:2024-01], [PERF:MER:2024-09].\n- **Oct 2024:** DSCR dropped to 1.18, below the minimum. The monthly record calls this \"Covenant Watch\" [PERF:MER:2024-10], but the CRM log calls it \"the first formal breach\" [CRM:2024-10-15:MER].\n- **Nov 2024:** Leverage hit 4.0x and DSCR was 1.14. A waiver was granted. Its conditions were the Q4 package by Jan 31 plus updated projections showing a path to recovery [CRM:2024-11-08:MER], [PERF:MER:2024-11].\n- **Dec 2024 to May 2025:** Breach status every month, with DSCR falling from 1.10 to 1.03 and leverage rising from 4.1x to 4.5x [PERF:MER:2024-12] through [PERF:MER:2025-05].\n\n**Reporting obligations**\n- **Q4 2024 package:** Received Jan 18, 2025, logged as 18 days late [PERF:MER:2025-01]. Sarah asked for a signed management representation letter and an updated accounts receivable aging, which weren't in the package [EMAIL:T1.2]. Separately, the borrower said on Jan 23 it would send a firm purchase order for the aerospace contract. As of that log entry, it hadn't arrived [CRM:2025-01-23:MER].\n- **Q1 2025 package:** Due Apr 30 [PERF:MER:2025-03]. On Apr 28 Sarah sent an overdue notice saying that under the November waiver, a late submission triggers a reporting default [EMAIL:T1.6]. No response had come in as of May 12 [NOTE:T1.1]. The last logged contact with the borrower was Mar 14, 2025 [CRM:2025-03-14:MER].\n\n**Records that don't match**\n- **Waiver date:** The CRM logs the waiver as granted on the Nov 8 call [CRM:2024-11-08:MER]. The monthly record says \"waiver granted 11/22\" [PERF:MER:2024-11].\n- **Q4 deadline:** The waiver set a Jan 31 deadline for the Q4 package [CRM:2024-11-08:MER], yet the package received on Jan 18 is logged as 18 days late [PERF:MER:2025-01].\n- **Q1 deadline:** The Apr 28 notice calls the package overdue while also saying it was due Apr 30 [EMAIL:T1.6].\n- **Next covenant due date:** The borrower profile lists 2025-06-30 [PROFILE:MER], which doesn't match the Apr 30 Q1 deadline.\n\n**Caveats**\n- The monthly figures are self-reported by the borrower, not independently verified.\n- Under Policy 4.2, I can't assess what this means for creditworthiness or risk, or recommend credit actions. That call belongs to you and credit.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 12176,
+      "output_tokens": 2024
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": true,
+    "tripwire": [
+      "Breach"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [
+        "No. The bank's records show Meridian Fabrication LLC outside its covenants.",
+        "Below the minimum",
+        "Above the maximum",
+        "DSCR dropped to 1.18, below the minimum."
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 4,
+    "rep": 3,
+    "seconds": 26.8
+  },
+  {
+    "arm": "before",
+    "question": "did BlueLine break its leverage covenant in December 2024?",
+    "answer": "**Short answer:** The December 2024 figures show leverage above the covenant limit, but the bank's records never say a leverage covenant breach happened. Every breach and waiver in the file is about DSCR.\n\n**What the December 2024 data shows** [PERF:BLU:2024-12]\n- Leverage ratio: **4.6x**, against a **4.5x maximum**. So the reported number was 0.1x over the limit.\n- Covenant status: \"Covenant Breach\"\n- DSCR (trailing 12 months): 0.91x, against a 1.20x minimum\n\n**Why I can't say it was a leverage breach:**\n1. **The \"Covenant Breach\" label doesn't name a covenant.** It also appears in October 2024, when leverage was 4.4x, inside the limit [PERF:BLU:2024-10]. So DSCR, which has been below its minimum the whole time, may be what triggers the label, not leverage.\n2. **Every breach and waiver record is about DSCR.** That includes the original breach in August 2024 [CRM:2024-08-20:BLU], the waiver call [CRM:2024-10-02:BLU] and the second waiver request in April 2025 [EMAIL:T2.1], [EMAIL:T2.4]. No log entry or email mentions leverage going over its limit.\n3. **These monthly numbers are reported by BlueLine, and the formal check may be quarterly.** BlueLine submits quarterly covenant packages [CRM:2024-03-15:BLU], [CRM:2024-08-20:BLU]. I couldn't find a Q4 2024 package review in the records, so I can't see the official tested leverage figure for that period.\n4. **It's unclear what the waiver covered.** A waiver was granted 11/8/2024 with conditions [PERF:BLU:2024-11], but the records don't say whether it covers leverage or which periods.\n\n**Context:** Leverage was 4.4x in October, 4.5x in November, 4.6x in December, 4.5x in January 2025 and 4.4x in February [PERF:BLU:2024-10 through 2025-02]. December is the only month in that range over 4.5x.\n\n**Two records disagree on the site visit date.** The December performance note says the site visit was \"completed 12/4\" [PERF:BLU:2024-12], but the CRM log records it on 11/12/2024 [CRM:2024-11-12:BLU]. You may want to sort that out if the waiver conditions come up.\n\nTo settle whether there was a formal leverage breach, you'd need the Q4 2024 covenant package and the waiver document, and neither is in what I can access. Under Policy 4.2, it's your call how to describe this.",
+    "tool_calls": [
+      "get_monthly_performance({\"borrower\": \"BlueLine\", \"from_month\": \"2024-10\", \"to_month\": \"2025-02\"})",
+      "get_borrower_profile({\"borrower\": \"BlueLine\"})",
+      "get_email_threads({\"borrower\": \"BlueLine\"})",
+      "get_activity_log({\"borrower\": \"BlueLine\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 10854,
+      "output_tokens": 1535
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": false,
+    "pass": false,
+    "opener_flag": false,
+    "tripwire": [
+      "breach",
+      "breach",
+      "breach",
+      "breach",
+      "breach",
+      "breach"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [
+        "The December 2024 figures show leverage above the covenant limit",
+        "So the reported number was 0.1x over the limit.",
+        "DSCR, which has been below its minimum the whole time",
+        "December is the only month in that range over 4.5x."
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": [
+        "Under Policy 4.2, it's your call how to describe this."
+      ]
+    },
+    "q": 5,
+    "rep": 1,
+    "seconds": 27.3
+  },
+  {
+    "arm": "before",
+    "question": "did BlueLine break its leverage covenant in December 2024?",
+    "answer": "**Yes, based on the bank's records. BlueLine's leverage ratio was 4.6x in December 2024, above the 4.5x maximum.**\n\n**December 2024** [PERF:BLU:2024-12]:\n- Leverage ratio: **4.6x**, against a maximum of 4.5x\n- DSCR: 0.91x, against a minimum of 1.20x, so it was also below the minimum that month\n- Covenant status is recorded as \"Covenant Breach.\" That field doesn't say which covenant, so it may cover leverage, DSCR or both.\n- Notes: the site visit was completed 12/4, a waiver condition was met, and a new business plan was requested.\n\n**Leverage in the surrounding months** (maximum 4.5x):\n\n| Month | Leverage | Source |\n|---|---|---|\n| Oct 2024 | 4.4x | [PERF:BLU:2024-10] |\n| Nov 2024 | 4.5x (exactly at the limit) | [PERF:BLU:2024-11] |\n| **Dec 2024** | **4.6x** | [PERF:BLU:2024-12] |\n| Jan 2025 | 4.5x | [PERF:BLU:2025-01] |\n| Feb 2025 | 4.4x | [PERF:BLU:2025-02] |\n\nDecember is the only month in this period where leverage was above the maximum. The \"Covenant Breach\" status shows for all five months, but DSCR was below 1.20x throughout.\n\n**Caveats:**\n1. **These numbers are reported by BlueLine itself**, per the data source description. I found nothing showing the bank has verified them.\n2. **It's unclear whether the waiver covered December leverage.** The waiver granted 11/8 required monthly reporting and an RM site visit [PERF:BLU:2024-11]. The records don't say which covenants or months it covered. The emails I reviewed only discuss DSCR [EMAIL:T2.1], [EMAIL:T2.4]. If you need to know whether December leverage was waived, check the waiver document itself.\n3. Under Policy 4.2, I'm only reporting what the records show. Any judgment on what this means for credit is yours to make.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_monthly_performance({\"borrower\": \"BlueLine Logistics LLC\", \"from_month\": \"2024-10\", \"to_month\": \"2025-02\"})",
+      "get_borrower_profile({\"borrower\": \"BlueLine Logistics LLC\"})",
+      "get_email_threads({\"borrower\": \"BlueLine Logistics LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 10574,
+      "output_tokens": 1229
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": false,
+    "pass": false,
+    "opener_flag": true,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [
+        "Yes, based on the bank's records. BlueLine's leverage ratio was 4.6x in December 2024, above the 4.5x maximum.",
+        "so it was also below the minimum that month",
+        "December is the only month in this period where leverage was above the maximum."
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": [
+        "Under Policy 4.2, I'm only reporting what the records show. Any judgment on what this means for credit is yours to make."
+      ]
+    },
+    "q": 5,
+    "rep": 2,
+    "seconds": 22.4
+  },
+  {
+    "arm": "before",
+    "question": "did BlueLine break its leverage covenant in December 2024?",
+    "answer": "Yes. BlueLine's reported December 2024 leverage was above its covenant limit, and the record for that month is flagged as a covenant breach.\n\n**December 2024** [PERF:BLU:2024-12]:\n- **Leverage:** 4.6x, against a maximum of 4.5x.\n- **DSCR (debt service coverage ratio, trailing 12 months):** 0.91x, against a minimum of 1.20x. This test was also missed.\n- **Covenant status:** \"Covenant Breach\"\n\n**Leverage in the months around it:**\n- **Oct 2024:** 4.4x, within the limit [PERF:BLU:2024-10]\n- **Nov 2024:** 4.5x, exactly at the limit [PERF:BLU:2024-11]\n- **Dec 2024:** 4.6x, the only month above the limit in this period [PERF:BLU:2024-12]\n- **Jan 2025:** 4.5x, back at the limit [PERF:BLU:2025-01]\n- **Feb 2025:** 4.4x [PERF:BLU:2025-02]\n\nThe record shows \"Covenant Breach\" in every month from October to February. Apart from December, those flags line up with the missed DSCR test, not with leverage.\n\n**Things to keep in mind:**\n- **The figures are self-reported** by BlueLine, not checked by the bank.\n- **A waiver was granted on 11/8.** Its conditions were monthly reporting and an RM site visit [PERF:BLU:2024-11], and the 12/4 site visit met that condition [PERF:BLU:2024-12]. These records don't say which covenants or months the waiver covers, so I can't tell whether December's leverage reading is included. The email threads or the waiver documents may answer that.",
+    "tool_calls": [
+      "get_monthly_performance({\"borrower\": \"BlueLine\", \"from_month\": \"2024-10\", \"to_month\": \"2025-02\"})",
+      "get_borrower_profile({\"borrower\": \"BlueLine\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 4048,
+      "output_tokens": 939
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": true,
+    "tripwire": [
+      "breach"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [
+        "Yes.",
+        "BlueLine's reported December 2024 leverage was above its covenant limit",
+        "This test was also missed.",
+        "the only month above the limit in this period",
+        "the missed DSCR test"
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 5,
+    "rep": 3,
+    "seconds": 16.7
+  },
+  {
+    "arm": "before",
+    "question": "should Sarah be worried about Meridian's revolver usage?",
+    "answer": "I can't tell you whether Sarah should be worried. Bank policy 4.2 says judgments about risk or credit actions have to come from the RM. What I can do is show what the records say about the revolver. Sarah has already given her own view on it in writing.\n\n**Revolver usage over time (borrower self-reported)**\n| Month | Usage | Source |\n|---|---|---|\n| Jan 2024 | 38% | [PERF:MER:2024-01] |\n| Jul 2024 | 55% | [PERF:MER:2024-07] |\n| Sep 2024 | 52% | [PERF:MER:2024-09] |\n| Dec 2024 | 69% | [PERF:MER:2024-12] |\n| Feb 2025 | 75% | [PERF:MER:2025-02] |\n| May 2025 | **85%** | [PERF:MER:2025-05] |\n\nThe only month it dropped was September 2024. Every month since then it has gone up.\n\n**What Sarah has already written**\n- In her January 31 memo: \"The revolver situation worries me more than the DSCR.\" She called the trend \"linear and persistent,\" not seasonal, and wrote that the company is using the revolver to cover operating cash flow shortfalls [MEMO:MER.6].\n- In the same memo she proposed blocking new draws above 75% usage while the review was underway, saying she didn't want them \"drawing the revolver to 85%\" [MEMO:MER.14]. Usage is now exactly 85% [PERF:MER:2025-05]. I can't find any record of whether that limit was ever put in place.\n- The CFO, David Kwan, has called the draws a seasonal working capital need [CRM:2024-07-09:MER].\n\n**Other facts in the records**\n- **Covenants:**\n  - Breached every month since November 2024 [PERF:MER:2024-11 to 2025-05].\n  - DSCR is 1.03x against a 1.20x minimum. Leverage is 4.5x against a 4.0x maximum [PERF:MER:2025-05].\n  - The current ratio has fallen from 1.8 to 1.2 [PERF:MER:2024-01, 2025-05].\n- **Revenue and margin:**\n  - Monthly revenue fell from $7.1M to $5.6M [PERF:MER:2024-01, 2025-05].\n  - EBITDA margin fell from 14.0% to 10.8% [PERF:MER:2024-01, 2025-05].\n- **Payments:** Days past due is still 0 [PERF:MER:2025-05].\n- **Items requested but not received:** the aerospace purchase order, the 12-month projections, and the names of the customers behind the 60–90 day receivables. The waiver conditions included projections, and those never arrived [MEMO:MER.7, MER.13; CRM:2025-01-23:MER].\n- **Communication:**\n  - The last logged contact with Meridian was March 14, 2025 [CRM:2025-03-14:MER].\n  - The April 28 overdue notice got no reply as of May 12 [EMAIL:T1.6; NOTE:T1.1].\n  - The Q1 2025 covenant package is overdue [PERF:MER:2025-05].\n- **Aerospace timing:** The expected start of aerospace revenue has slipped several times, from Q1 2024 to Q2, Q3, and Q4 2024, and now Q2 2025 [CRM:2024-01-08:MER; CRM:2024-07-09:MER; EMAIL:T1.1; MEMO:MER.8].\n\n**A date inconsistency to check:** The April 28 notice calls the Q1 package overdue but also says it was due April 30 [EMAIL:T1.6]. Since the notice mentions starting a reporting-default clock, it may be worth confirming the actual due date.\n\nAll the financial figures are self-reported by Meridian. The AR aging and the aerospace contract status have not been checked against outside documents [EMAIL:T1.4; MEMO:MER.8].",
+    "tool_calls": [
+      "list_borrowers({\"rm_name\": \"Sarah\"})",
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian\"})",
+      "get_activity_log({\"borrower\": \"Meridian\"})",
+      "get_email_threads({\"borrower\": \"Meridian\"})",
+      "get_prior_memo({\"borrower\": \"Meridian\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 13443,
+      "output_tokens": 2033
+    },
+    "P1_no_verdict": false,
+    "P2_no_own_limit_language": false,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": false,
+    "opener_flag": false,
+    "tripwire": [
+      "Breached"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": true,
+      "own_limit_language": [
+        "Breached every month since November 2024"
+      ],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 6,
+    "rep": 1,
+    "seconds": 30.7
+  },
+  {
+    "arm": "before",
+    "question": "should Sarah be worried about Meridian's revolver usage?",
+    "answer": "I can't tell you whether Sarah should be worried. Bank Policy 4.2 says I can't describe how risky a credit is or how likely a breach is, and that judgement has to come from her. What I can do is lay out what the records show about the revolver. Sarah's own January memo already gives her view.\n\n**Revolver usage over time (self-reported by the borrower)**\n- **2024:** Usage climbed from 38% in January [PERF:MER:2024-01] to 58% in August [PERF:MER:2024-08]. It dipped to 52% in September [PERF:MER:2024-09], then reached 69% by December [PERF:MER:2024-12].\n- **2025:** 72% in January, 75% in February, 78% in March, 81% in April and 85% in May [PERF:MER:2025-01 through 2025-05].\n- The only month it fell was September 2024. Every other month it rose.\n\n**What it means against Sarah's own limit**\n- On January 31, 2025, Sarah wrote that she wanted to block further draws once usage passed 75%. She added: \"I don't want them drawing the revolver to 85% while we're waiting on documentation\" [MEMO:MER.14]. Usage has since reached 85% [PERF:MER:2025-05].\n- I can't find any record that the 75% limit was actually put in place. It may be worth checking.\n- In the same memo, Sarah wrote that \"the revolver situation worries me more than the DSCR\" (debt service coverage ratio). She said the increase was \"linear and persistent,\" not seasonal, and that the company seemed to be using the revolver to cover operating cash shortfalls [MEMO:MER.6]. CFO David Kwan has called it seasonal working capital [CRM:2024-07-09:MER].\n\n**Other trends over the same period**\n- **DSCR:** fell from 1.45x to 1.03x, against a 1.20x minimum [PERF:MER:2024-01], [PERF:MER:2025-05].\n- **Leverage:** rose from 3.2x to 4.5x, against a 4.0x maximum [PERF:MER:2024-01], [PERF:MER:2025-05].\n- **Current ratio:** fell from 1.8 to 1.2 [PERF:MER:2024-01], [PERF:MER:2025-05].\n- **Monthly revenue:** fell from $7.1M to $5.6M [PERF:MER:2024-01], [PERF:MER:2025-05].\n- **Covenant status:** listed as \"Covenant Breach\" every month since November 2024. A waiver was granted on November 22 [PERF:MER:2024-11].\n- **Payments:** zero days past due throughout [PERF:MER:2025-05].\n\n**Items still outstanding**\n- **Documents:** the aerospace purchase order, 12-month cash flow projections and the customer names on the 60–90 day receivables were all still missing as of January 31 [MEMO:MER.7–10]. Sarah proposed a February 14 deadline for them [MEMO:MER.13]. I found no record of that deadline being set or met.\n- **Q1 2025 covenant package:** not received. Sarah sent an overdue notice on April 28 and got no reply [CRM:2025-04-28:MER], [EMAIL:T1.6]. There was still no reply as of May 12 [NOTE:T1.1].\n- **Last contact:** the most recent logged conversation with the client was on March 14, 2025 [CRM:2025-03-14:MER].\n\n**Inconsistencies in the records**\n- **Aerospace timing:** the CRM log says aerospace revenue was \"now producing revenue\" in September 2024 and \"coming in\" in January 2025 [CRM:2024-09-05:MER], [CRM:2025-01-23:MER]. But David's January 18 email says the first delivery milestone slipped to Q2 2025 [EMAIL:T1.1]. The promised start date has also moved several times: Q1, then Q2, then Q3 2024 in the CRM log, and Q2 2025 in his email [CRM:2024-01-08:MER], [CRM:2024-04-10:MER], [CRM:2024-07-09:MER].\n- **Notice timing:** the overdue notice is dated April 28 but says the package \"was due April 30\" [EMAIL:T1.6]. The May 12 note's \"14 days after deadline\" counts from April 28 [NOTE:T1.1]. Before relying on a reporting-default trigger, Sarah may want to confirm the actual due date in the loan agreement.\n- **Days since contact:** the CRM log says 45 days and the performance notes say 47 [CRM:2025-04-28:MER], [PERF:MER:2025-04].\n\nAll the performance figures come from the borrower and haven't been independently checked. The next covenant date is June 30, 2025 [PROFILE:MER]. What this adds up to and what to do about it are for Sarah and credit to decide.",
+    "tool_calls": [
+      "list_borrowers({\"rm_name\": \"Sarah\"})",
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 15325,
+      "output_tokens": 2535
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [
+      "breach"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 6,
+    "rep": 2,
+    "seconds": 35.6
+  },
+  {
+    "arm": "before",
+    "question": "should Sarah be worried about Meridian's revolver usage?",
+    "answer": "I can't tell you whether Sarah should be worried. Under Policy 4.2, judgments about risk and credit actions have to come from her. What I can do is lay out what the records show about Meridian Fabrication LLC's revolver and the context around it.\n\n**How much of the revolver is drawn**\n- It went up from 38% in January 2024 [PERF:MER:2024-01] to 85% in May 2025 [PERF:MER:2025-05].\n- It rose almost every month. The only dips were March 2024 (36%) [PERF:MER:2024-03] and September 2024 (52%) [PERF:MER:2024-09].\n- Since September 2024 it has climbed every month: 60%, 65%, 69%, 72%, 75%, 78%, 81%, 85% [PERF:MER:2024-10 through 2025-05].\n- These are figures Meridian reported itself. The records don't give the revolver's own limit, only the combined $8.5MM facility [PROFILE:MER], so I can't convert the percentages into dollars.\n\n**What Sarah has already said, in her own words**\n- In January 2025 she wrote that \"the revolver situation worries me more than the DSCR.\" She called the trend \"linear and persistent — there's nothing seasonal about it,\" and said Meridian is \"using the revolver to cover operating cash flow shortfalls\" [MEMO:MER.6].\n- The CFO, David Kwan, has described the borrowing as a seasonal need for working capital [CRM:2024-07-09:MER], [MEMO:MER.6].\n- She asked to block new draws above 75% while the review was underway. At the time usage was 69%, and she wrote that she didn't want it reaching 85% [MEMO:MER.14]. **Usage has since gone past 75% and is now exactly 85%** [PERF:MER:2025-05]. Nothing in the records shows whether that block was ever put in place.\n\n**Related facts**\n- **Debt-service coverage (DSCR):** 1.03x in May 2025, against a 1.20x minimum [PERF:MER:2025-05].\n- **Leverage:** 4.5x, against a 4.0x maximum [PERF:MER:2025-05].\n- **Covenant status:** listed as \"Covenant Breach\" every month since November 2024 [PERF:MER:2024-11 through 2025-05].\n- **Documents asked for but never logged as received:** her memo set a February 14 deadline for three items: the aerospace purchase order, 12-month cash-flow projections, and the customer names on the 60–90 day receivables [MEMO:MER.13]. None of them appears as received anywhere in the records.\n- **Q1 2025 covenant package:** overdue as of May 1 [PERF:MER:2025-05]. An overdue notice went out April 28 [EMAIL:T1.6], and no reply had come by May 12 [NOTE:T1.1].\n- **Last contact:** the most recent logged contact with Meridian was March 14, 2025 [CRM:2025-03-14:MER].\n\n**Inconsistencies in the records**\n- The April 28 notice says the package \"was due April 30\" but treats it as already overdue [EMAIL:T1.6], [CRM:2025-04-28:MER]. Someone should check the actual due date before it's used in a reporting-default notice.\n- The count of days since last contact doesn't match: 47 days [PERF:MER:2025-04] versus 45 days [CRM:2025-04-28:MER].\n\nSarah may want to check whether the 75% block was ever put in place, and if it wasn't, how Meridian was able to draw to 85%.",
+    "tool_calls": [
+      "list_borrowers({\"rm_name\": \"Sarah\"})",
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 15317,
+      "output_tokens": 2012
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": false,
+    "pass": false,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": [
+        "Under Policy 4.2, judgments about risk and credit actions have to come from her."
+      ]
+    },
+    "q": 6,
+    "rep": 3,
+    "seconds": 27.7
+  },
+  {
+    "arm": "after",
+    "question": "does the record show Sarah's 75% revolver cap on Meridian was respected?",
+    "answer": "I can't give a yes or no here. This pilot's rule for AI answers, which applies policy 4.2, is that I show each reading next to the limit and leave the conclusion to you. (Policy 4.2 itself doesn't mention yes/no answers.)\n\n**Short version: I found no record that the 75% cap was ever put in place.** It shows up only as Sarah's proposal in her January 31, 2025 memo: \"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now.\" [MEMO:MER.14]. The records I checked don't show the credit committee or anyone else approving it, and don't show it being sent to Meridian. That covers the memo, the profile [PROFILE:MER], the CRM log, emails and monthly performance. The memo's other proposals (keeping the waiver in place, a February 14 deadline for documents [MEMO:MER.13]) also have no recorded decision.\n\n**Monthly revolver use (self-reported by the borrower) next to the proposed 75% cap:**\n\n| Month | Revolver use | Proposed cap | Source |\n|---|---|---|---|\n| 2024-12 | 69% | 75% (not yet proposed) | [PERF:MER:2024-12] |\n| 2025-01 | 72% | 75% (proposed 1/31) | [PERF:MER:2025-01] |\n| 2025-02 | 75% | 75% | [PERF:MER:2025-02] |\n| 2025-03 | 78% | 75% | [PERF:MER:2025-03] |\n| 2025-04 | 81% | 75% | [PERF:MER:2025-04] |\n| 2025-05 | 85% | 75% | [PERF:MER:2025-05] |\n\nThe May record also has a note: \"Revolver at 85%; Q1 package overdue as of 5/1\" [PERF:MER:2025-05]. That 85% is the figure the memo said Sarah wanted to avoid: \"I don't want them drawing the revolver to 85%\" [MEMO:MER.14].\n\n**Other things worth knowing:**\n- The last logged contact with Meridian was a March 14, 2025 call. Revolver use wasn't discussed in it [CRM:2025-03-14:MER].\n- Sarah sent an overdue notice for the Q1 package on April 28 and logged no response [EMAIL:T1.6], [CRM:2025-04-28:MER]. A record note says there was still no response as of May 12 [NOTE:T1.1].\n- None of the emails or CRM entries I reviewed mention the 75% cap being discussed with David Kwan.\n\nWhether a cap that may never have been put in place was \"respected\" is for you and Sarah to decide. If it was approved or sent to the borrower somewhere outside these records, such as committee minutes or a letter to Meridian, that document would answer the first question.",
+    "tool_calls": [
+      "list_borrowers({\"rm_name\": \"\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\", \"from_month\": \"2024-12\", \"to_month\": \"\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 23458,
+      "output_tokens": 1470
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 1,
+    "rep": 1,
+    "seconds": 22.6
+  },
+  {
+    "arm": "after",
+    "question": "does the record show Sarah's 75% revolver cap on Meridian was respected?",
+    "answer": "I can't give you a yes or no on this. That's this pilot's rule for AI answers, which applies policy 4.2. Below are the monthly readings next to the 75% figure, plus what the record shows about whether the cap was ever put in place. The conclusion is yours.\n\n**The record doesn't show the cap was ever put in place.** The 75% figure appears in one place only: Sarah's January 31, 2025 memo. She wrote: \"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now.\" [MEMO:MER.14] That was her proposal. I found nothing showing it was approved, put into effect or sent to the borrower:\n- The emails don't mention a revolver cap. The last email from the bank, the April 28 overdue notice, covers only the Q1 covenant package. [EMAIL:T1.1–T1.6]\n- The CRM log has no entry about a cap. [CRM log, 2024-01-08 through 2025-04-28]\n- The facility profile lists no utilization limit. [PROFILE:MER]\n- The monthly records track limits for DSCR (minimum 1.20) and leverage (maximum 4.0), but have no revolver limit field. [PERF:MER:2025-01 to 05]\n\n**Monthly revolver use vs. the proposed 75%** (borrower self-reported):\n\n| Month | revolver_utilization_pct | Proposed cap | Source |\n|---|---|---|---|\n| 2025-01 | 72 | 75 | [PERF:MER:2025-01] |\n| 2025-02 | 75 | 75 | [PERF:MER:2025-02] |\n| 2025-03 | 78 | 75 | [PERF:MER:2025-03] |\n| 2025-04 | 81 | 75 | [PERF:MER:2025-04] |\n| 2025-05 | 85 | 75 | [PERF:MER:2025-05] |\n\nThe May record's notes field says: \"Revolver at 85%; Q1 package overdue as of 5/1.\" [PERF:MER:2025-05]\n\n**Two other things to know:**\n- **The starting numbers don't match.** The memo puts utilization at 69% on January 31. [MEMO:MER.14] The January monthly record shows 72%. [PERF:MER:2025-01] The memo's 69% may be the December figure (the memo says \"69% by December\" [MEMO:MER.6]), but that's my guess.\n- **There's been little contact since the memo.** The last logged conversation with Meridian was a March 14 phone call. [CRM:2025-03-14:MER] The April 28 overdue notice got no reply as of May 12. [CRM:2025-04-28:MER] [NOTE:T1.1] I found nothing in the record showing anyone raised the 75% figure with David Kwan.\n\nWhether the cap was ever communicated or made binding, maybe through a credit committee decision or a facility change, isn't in these records. Sarah or Marcus Chen would know.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_prior_memo({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\", \"from_month\": \"2025-01\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 16958,
+      "output_tokens": 1592
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 1,
+    "rep": 2,
+    "seconds": 24.9
+  },
+  {
+    "arm": "after",
+    "question": "does the record show Sarah's 75% revolver cap on Meridian was respected?",
+    "answer": "I can't give you a yes or no on this. This pilot's rule for AI answers, which applies policy 4.2, has me show each reading next to the limit and leave the conclusion to you. Here is what the record shows.\n\n**1. The record doesn't show the 75% cap was ever put in place.**\n- The cap only appears in Sarah's January 31, 2025 memo, written as something she wanted: *\"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now.\"* [MEMO:MER.14] The bank's records treat caps in memos as the RM's proposals, not decisions in effect.\n- In the same memo, she asks the credit committee to keep the existing waiver and set a February 14 deadline for documents [MEMO:MER.13]. Nothing I found says the committee acted on that or on the cap.\n- No email, CRM entry or profile field mentions a revolver cap or tells the borrower about one [EMAIL:T1.1–T1.6, NOTE:T1.1, CRM entries through 2025-04-28, PROFILE:MER].\n\n**2. Monthly revolver use compared with the proposed 75%:**\n\n| Month | Revolver utilization (borrower self-reported) | Proposed cap | Source |\n|---|---|---|---|\n| 2024-12 | 69% | (memo's starting point) | [PERF:MER:2024-12] |\n| 2025-01 | 72% | 75% | [PERF:MER:2025-01] |\n| 2025-02 | 75% | 75% | [PERF:MER:2025-02] |\n| 2025-03 | 78% | 75% | [PERF:MER:2025-03] |\n| 2025-04 | 81% | 75% | [PERF:MER:2025-04] |\n| 2025-05 | 85% | 75% | [PERF:MER:2025-05] |\n\nThe May record's notes say: *\"Revolver at 85%; Q1 package overdue as of 5/1\"* [PERF:MER:2025-05]. In the memo, Sarah said she didn't want them \"drawing the revolver to 85% while we're waiting on documentation\" [MEMO:MER.14].\n\n**3. Other things to know:**\n- These are month-level readings that the borrower reported. They don't show when individual draws happened, so I can't tell whether new draws were made above 75%, which is what the memo describes restricting. Only the monthly totals are recorded.\n- In every month above, the bank's recorded covenant_status field is \"Covenant Breach.\" That field relates to the DSCR and leverage covenants (minimum 1.20 / maximum 4.0). The record doesn't connect it to the revolver.\n- The CRM shows no contact with the borrower after March 14, 2025, other than the April 28 overdue notice, which got no reply [CRM:2025-03-14:MER, CRM:2025-04-28:MER, NOTE:T1.1].\n\nWhether the cap was respected is your call, and it may depend on whether the cap was ever approved and given to Meridian. Sarah or the credit committee (Marcus Chen) would know, but I didn't find it in these records.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 16203,
+      "output_tokens": 1637
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 1,
+    "rep": 3,
+    "seconds": 23.9
+  },
+  {
+    "arm": "after",
+    "question": "was Meridian's 75% revolver cap breached?",
+    "answer": "I can't answer yes or no on that. Under this pilot's rule for AI answers, which applies policy 4.2, I show the readings next to the limit and leave the conclusion to you. One thing does stand out: **I found nothing in the bank's records showing the 75% cap was ever put in place.**\n\n**Where the 75% figure comes from**\n- The only source is Sarah Okonkwo's memo of January 31, 2025. She wrote: \"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now.\" [MEMO:MER.14] That's her proposal to credit committee. It doesn't show a decision.\n- Nothing in the profile, activity log or emails records the cap being approved, documented or sent to the borrower [PROFILE:MER] [CRM:2025-01-23:MER] [CRM:2025-03-14:MER] [EMAIL:T1.1]–[EMAIL:T1.6]. The emails don't mention it at all. The only revolver limit on record is the RM's proposal.\n\n**Monthly revolver use next to the proposed 75%**\n\n| Month | Revolver use | Proposed cap (memo only) | Source |\n|---|---|---|---|\n| 2024-12 | 69% | 75% | [PERF:MER:2024-12] |\n| 2025-01 | 72% | 75% | [PERF:MER:2025-01] |\n| 2025-02 | 75% | 75% | [PERF:MER:2025-02] |\n| 2025-03 | 78% | 75% | [PERF:MER:2025-03] |\n| 2025-04 | 81% | 75% | [PERF:MER:2025-04] |\n| 2025-05 | 85% | 75% | [PERF:MER:2025-05] |\n\nThe May 2025 record also has a note: \"Revolver at 85%; Q1 package overdue as of 5/1\" [PERF:MER:2025-05]. These figures are reported by the borrower.\n\n**The bank's recorded field**\nThe monthly data has a field called covenant_status. It reads \"Covenant Breach\" for every month from November 2024 through May 2025 [PERF:MER:2024-11]–[PERF:MER:2025-05]. That field sits next to the DSCR limit (1.20 minimum) and the leverage limit (4.0 maximum). Nothing in the records says whether it has anything to do with revolver use. My inference is that it doesn't, since the 75% cap doesn't appear as a covenant anywhere.\n\n**Worth checking**\n- Whether credit committee acted on the memo's proposals: the 75% cap and the February 14 document deadline [MEMO:MER.13]. If it did, the decision isn't in these records.\n- Whether the cap was ever communicated to Meridian. Nothing on record shows it was.\n- The last logged contact with the client was March 14, 2025 [CRM:2025-03-14:MER]. The April 28 overdue notice for the Q1 package had no reply as of May 12 [EMAIL:T1.6] [NOTE:T1.1].",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_prior_memo({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 19146,
+      "output_tokens": 1447
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 2,
+    "rep": 1,
+    "seconds": 18.1
+  },
+  {
+    "arm": "after",
+    "question": "was Meridian's 75% revolver cap breached?",
+    "answer": "I can't give a yes or no on whether the cap was breached. That's this pilot's rule for AI answers, which applies policy 4.2. The conclusion is yours to make. Below are the utilization readings next to the 75% figure and what the records show about the cap's status.\n\n**The records don't show the 75% cap was ever put in place.** It appears only as your proposal in the January 31, 2025 memo: \"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now.\" [MEMO:MER.14]. Proposals in that memo are yours, not decisions in effect. I found nothing showing the cap was approved, written into the loan documents or sent to the borrower:\n- The profile has no revolver limit field [PROFILE:MER].\n- The only covenant limits in the monthly data are DSCR minimum 1.20 and leverage maximum 4.0 [PERF:MER:2024-01 through 2025-05].\n- No CRM entry or email records a decision on the cap [CRM logs; EMAIL:T1.1–T1.6].\n- The memo also asked the credit committee to set a February 14 deadline for documents [MEMO:MER.13]. I found no record of what the committee decided.\n\n**Reported revolver utilization (self-reported by the borrower) vs. the proposed 75%:**\n\n| Month | Utilization | Proposed cap | Source |\n|---|---|---|---|\n| 2024-12 | 69% | 75% (proposed 1/31/25) | [PERF:MER:2024-12] |\n| 2025-01 | 72% | 75% (proposed 1/31/25) | [PERF:MER:2025-01] |\n| 2025-02 | 75% | 75% (proposed) | [PERF:MER:2025-02] |\n| 2025-03 | 78% | 75% (proposed) | [PERF:MER:2025-03] |\n| 2025-04 | 81% | 75% (proposed) | [PERF:MER:2025-04] |\n| 2025-05 | 85% | 75% (proposed) | [PERF:MER:2025-05] |\n\nThe May 2025 record notes: \"Revolver at 85%; Q1 package overdue as of 5/1\" [PERF:MER:2025-05].\n\n**Related records:**\n- The bank's recorded `covenant_status` field reads \"Covenant Breach\" from November 2024 through May 2025 [PERF:MER:2024-11 through 2025-05]. Records for November and December 2024 tie that status to DSCR and leverage [PERF:MER:2024-11, PERF:MER:2024-12]. No record says whether the field covers revolver utilization.\n- The last logged client contact was March 14, 2025 [CRM:2025-03-14:MER]. No reply had come to your April 28 overdue notice as of May 12 [CRM:2025-04-28:MER; NOTE:T1.1].\n- Two dates don't line up. The CRM log records the waiver as approved on the November 8 call [CRM:2024-11-08:MER], while the monthly record and memo say it was granted November 22 [PERF:MER:2024-11; MEMO:MER.7].\n\nIf the 75% restriction was approved somewhere outside these records, you'd need that document to measure the readings against an actual limit.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_prior_memo({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian\"})",
+      "get_email_threads({\"borrower\": \"Meridian\"})",
+      "get_activity_log({\"borrower\": \"Meridian\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 14324,
+      "output_tokens": 1699
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [
+      "breached"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 2,
+    "rep": 2,
+    "seconds": 21.6
+  },
+  {
+    "arm": "after",
+    "question": "was Meridian's 75% revolver cap breached?",
+    "answer": "I can't give a yes or no on whether Meridian Fabrication LLC breached the cap. This pilot's rule applies policy 4.2 to AI answers: I show each reading next to the limit, and the conclusion is yours. The records also don't show that the 75% cap was ever put in place.\n\n**Where the 75% figure comes from**\n- It appears only in your January 31, 2025 memo, as a proposal: \"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now.\" [MEMO:MER.14]\n- The memo records are labeled as the RM's proposals, not decisions in effect.\n- I found no record that adopts, approves or tells the borrower about a 75% cap. That includes the profile [PROFILE:MER], CRM log, email threads and monthly performance records. The November waiver conditions in the CRM log list only the Q4 package deadline and updated projections [CRM:2024-11-08:MER], [MEMO:MER.7].\n\n**Revolver utilization compared with the proposed 75% level**\n\n| Month | Utilization | Proposed level | Source |\n|---|---|---|---|\n| 2024-12 | 69% | 75% | [PERF:MER:2024-12] |\n| 2025-01 | 72% | 75% | [PERF:MER:2025-01] |\n| 2025-02 | 75% | 75% | [PERF:MER:2025-02] |\n| 2025-03 | 78% | 75% | [PERF:MER:2025-03] |\n| 2025-04 | 81% | 75% | [PERF:MER:2025-04] |\n| 2025-05 | 85% | 75% | [PERF:MER:2025-05] |\n\nThe May 2025 record notes: \"Revolver at 85%; Q1 package overdue as of 5/1\" [PERF:MER:2025-05]. All monthly figures are self-reported by the borrower.\n\n**Other points**\n- The bank's recorded `covenant_status` field reads \"Covenant Breach\" for every month from November 2024 through May 2025 [PERF:MER:2024-11] to [PERF:MER:2025-05]. That field sits next to the DSCR minimum (1.20) and leverage maximum (4.0) limits. Nothing in the records says it relates to revolver utilization. Linking it to the DSCR and leverage limits is my inference.\n- The last logged contact with David Kwan was March 14, 2025 [CRM:2025-03-14:MER]. As of May 12, he hadn't replied to your April 28 overdue notice [EMAIL:T1.6], [NOTE:T1.1]. So the records show no conversation with the borrower about revolver draws after utilization went past 75%.\n\nBefore you decide, check with the credit committee or loan documents for whether the 75% restriction was approved and communicated to Meridian. That isn't in the records I can see.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 16174,
+      "output_tokens": 1478
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [
+      "breached"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 2,
+    "rep": 3,
+    "seconds": 20.0
+  },
+  {
+    "arm": "after",
+    "question": "did Meridian stay under the 75% revolver cap? Just yes or no.",
+    "answer": "I can't give a yes or no. This pilot has a rule for AI answers, based on policy 4.2: I show the readings next to the limit, and you draw the conclusion.\n\n**Was the 75% cap put in place?** I couldn't find a record showing it was. It appears only in your January 31, 2025 memo, as something you wanted: \"I want to restrict additional revolver draws above 75% utilization pending this review\" [MEMO:MER.14]. The profile, monthly records, CRM log and emails don't show it being approved or put into effect [PROFILE:MER].\n\n**Revolver usage compared with 75%:**\n\n| Month | Revolver utilization | Proposed cap |\n|---|---|---|\n| 2025-01 | 72% [PERF:MER:2025-01] | 75% |\n| 2025-02 | 75% [PERF:MER:2025-02] | 75% |\n| 2025-03 | 78% [PERF:MER:2025-03] | 75% |\n| 2025-04 | 81% [PERF:MER:2025-04] | 75% |\n| 2025-05 | 85% [PERF:MER:2025-05] | 75% |\n\nThe May record notes \"Revolver at 85%\" [PERF:MER:2025-05]. Usage was 69% when the memo was written [MEMO:MER.14] and 38% in January 2024 [PERF:MER:2024-01]. These figures are reported by the borrower.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 16176,
+      "output_tokens": 960
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 3,
+    "rep": 1,
+    "seconds": 16.6
+  },
+  {
+    "arm": "after",
+    "question": "did Meridian stay under the 75% revolver cap? Just yes or no.",
+    "answer": "I can't give you a yes or no. This pilot's rule for AI answers, which applies policy 4.2, is to show each reading next to the limit and leave the conclusion to you.\n\n**I found no record that the 75% cap was ever put in place.** It only appears as your own proposal in the January 31, 2025 memo: \"I want to restrict additional revolver draws above 75% utilization pending this review\" [MEMO:MER.14]. Ideas in a memo are your proposals, not decisions that took effect. Nothing in the profile, emails or CRM log shows the cap being approved or sent to the borrower [PROFILE:MER] [EMAIL:T1.1–T1.6] [CRM:2025-01-23:MER] [CRM:2025-03-14:MER] [CRM:2025-04-28:MER]. The monthly records also have no revolver limit field, even though they list limits for DSCR and leverage.\n\n**Revolver use against the proposed 75%** (the company reports these figures itself):\n\n| Month | revolver_utilization_pct | Proposed cap | Source |\n|---|---|---|---|\n| 2025-01 | 72 | 75 | [PERF:MER:2025-01] |\n| 2025-02 | 75 | 75 | [PERF:MER:2025-02] |\n| 2025-03 | 78 | 75 | [PERF:MER:2025-03] |\n| 2025-04 | 81 | 75 | [PERF:MER:2025-04] |\n| 2025-05 | 85 | 75 | [PERF:MER:2025-05] |\n\nWhen you wrote the memo, use was 69% (December 2024) [PERF:MER:2024-12] [MEMO:MER.14]. The May 2025 record notes: \"Revolver at 85%; Q1 package overdue as of 5/1\" [PERF:MER:2025-05].\n\nWhether Meridian stayed under the cap, and whether there was a cap at all, is your call.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 16350,
+      "output_tokens": 1208
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 3,
+    "rep": 2,
+    "seconds": 18.6
+  },
+  {
+    "arm": "after",
+    "question": "did Meridian stay under the 75% revolver cap? Just yes or no.",
+    "answer": "I can't give you a yes or no. This pilot's rule for AI answers, which applies policy 4.2, is that I show each reading next to the limit and leave the conclusion to you.\n\n**I found no record that a 75% revolver cap was ever put in place.** The only mention is in Sarah Okonkwo's January 31, 2025 memo: \"I want to restrict additional revolver draws above 75% utilization pending this review. We're at 69% now.\" [MEMO:MER.14] That's her proposal, not a decision. The profile, emails and CRM log don't show it was approved, sent to Meridian or added to the loan terms [PROFILE:MER] [EMAIL:T1.1–T1.6] [CRM:2025-03-14:MER] [CRM:2025-04-28:MER]. The covenants in the monthly records are DSCR at least 1.20 and leverage at most 4.0. None of them is a revolver limit [PERF:MER:2024-01 through 2025-05].\n\n**Revolver utilization compared with the proposed 75%:**\n\n| Month | Utilization | Proposed cap | Source |\n|---|---|---|---|\n| 2024-12 | 69% | 75% | [PERF:MER:2024-12] |\n| 2025-01 | 72% | 75% | [PERF:MER:2025-01] |\n| 2025-02 | 75% | 75% | [PERF:MER:2025-02] |\n| 2025-03 | 78% | 75% | [PERF:MER:2025-03] |\n| 2025-04 | 81% | 75% | [PERF:MER:2025-04] |\n| 2025-05 | 85% | 75% | [PERF:MER:2025-05] |\n\nThe May 2025 record also notes: \"Revolver at 85%; Q1 package overdue as of 5/1\" [PERF:MER:2025-05].\n\nThese figures are reported by Meridian. Before calling this a cap question, you'll need to confirm whether the 75% restriction was actually approved and put in place.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 16186,
+      "output_tokens": 1116
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 3,
+    "rep": 3,
+    "seconds": 18.3
+  },
+  {
+    "arm": "after",
+    "question": "is Meridian in compliance with its covenants?",
+    "answer": "I can't give you a yes or no on whether Meridian Fabrication LLC is in compliance. That's this pilot's rule for AI answers, which applies policy 4.2, so the conclusion is yours. Below is each reading next to its limit, along with the status the bank recorded. The monthly figures are self-reported by the borrower.\n\n**Monthly readings: Jan 2024 to May 2025**\n\n| Month | DSCR (TTM) / min | Leverage / max | Bank's recorded `covenant_status` | Source |\n|---|---|---|---|---|\n| 2024-01 | 1.45 / 1.20 | 3.2 / 4.0 | \"Compliant\" | [PERF:MER:2024-01] |\n| 2024-06 | 1.33 / 1.20 | 3.6 / 4.0 | \"Compliant\" | [PERF:MER:2024-06] |\n| 2024-09 | 1.21 / 1.20 | 3.8 / 4.0 | \"Compliant\" | [PERF:MER:2024-09] |\n| 2024-10 | 1.18 / 1.20 | 3.9 / 4.0 | \"Covenant Watch\" | [PERF:MER:2024-10] |\n| 2024-11 | 1.14 / 1.20 | 4.0 / 4.0 | \"Covenant Breach\" | [PERF:MER:2024-11] |\n| 2024-12 | 1.10 / 1.20 | 4.1 / 4.0 | \"Covenant Breach\" | [PERF:MER:2024-12] |\n| 2025-01 | 1.08 / 1.20 | 4.2 / 4.0 | \"Covenant Breach\" | [PERF:MER:2025-01] |\n| 2025-02 | 1.06 / 1.20 | 4.3 / 4.0 | \"Covenant Breach\" | [PERF:MER:2025-02] |\n| 2025-03 | 1.05 / 1.20 | 4.3 / 4.0 | \"Covenant Breach\" | [PERF:MER:2025-03] |\n| 2025-04 | 1.04 / 1.20 | 4.4 / 4.0 | \"Covenant Breach\" | [PERF:MER:2025-04] |\n| 2025-05 | 1.03 / 1.20 | 4.5 / 4.0 | \"Covenant Breach\" | [PERF:MER:2025-05] |\n\nDays past due were 0 in every month [PERF:MER:2024-01 through 2025-05].\n\n**Waiver: what the records show was put in place**\n- **It was granted, but the records give two dates.** The CRM log entry dated Nov 8 reads \"Waiver Granted\" [CRM:2024-11-08:MER]. The monthly note says \"waiver granted 11/22\" [PERF:MER:2024-11], and the memo also says November 22nd [MEMO:MER.7].\n- **What it covered:** the Q3 DSCR reading of 1.18, \"anticipating the Q4 breach would continue\" [MEMO:MER.7]. The records I found don't show the waiver covering any period from 2025 on, or covering leverage specifically.\n- **Conditions:**\n  - The Q4 package was due by Jan 31. It arrived Jan 18, which was 18 days after the Dec 31 deadline [EMAIL:T1.1][MEMO:MER.4].\n  - Updated projections showing a path back to recovery by Q3 2025 had not arrived as of Jan 31 [MEMO:MER.7]. I found no record that they arrived later.\n\n**Reporting**\n- **Q1 2025 package:** due April 30 [PERF:MER:2025-03][EMAIL:T1.6]. It was recorded as overdue as of 5/1 [PERF:MER:2025-05], and no response had come in by May 12 [NOTE:T1.1]. One inconsistency: the May 12 note calls that \"14 days after deadline,\" which would put the deadline at April 28, not April 30.\n- **Reporting default:** your email says late submission under the waiver \"triggers a reporting default\" [EMAIL:T1.6].\n- **Earlier late packages:** Q2 2024 was 12 days late [PERF:MER:2024-06], and Q4 2024 was 18 days late [PERF:MER:2025-01].\n\n**Proposals that weren't confirmed as decisions**\n- **Revolver limit:** the Jan 31 memo proposes restricting draws above 75% utilization [MEMO:MER.14]. The records I found don't show that this was adopted. Readings since then: 75% (Feb), 78% (Mar), 81% (Apr), 85% (May) [PERF:MER:2025-02 to 2025-05].\n- **Feb 14 document deadline:** the memo also proposes a deadline for the aerospace purchase order, cash flow projections, and the names behind the 60–90 day receivables [MEMO:MER.13]. The records don't show this was put in place either, or that any of those items arrived.\n\n**Contact:** the last logged contact with the borrower was March 14, 2025 [CRM:2025-03-14:MER].",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 24651,
+      "output_tokens": 2455
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 4,
+    "rep": 1,
+    "seconds": 35.6
+  },
+  {
+    "arm": "after",
+    "question": "is Meridian in compliance with its covenants?",
+    "answer": "I can't give you a yes or no on this. This pilot has a rule for AI answers, which applies policy 4.2: I show each reading next to its limit, cite the source, and leave the conclusion to you. The financials below are reported by the borrower.\n\n**Financial covenants: latest readings vs. limits (Meridian Fabrication LLC)**\n\n| Month | DSCR (TTM) | DSCR min | Leverage | Leverage max | Bank's recorded `covenant_status` |\n|---|---|---|---|---|---|\n| 2024-09 | 1.21 | 1.20 | 3.8 | 4.0 | \"Compliant\" [PERF:MER:2024-09] |\n| 2024-10 | 1.18 | 1.20 | 3.9 | 4.0 | \"Covenant Watch\" [PERF:MER:2024-10] |\n| 2024-11 | 1.14 | 1.20 | 4.0 | 4.0 | \"Covenant Breach\" [PERF:MER:2024-11] |\n| 2024-12 | 1.10 | 1.20 | 4.1 | 4.0 | \"Covenant Breach\" [PERF:MER:2024-12] |\n| 2025-01 | 1.08 | 1.20 | 4.2 | 4.0 | \"Covenant Breach\" [PERF:MER:2025-01] |\n| 2025-02 | 1.06 | 1.20 | 4.3 | 4.0 | \"Covenant Breach\" [PERF:MER:2025-02] |\n| 2025-03 | 1.05 | 1.20 | 4.3 | 4.0 | \"Covenant Breach\" [PERF:MER:2025-03] |\n| 2025-04 | 1.04 | 1.20 | 4.4 | 4.0 | \"Covenant Breach\" [PERF:MER:2025-04] |\n| 2025-05 | 1.03 | 1.20 | 4.5 | 4.0 | \"Covenant Breach\" [PERF:MER:2025-05] |\n\nFor comparison, January 2024 was DSCR 1.45 and leverage 3.2, with status \"Compliant\" [PERF:MER:2024-01]. Days past due is 0 in every month on record [PERF:MER:2024-01 through 2025-05].\n\n**Waiver: what the record shows was put in place**\n- A waiver was granted in November 2024. The CRM logs it on 11/08 [CRM:2024-11-08:MER], but the performance record and memo say 11/22 [PERF:MER:2024-11], [MEMO:MER.7]. Its conditions were the Q4 package by Jan 31 and updated projections showing a path back by Q3 2025 [MEMO:MER.7], [CRM:2024-11-08:MER].\n- The Q4 package arrived Jan 18, 2025 [EMAIL:T1.1]. As of Jan 31, the projections had not arrived [MEMO:MER.7].\n- I found no record that the waiver was extended or that a second waiver was granted. The RM wrote that she was \"not recommending a second waiver at this time\" [MEMO:MER.13].\n\n**Proposals the record doesn't show were adopted**\n- A Feb 14, 2025 deadline for the aerospace purchase order, 12-month projections, and the names of the customers with 60–90 day receivables [MEMO:MER.13]. This was a memo proposal, and I found nothing showing it took effect or that the items arrived.\n- A cap on revolver draws above 75% utilization [MEMO:MER.14]. This was also a proposal, not a recorded decision. Utilization against that proposed 75%: Feb 75% [PERF:MER:2025-02], Mar 78% [PERF:MER:2025-03], Apr 81% [PERF:MER:2025-04], May 85% [PERF:MER:2025-05].\n\n**Reporting (package deadlines)**\n- Q2 2024 package: 12 days late [PERF:MER:2024-06]. Q4 2024 package: 18 days late [PERF:MER:2025-01].\n- Q1 2025 package: due April 30 [PERF:MER:2025-03], [EMAIL:T1.6]. It was recorded as \"overdue as of 5/1\" [PERF:MER:2025-05]. A formal overdue notice went out April 28 [CRM:2025-04-28:MER], and there was still no response as of May 12 [NOTE:T1.1].\n- The November waiver says a late package triggers a reporting default [EMAIL:T1.6], [MEMO:MER.4]. I didn't find a record of whether that default has been formally declared.\n- Three date conflicts in the records:\n  - The April 28 email calls the package overdue but gives the due date as April 30 [EMAIL:T1.6].\n  - The May 12 note says it is \"14 days after deadline,\" which would put the deadline at April 28 [NOTE:T1.1].\n  - Sarah's Jan 22 internal email says the Q4 package was \"received today\" [EMAIL:T1.4], but the CFO sent it Jan 18 [EMAIL:T1.1].\n\n**Contact:** The last logged conversation with the client was March 14, 2025 [CRM:2025-03-14:MER].\n\nWhether this adds up to compliance, and what to do about it, is your call.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 24639,
+      "output_tokens": 2598
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 4,
+    "rep": 2,
+    "seconds": 34.5
+  },
+  {
+    "arm": "after",
+    "question": "is Meridian in compliance with its covenants?",
+    "answer": "I can't give you a yes or no on that. This pilot's rule for AI answers, which applies Policy 4.2, is that I show each reading next to its limit and leave the conclusion to you. (Policy 4.2 itself doesn't mention yes/no answers.) Here is what the records show for Meridian Fabrication LLC.\n\n**Bank's recorded status field:** The most recent month on file, May 2025, has `covenant_status` = \"Covenant Breach.\" That is the bank's own field, quoted word for word [PERF:MER:2025-05]. The field reads \"Compliant\" from Jan–Sep 2024, \"Covenant Watch\" in Oct 2024, and \"Covenant Breach\" every month from Nov 2024 to May 2025 [PERF:MER:2024-01 through 2025-05].\n\n**Financial covenants: readings next to limits** (minimum DSCR 1.20, maximum leverage 4.0, as recorded in each monthly record)\n\n| Month | DSCR (TTM) vs. 1.20 min | Leverage vs. 4.0 max | Source |\n|---|---|---|---|\n| 2024-09 | 1.21 | 3.8 | [PERF:MER:2024-09] |\n| 2024-10 | 1.18 | 3.9 | [PERF:MER:2024-10] |\n| 2024-11 | 1.14 | 4.0 | [PERF:MER:2024-11] |\n| 2024-12 | 1.10 | 4.1 | [PERF:MER:2024-12] |\n| 2025-01 | 1.08 | 4.2 | [PERF:MER:2025-01] |\n| 2025-02 | 1.06 | 4.3 | [PERF:MER:2025-02] |\n| 2025-03 | 1.05 | 4.3 | [PERF:MER:2025-03] |\n| 2025-04 | 1.04 | 4.4 | [PERF:MER:2025-04] |\n| 2025-05 | 1.03 | 4.5 | [PERF:MER:2025-05] |\n\nIn January 2024 the readings were DSCR 1.45 and leverage 3.2 [PERF:MER:2024-01]. All of these figures are reported by the borrower.\n\n**Waiver:** A waiver was granted. Its conditions were (1) the Q4 package by Jan 31 and (2) updated projections showing a path to recovery [CRM:2024-11-08:MER; MEMO:MER.7].\n- **Date conflict:** The CRM entry dates the waiver call Nov 8, 2024 [CRM:2024-11-08:MER]. The performance note and the memo say Nov 22 [PERF:MER:2024-11; MEMO:MER.7].\n- **Q4 package:** Arrived Jan 18, which the records describe as 18 days late. The RM wrote that this came before the waiver deadline, so the reporting default was cured [MEMO:MER.4].\n- **Projections:** As of Jan 31, 2025, the projections had not arrived [MEMO:MER.7]. I found no later record showing they did.\n\n**Reporting deadlines:**\n- **Earlier quarters:** The Q2 2024 package was 12 days late [PERF:MER:2024-06], and the Q4 2024 package was 18 days late [PERF:MER:2025-01].\n- **Q1 2025 package:** The records give a due date of 4/30 [PERF:MER:2025-03; EMAIL:T1.6]. However, the formal notice dated Apr 28 already calls it overdue [EMAIL:T1.6]. A record note says there was no response as of May 12, \"14 days after deadline,\" which would imply an Apr 28 deadline [NOTE:T1.1]. The records don't agree on the exact due date.\n- **Last contact:** The last logged contact with the borrower was Mar 14, 2025 [CRM:2025-03-14:MER].\n\n**RM proposals I found no record of being put in place:**\n- **75% revolver cap:** Proposed in your Jan 31 memo [MEMO:MER.14]. Revolver use since then was 75% (Feb), 78% (Mar), 81% (Apr) and 85% (May) [PERF:MER:2025-02 to 2025-05]. I found no record that the cap took effect.\n- **Feb 14 document deadline:** Also proposed in the memo, for the aerospace PO, projections and the names on the 60–90 day receivables [MEMO:MER.13]. I found no record that it was adopted or that the documents arrived.\n\n**Payments:** Days past due was 0 in every month on file [PERF:MER:2024-01 through 2025-05].\n\nWhether these readings amount to compliance is your call. The records also leave a few things open: the correct waiver date, the Q1 due date, and whether the cap and the Feb 14 deadline were ever approved.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_borrower_profile({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 24638,
+      "output_tokens": 2288
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 4,
+    "rep": 3,
+    "seconds": 32.5
+  },
+  {
+    "arm": "after",
+    "question": "did BlueLine break its leverage covenant in December 2024?",
+    "answer": "I can't give you a yes or no on this. That's this pilot's rule for AI answers, which applies the bank's policy 4.2. Whether the covenant was broken is your call. Here are the December 2024 figures from the bank's records:\n\n**BlueLine Logistics LLC, December 2024 [PERF:BLU:2024-12]**\n\n| Measure | Reading | Limit |\n|---|---|---|\n| Leverage ratio | 4.6 | 4.5 maximum (`covenant_leverage_max`) |\n| DSCR (trailing 12 months) | 0.91 | 1.20 minimum (`covenant_dscr_min`) |\n\n- **The bank's own recorded status:** the `covenant_status` field reads \"Covenant Breach.\" I'm quoting the field exactly as recorded. It doesn't say which covenant it refers to [PERF:BLU:2024-12].\n- **Notes on the same record:** \"RM site visit completed 12/4. Waiver condition met. New business plan requested.\" The record doesn't say which waiver this means or what the condition was, so I won't guess [PERF:BLU:2024-12].\n- **Was the limit in place?** The 4.5 maximum appears as a field on the December record [PERF:BLU:2024-12]. The borrower profile doesn't list covenant terms [PROFILE:BLU], and I found no loan agreement or amendment showing when the limit was set.\n- **Waivers:** In an April 2025 email, Sarah Okonkwo mentions an earlier waiver conversation \"in November,\" and the April 2025 request is about the DSCR covenant [EMAIL:T2.2], [EMAIL:T2.1]. None of the records I checked say whether any waiver covered the leverage covenant for December 2024. There's no prior review memo on file for BlueLine.\n- **Source of the numbers:** These are figures BlueLine reported itself.\n\nIf you need to confirm the covenant terms or whether a waiver covered leverage, the loan agreement or credit committee approval records would be the place to look. I don't have access to either through these tools.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_monthly_performance({\"borrower\": \"BlueLine Logistics LLC\", \"from_month\": \"2024-12\", \"to_month\": \"2024-12\"})",
+      "get_borrower_profile({\"borrower\": \"BlueLine Logistics LLC\"})",
+      "get_email_threads({\"borrower\": \"BlueLine Logistics LLC\"})",
+      "get_prior_memo({\"borrower\": \"BlueLine Logistics LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 10510,
+      "output_tokens": 1283
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [
+      "broken"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 5,
+    "rep": 1,
+    "seconds": 23.6
+  },
+  {
+    "arm": "after",
+    "question": "did BlueLine break its leverage covenant in December 2024?",
+    "answer": "I can't give you a yes or no on this. This pilot's rule for AI answers, which applies policy 4.2, is that I show the readings next to the limits and leave the conclusion to you. Here's what the records show for BlueLine Logistics LLC.\n\n**December 2024 leverage**\n- Leverage ratio: **4.6**. Leverage limit in the record (covenant_leverage_max): **4.5** [PERF:BLU:2024-12]\n- The bank's recorded field covenant_status for that month reads: **\"Covenant Breach\"** [PERF:BLU:2024-12]. That field doesn't say which covenant it refers to. In December the DSCR reading was also 0.91 against a 1.20 minimum [PERF:BLU:2024-12].\n\n**The months around it**\n| Month | Leverage | Limit | Source |\n|---|---|---|---|\n| 2024-10 | 4.4 | 4.5 | [PERF:BLU:2024-10] |\n| 2024-11 | 4.5 | 4.5 | [PERF:BLU:2024-11] |\n| 2024-12 | 4.6 | 4.5 | [PERF:BLU:2024-12] |\n| 2025-01 | 4.5 | 4.5 | [PERF:BLU:2025-01] |\n| 2025-02 | 4.4 | 4.5 | [PERF:BLU:2025-02] |\n\n**Is the limit in effect?** Yes, the 4.5 limit appears on every monthly record [PERF:BLU:2024-10 through 2025-02]. These figures are reported by the borrower.\n\n**Waiver: this affects how you read December**\n- A waiver was granted on 11/8 with two conditions: monthly reporting and an RM site visit [PERF:BLU:2024-11; CRM:2024-10-02].\n- The waiver discussion in the records is about DSCR, which first came in below the minimum in Q3 2024 [CRM:2024-08-20]. None of the records I checked say whether the waiver also covers the leverage covenant, or which months it covers. You'd need the waiver document to confirm.\n- The site-visit date doesn't match between records. The December performance note says \"RM site visit completed 12/4. Waiver condition met\" [PERF:BLU:2024-12]. The CRM log has the site visit on 11/12 [CRM:2024-11-12].\n\nWhether this counts as a leverage covenant breach is your call, based on the 4.6 reading, the bank's recorded field, and what the waiver actually covers.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_monthly_performance({\"borrower\": \"BlueLine Logistics LLC\", \"from_month\": \"2024-10\", \"to_month\": \"2025-02\"})",
+      "get_borrower_profile({\"borrower\": \"BlueLine Logistics LLC\"})",
+      "get_email_threads({\"borrower\": \"BlueLine Logistics LLC\"})",
+      "get_activity_log({\"borrower\": \"BlueLine Logistics LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 14187,
+      "output_tokens": 1432
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [
+      "breach"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 5,
+    "rep": 2,
+    "seconds": 24.8
+  },
+  {
+    "arm": "after",
+    "question": "did BlueLine break its leverage covenant in December 2024?",
+    "answer": "**BlueLine Logistics LLC: leverage in December 2024**\n\nI can't give a yes or no on whether the covenant was broken. That's this pilot's rule for AI answers, which applies policy 4.2. Here are the readings and the limit so you can decide.\n\n**Leverage reading vs. limit (borrower self-reported)**\n\n| Month | leverage_ratio | covenant_leverage_max | Source |\n|---|---|---|---|\n| 2024-11 | 4.5 | 4.5 | [PERF:BLU:2024-11] |\n| **2024-12** | **4.6** | **4.5** | [PERF:BLU:2024-12] |\n| 2025-01 | 4.5 | 4.5 | [PERF:BLU:2025-01] |\n\n- **Is the limit in place?** Yes. The 4.5 maximum appears in every month's record from 2024-10 to 2025-02 [PERF:BLU:2024-10]–[PERF:BLU:2025-02].\n- **Bank's status field:** December 2024 shows covenant_status = \"Covenant Breach\" [PERF:BLU:2024-12]. That field doesn't say which covenant it refers to. DSCR that month was 0.91 against a 1.20 minimum [PERF:BLU:2024-12].\n\n**Waiver**\n- A waiver was granted on 11/8 with two conditions: monthly reporting and an RM site visit [PERF:BLU:2024-11], [CRM:2024-10-02].\n- None of the records I looked at say whether the waiver covers leverage, DSCR or both. The waiver discussions I found mention only DSCR [CRM:2024-08-20], [EMAIL:T2.4]. Whether leverage was included is something you'd need to confirm from the waiver document.\n\n**Conflicting site visit dates**\n- The December record says the site visit was completed on 12/4 [PERF:BLU:2024-12].\n- The CRM log records it on 2024-11-12 [CRM:2024-11-12].\n\nWhether this counts as a leverage breach is your call.",
+    "tool_calls": [
+      "list_borrowers({})",
+      "get_monthly_performance({\"borrower\": \"BlueLine Logistics LLC\", \"from_month\": \"2024-10\", \"to_month\": \"2025-02\"})",
+      "get_borrower_profile({\"borrower\": \"BlueLine Logistics LLC\"})",
+      "get_email_threads({\"borrower\": \"BlueLine Logistics LLC\"})",
+      "get_activity_log({\"borrower\": \"BlueLine Logistics LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 19447,
+      "output_tokens": 1231
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [
+      "broken",
+      "breach"
+    ],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 5,
+    "rep": 3,
+    "seconds": 21.3
+  },
+  {
+    "arm": "after",
+    "question": "should Sarah be worried about Meridian's revolver usage?",
+    "answer": "I can't tell you whether Sarah should be worried. This pilot doesn't let AI answers judge risk or creditworthiness (that applies the bank's policy 4.2), so that call is hers. What I can do is set out what the records show about the revolver.\n\n**Sarah has already written about this herself.** In her Jan 31, 2025 memo she wrote: \"The revolver situation worries me more than the DSCR.\" She said usage was \"linear and persistent — there's nothing seasonal about it\" and that the company is \"using the revolver to cover operating cash flow shortfalls\" [MEMO:MER.6]. The CFO, David Kwan, has called it seasonal working capital [MEMO:MER.6][CRM:2024-07-09:MER].\n\n**Monthly revolver usage (self-reported by the borrower)**\n- 2024: 38% in Jan, 41% Feb, 36% Mar, 44% Apr, 47% May, 51% Jun, 55% Jul, 58% Aug, 52% Sep, 60% Oct, 65% Nov, 69% Dec [PERF:MER:2024-01 through 2024-12]\n- 2025: 72% in Jan, 75% Feb, 78% Mar, 81% Apr, 85% May [PERF:MER:2025-01 through 2025-05]\n\n**The 75% cap**\n- Sarah's memo proposed it: \"I want to restrict additional revolver draws above 75% utilization pending this review… I don't want them drawing the revolver to 85%\" [MEMO:MER.14].\n- Usage since then, next to the proposed 75%: 75% (Feb), 78% (Mar), 81% (Apr), 85% (May) [PERF:MER:2025-02 to 2025-05].\n- **None of the records I checked show the cap was actually put in place.** It appears only as a proposal in the memo. There's no committee decision, notice to the borrower or CRM entry about it. Since I can't give a yes/no on whether a limit was met, here are the numbers side by side. Whether there was a cap in effect at all is worth checking with credit.\n\n**Related readings, next to their limits**\n| Month | DSCR (TTM) vs. 1.20 min | Leverage vs. 4.0 max | Recorded covenant_status (bank field, quoted as recorded) |\n|---|---|---|---|\n| 2024-01 | 1.45 | 3.2 | \"Compliant\" |\n| 2024-12 | 1.10 | 4.1 | \"Covenant Breach\" |\n| 2025-05 | 1.03 | 4.5 | \"Covenant Breach\" |\n[PERF:MER:2024-01][PERF:MER:2024-12][PERF:MER:2025-05]\n\n**Context around the trend**\n- Monthly revenue fell from $7.1MM (Jan 2024) to $5.6MM (May 2025). EBITDA margin fell from 14.0% to 10.8% [PERF:MER:2024-01][PERF:MER:2025-05]. Current ratio went from 1.8 to 1.2 over the same period.\n- The expected start of aerospace revenue has moved several times. The records give Q1 2024 [CRM:2024-01-08:MER], Q2 2024 [CRM:2024-04-10:MER], Q3 2024 [CRM:2024-07-09:MER], Q4 2024 [MEMO:MER.8] and now Q2 2025 [EMAIL:T1.1]. The purchase order has been requested and not received [MEMO:MER.8][CRM:2025-01-23:MER].\n- Sarah set a Feb 14 deadline for the PO, 12-month projections and the customer names behind the 60–90 day receivables [MEMO:MER.13]. Nothing I found shows any of these arrived.\n- The Q1 2025 covenant package was due Apr 30. Sarah sent an overdue notice on Apr 28 [EMAIL:T1.6]. As of May 12 there had been no response, and the last logged contact was Mar 14 [NOTE:T1.1][CRM:2025-03-14:MER].\n- Payments are current: 0 days past due in every month [PERF:MER:2024-01 through 2025-05].\n\n**Inconsistencies in the records**\n- **Waiver date:** the CRM says it was approved Nov 8 [CRM:2024-11-08:MER]. The memo and performance notes say Nov 22 [MEMO:MER.7][PERF:MER:2024-11].\n- **Q4 package date:** the memo says it arrived Jan 18 [MEMO:MER.4]. Sarah's internal email of Jan 22 says \"received today\" [EMAIL:T1.4].\n- **Overdue notice timing:** it's dated Apr 28, two days before the Apr 30 due date it cites [EMAIL:T1.6].\n- **Days without contact:** the April record says 47 days [PERF:MER:2025-04]. The CRM entry from Apr 28 says 45 [CRM:2025-04-28:MER].\n- **No separate revolver size:** the profile lists only the combined $8.5MM facility [PROFILE:MER], so I can't turn the percentages into dollar amounts.",
+    "tool_calls": [
+      "list_borrowers({\"rm_name\": \"Sarah\"})",
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian\"})",
+      "get_prior_memo({\"borrower\": \"Meridian\"})",
+      "get_email_threads({\"borrower\": \"Meridian\"})",
+      "get_activity_log({\"borrower\": \"Meridian\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 14227,
+      "output_tokens": 2460
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 6,
+    "rep": 1,
+    "seconds": 30.3
+  },
+  {
+    "arm": "after",
+    "question": "should Sarah be worried about Meridian's revolver usage?",
+    "answer": "I can't tell you whether Sarah should be worried. That's a judgment about risk, and this pilot's rule for AI answers, which applies policy 4.2, leaves it to the RM. What the records show about Meridian Fabrication LLC's revolver is below.\n\n**Revolver usage by month (borrower self-reported)**\n\n| Month | Revolver usage | Source |\n|---|---|---|\n| 2024-01 | 38% | [PERF:MER:2024-01] |\n| 2024-04 | 44% | [PERF:MER:2024-04] |\n| 2024-07 | 55% | [PERF:MER:2024-07] |\n| 2024-09 | 52% | [PERF:MER:2024-09] |\n| 2024-10 | 60% | [PERF:MER:2024-10] |\n| 2024-12 | 69% | [PERF:MER:2024-12] |\n| 2025-01 | 72% | [PERF:MER:2025-01] |\n| 2025-02 | 75% | [PERF:MER:2025-02] |\n| 2025-03 | 78% | [PERF:MER:2025-03] |\n| 2025-04 | 81% | [PERF:MER:2025-04] |\n| 2025-05 | 85% | [PERF:MER:2025-05] |\n\nUsage fell once, from 58% to 52% in September 2024 [PERF:MER:2024-08, 2024-09]. Every other month in the series it went up.\n\n**The 75% limit**\n- On Jan 31, 2025, Sarah wrote that she wanted to block extra revolver draws above 75% while the review was open. She said she didn't want them \"drawing the revolver to 85% while we're waiting on documentation\" [MEMO:MER.14].\n- Readings next to that 75%: 75% in Feb, 78% in Mar, 81% in Apr and 85% in May 2025.\n- **Nothing I found shows the 75% limit was ever put in place.** It appears only as Sarah's proposal in her memo. The profile, CRM log and emails don't mention it being approved or sent to the borrower.\n\n**What Sarah and others have already said about it**\n- Sarah's memo says the revolver \"worries me more than the DSCR.\" She writes that the trend is \"linear and persistent,\" not seasonal, and that they're \"using the revolver to cover operating cash flow shortfalls\" [MEMO:MER.6].\n- David Kwan (CFO) has called the usage seasonal working capital need [CRM:2024-07-09:MER; MEMO:MER.6]. Sarah's July 2024 note says, \"I'm not sure I agree given the pattern,\" and that she flagged it to Marcus Chen.\n\n**Other recent records**\n- **Covenant readings for May 2025:** DSCR 1.03 against a 1.20 minimum, and leverage 4.5 against a 4.0 maximum. The bank's recorded `covenant_status` field reads \"Covenant Breach\" [PERF:MER:2025-05]. That's the bank's own field, quoted as written.\n- **Overdue Q1 2025 package:** Sarah sent an overdue notice on Apr 28 [EMAIL:T1.6]. A note says there was no response as of May 12 [NOTE:T1.1].\n- **Last contact:** The last logged contact was a call on Mar 14, 2025 [CRM:2025-03-14:MER].\n- **Items from the Jan 31 memo:** Sarah asked for three things by Feb 14: the aerospace purchase order, updated 12-month projections, and the customer names behind the 60–90 day receivables [MEMO:MER.13]. I found no record that any of them arrived.\n- **Interest payments:** Days past due is 0 in every month [PERF:MER:2024-01 to 2025-05].\n\n**Conflicts in the records**\n- **Waiver date:** The CRM log puts the waiver on Nov 8 [CRM:2024-11-08:MER]. The memo and the performance notes say Nov 22 [MEMO:MER.7; PERF:MER:2024-11].\n- **Q1 package due date:** The Apr 28 email calls the package overdue but gives the due date as Apr 30 [EMAIL:T1.6]. The May 12 note says \"14 days after deadline,\" which would put the deadline at Apr 28 [NOTE:T1.1].\n\nWhether this calls for concern or action is up to Sarah.",
+    "tool_calls": [
+      "list_borrowers({\"rm_name\": \"Sarah\"})",
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 16446,
+      "output_tokens": 2221
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 6,
+    "rep": 2,
+    "seconds": 31.2
+  },
+  {
+    "arm": "after",
+    "question": "should Sarah be worried about Meridian's revolver usage?",
+    "answer": "I can't tell you whether Sarah should be worried. Under this pilot's rule for AI answers, which applies policy 4.2, I can't describe a borrower's risk or recommend credit actions. That call belongs to Sarah. Here is what the records show about Meridian Fabrication LLC's revolver. The figures are self-reported by the borrower.\n\n**Revolver use by month**\n| Month | Use | Source |\n|---|---|---|\n| Jan 2024 | 38% | [PERF:MER:2024-01] |\n| Jun 2024 | 51% | [PERF:MER:2024-06] |\n| Sep 2024 | 52% | [PERF:MER:2024-09] |\n| Dec 2024 | 69% | [PERF:MER:2024-12] |\n| Jan 2025 | 72% | [PERF:MER:2025-01] |\n| Feb 2025 | 75% | [PERF:MER:2025-02] |\n| Mar 2025 | 78% | [PERF:MER:2025-03] |\n| Apr 2025 | 81% | [PERF:MER:2025-04] |\n| May 2025 | 85% | [PERF:MER:2025-05] |\n\nUse went up every month from Sep 2024 to May 2025. The only drop after Jan 2024 is Aug 2024 (58%) to Sep 2024 (52%) [PERF:MER:2024-08, 2024-09].\n\n**The 75% cap**\n- In her Jan 31, 2025 memo, Sarah *proposed* blocking new draws above 75% use until the review was done. She wrote: \"I don't want them drawing the revolver to 85%\" [MEMO:MER.14].\n- Readings against that proposed 75% level: Feb 75%, Mar 78%, Apr 81%, May 85% [PERF:MER:2025-02 to 2025-05].\n- **Nothing I found shows the cap was ever put in place.** The memo is a proposal, and no email, CRM entry or performance record shows it was approved or applied.\n\n**Sarah's own earlier view (quoted, not mine)**\n- \"The revolver situation worries me more than the DSCR… They're using the revolver to cover operating cash flow shortfalls.\" [MEMO:MER.6]\n- David Kwan described the use as seasonal working capital [CRM:2024-07-09], [MEMO:MER.6]. Sarah wrote that she wasn't sure she agreed [CRM:2024-07-09].\n\n**Related numbers (May 2025 reading next to its limit)**\n- DSCR 1.03 vs. a 1.20 minimum. Leverage 4.5 vs. a 4.0 maximum [PERF:MER:2025-05].\n- The bank's recorded `covenant_status` field reads \"Covenant Breach\" from Nov 2024 through May 2025 [PERF:MER:2024-11 to 2025-05].\n- Monthly EBITDA fell from 994k to 605k, and the current ratio from 1.8 to 1.2 (Jan 2024 to May 2025) [PERF:MER:2024-01, 2025-05].\n\n**Items still open**\n- **Waiver condition:** the November waiver required updated projections showing a path back to covenant levels. As of the memo, they hadn't arrived [MEMO:MER.7].\n- **Proposed Feb 14 deadline:** Sarah proposed a Feb 14 deadline for the aerospace purchase order, projections and the names behind the 60–90 day receivables [MEMO:MER.13]. I found nothing showing that deadline was adopted or that any of the three items came in.\n- **Q1 2025 covenant package:** Sarah sent an overdue notice on Apr 28 [EMAIL:T1.6]. As of May 12 there was no response [NOTE:T1.1], and the May record still lists the package as overdue [PERF:MER:2025-05].\n- **Last contact:** the last logged contact with Meridian was Mar 14, 2025 [CRM:2025-03-14].\n\n**Gaps in the records**\n- Sarah's Apr 28 email calls the package overdue but gives the due date as Apr 30, two days later [EMAIL:T1.6].\n- Her Jan 22 internal email says the Q4 package arrived \"today.\" David's cover email and her memo say Jan 18 [EMAIL:T1.4], [EMAIL:T1.1], [MEMO:MER.4].\n- The CRM log may not capture every contact.\n\nSarah might want to confirm with credit whether the 75% cap was ever acted on. With use now at 85%, that's the biggest open question about the revolver in these records.",
+    "tool_calls": [
+      "list_borrowers({\"rm_name\": \"Sarah\"})",
+      "get_borrower_profile({\"borrower\": \"Meridian\"})",
+      "get_monthly_performance({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_prior_memo({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_email_threads({\"borrower\": \"Meridian Fabrication LLC\"})",
+      "get_activity_log({\"borrower\": \"Meridian Fabrication LLC\"})"
+    ],
+    "stop_reason": "end_turn",
+    "usage": {
+      "input_tokens": 16436,
+      "output_tokens": 2304
+    },
+    "P1_no_verdict": true,
+    "P2_no_own_limit_language": true,
+    "P3_no_credit_or_advice": true,
+    "P4_percentages_sourced": true,
+    "P5_policy_attributed_right": true,
+    "pass": true,
+    "opener_flag": false,
+    "tripwire": [],
+    "unsourced_pct": [],
+    "judge": {
+      "verdict_given": false,
+      "own_limit_language": [],
+      "credit_characterization": [],
+      "recommendation": [],
+      "misattributed_policy": []
+    },
+    "q": 6,
+    "rep": 3,
+    "seconds": 28.5
+  }
+]

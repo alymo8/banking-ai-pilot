@@ -1,0 +1,248 @@
+{
+  "items": [
+    {
+      "item_id": "BLU-01",
+      "description": "Q4 2023 covenant package (timing confirmation and delivery)",
+      "owed_by": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "owed_to": "Sarah Okonkwo, RM",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2024-01-24",
+      "first_asked_source": "CRM:2024-01-24:BLU",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "BLU-02",
+      "description": "Discuss BlueLine's request for a temporary revolver increase internally and respond to Patricia",
+      "owed_by": "Sarah Okonkwo, RM",
+      "owed_to": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "party": "rm",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2024-06-11",
+      "first_asked_source": "CRM:2024-06-11:BLU",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "BLU-03",
+      "description": "First covenant waiver request documentation for the Q3 2024 DSCR breach",
+      "owed_by": "Sarah Okonkwo, RM",
+      "owed_to": "Marcus Chen, Senior Credit Officer",
+      "party": "bank_internal",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2024-08-20",
+      "first_asked_source": "CRM:2024-08-20:BLU",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "BLU-04",
+      "description": "First waiver condition: monthly reporting by BlueLine to the bank",
+      "owed_by": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "owed_to": "Sarah Okonkwo, RM / Northfield credit committee",
+      "party": "borrower",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2024-10-02",
+      "first_asked_source": "CRM:2024-10-02:BLU",
+      "repeat_asks": [
+        "PERF:BLU:2024-11"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "BLU-05",
+      "description": "First waiver condition: RM site visit to BlueLine",
+      "owed_by": "Sarah Okonkwo, RM",
+      "owed_to": "Northfield credit committee",
+      "party": "rm",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2024-10-02",
+      "first_asked_source": "CRM:2024-10-02:BLU",
+      "repeat_asks": [
+        "PERF:BLU:2024-11"
+      ],
+      "due_date": null,
+      "due_basis": "\"RM site visit by December\" (no specific day stated)"
+    },
+    {
+      "item_id": "BLU-06",
+      "description": "New business plan from BlueLine",
+      "owed_by": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "owed_to": "Sarah Okonkwo, RM",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2024-12",
+      "first_asked_source": "PERF:BLU:2024-12",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "BLU-07",
+      "description": "Formal Q1 2025 covenant waiver request (second waiver)",
+      "owed_by": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "owed_to": "Sarah Okonkwo, RM",
+      "party": "borrower",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-04-01",
+      "first_asked_source": "CRM:2025-04-01:BLU",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "BLU-08",
+      "description": "Full Q1 2025 covenant package",
+      "owed_by": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "owed_to": "Sarah Okonkwo, RM",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-03",
+      "first_asked_source": "PERF:BLU:2025-03",
+      "repeat_asks": [
+        "EMAIL:T2.2",
+        "EMAIL:T2.3"
+      ],
+      "due_date": "2025-04-16",
+      "due_basis": "\"I'll have everything to you by Wednesday morning\" (EMAIL:T2.3, Tue Apr 15, 2025); formal deadline \"Q1 package due 4/30\" (PERF:BLU:2025-03)"
+    },
+    {
+      "item_id": "BLU-09",
+      "description": "Updated 12-month cash flow projection with assumptions stated explicitly",
+      "owed_by": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "owed_to": "Sarah Okonkwo, RM",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-04-15",
+      "first_asked_source": "EMAIL:T2.2",
+      "repeat_asks": [
+        "EMAIL:T2.3"
+      ],
+      "due_date": "2025-04-16",
+      "due_basis": "\"I'll have everything to you by Wednesday morning\" (EMAIL:T2.3, Tue Apr 15, 2025)"
+    },
+    {
+      "item_id": "BLU-10",
+      "description": "Documentation on the two new regional contracts: names, volumes, start dates, revenue estimates",
+      "owed_by": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "owed_to": "Sarah Okonkwo, RM",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-04-15",
+      "first_asked_source": "EMAIL:T2.2",
+      "repeat_asks": [
+        "EMAIL:T2.3"
+      ],
+      "due_date": "2025-04-16",
+      "due_basis": "\"I'll have everything to you by Wednesday morning\" (EMAIL:T2.3, Tue Apr 15, 2025)"
+    },
+    {
+      "item_id": "BLU-11",
+      "description": "Current driver headcount vs. 90 days ago",
+      "owed_by": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "owed_to": "Sarah Okonkwo, RM",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-04-15",
+      "first_asked_source": "EMAIL:T2.2",
+      "repeat_asks": [
+        "EMAIL:T2.3"
+      ],
+      "due_date": "2025-04-16",
+      "due_basis": "\"I'll have everything to you by Wednesday morning\" (EMAIL:T2.3, Tue Apr 15, 2025)"
+    },
+    {
+      "item_id": "BLU-12",
+      "description": "Call to walk through BlueLine's updated business plan for the second waiver",
+      "owed_by": "Sarah Okonkwo, RM",
+      "owed_to": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "party": "rm",
+      "kind": "meeting_or_call",
+      "first_asked_date": "2025-04-14",
+      "first_asked_source": "EMAIL:T2.1",
+      "repeat_asks": [
+        "EMAIL:T2.2",
+        "EMAIL:T2.3",
+        "EMAIL:T2.4"
+      ],
+      "due_date": "2025-04-17",
+      "due_basis": "\"I can get you on calendar Thursday afternoon\" (EMAIL:T2.2, Tue Apr 15, 2025); originally \"get on a call this week\" (EMAIL:T2.1)"
+    },
+    {
+      "item_id": "BLU-13",
+      "description": "Bring BlueLine's CFO onto the Thursday call to speak to the balance sheet",
+      "owed_by": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "owed_to": "Sarah Okonkwo, RM",
+      "party": "borrower",
+      "kind": "meeting_or_call",
+      "first_asked_date": "2025-04-15",
+      "first_asked_source": "EMAIL:T2.3",
+      "repeat_asks": [
+        "EMAIL:T2.4"
+      ],
+      "due_date": "2025-04-17",
+      "due_basis": "\"I'll also have our CFO on the call Thursday\" (EMAIL:T2.3, Tue Apr 15, 2025)"
+    },
+    {
+      "item_id": "BLU-14",
+      "description": "Internal briefing of the CCO / Marcus Chen on the second waiver request before the borrower call",
+      "owed_by": "Sarah Okonkwo, RM",
+      "owed_to": "Marcus Chen, Senior Credit Officer",
+      "party": "bank_internal",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-04-14",
+      "first_asked_source": "CRM:2025-04-14:BLU",
+      "repeat_asks": [
+        "EMAIL:T2.2"
+      ],
+      "due_date": "2025-04-17",
+      "due_basis": "\"Before that call, I'll need to brief our CCO\" (EMAIL:T2.2; call set for Thursday afternoon)"
+    },
+    {
+      "item_id": "BLU-15",
+      "description": "Credit committee decision on BlueLine's second covenant waiver",
+      "owed_by": "Northfield credit committee",
+      "owed_to": "Sarah Okonkwo, RM / BlueLine Logistics",
+      "party": "bank_internal",
+      "kind": "meeting_or_call",
+      "first_asked_date": "2025-05-02",
+      "first_asked_source": "CRM:2025-05-02:BLU",
+      "repeat_asks": [
+        "PERF:BLU:2025-05"
+      ],
+      "due_date": "2025-06-03",
+      "due_basis": "\"Credit committee meeting 6/3\""
+    },
+    {
+      "item_id": "BLU-16",
+      "description": "Proposed conditions for second waiver: covenant reset and waiver fee",
+      "owed_by": "BlueLine Logistics (if approved by credit committee)",
+      "owed_to": "Northfield Bank credit committee",
+      "party": "borrower",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2025-05-02",
+      "first_asked_source": "CRM:2025-05-02:BLU",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "BLU-17",
+      "description": "Next covenant compliance package",
+      "owed_by": "Patricia Hearn, VP Finance, BlueLine Logistics",
+      "owed_to": "Sarah Okonkwo, RM",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-06-02",
+      "first_asked_source": "PROFILE:BLU",
+      "repeat_asks": [],
+      "due_date": "2025-06-30",
+      "due_basis": "\"next_covenant_due=2025-06-30\""
+    }
+  ]
+}

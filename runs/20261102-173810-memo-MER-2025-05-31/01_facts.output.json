@@ -1,0 +1,933 @@
+{
+  "facts": [
+    {
+      "section": "business",
+      "statement": "Meridian Fabrication LLC is classified in the Industrial Manufacturing industry, is headquartered in Ohio, and has 312 employees.",
+      "source_ids": [
+        "PROFILE:MER"
+      ]
+    },
+    {
+      "section": "business",
+      "statement": "The PROFILE record lists annual revenue of $82mm. This matches the sum of the twelve 2024 monthly revenue figures in the PERF records ($82,300k).",
+      "source_ids": [
+        "PROFILE:MER",
+        "PERF:MER:2024-01",
+        "PERF:MER:2024-02",
+        "PERF:MER:2024-03",
+        "PERF:MER:2024-04",
+        "PERF:MER:2024-05",
+        "PERF:MER:2024-06",
+        "PERF:MER:2024-07",
+        "PERF:MER:2024-08",
+        "PERF:MER:2024-09",
+        "PERF:MER:2024-10",
+        "PERF:MER:2024-11",
+        "PERF:MER:2024-12"
+      ]
+    },
+    {
+      "section": "business",
+      "statement": "The banking relationship dates from 2019. The relationship tier is Core, and the relationship manager is Sarah Okonkwo.",
+      "source_ids": [
+        "PROFILE:MER"
+      ]
+    },
+    {
+      "section": "business",
+      "statement": "The primary borrower contact is David Kwan, CFO.",
+      "source_ids": [
+        "PROFILE:MER",
+        "EMAIL:T1.1"
+      ]
+    },
+    {
+      "section": "business",
+      "statement": "Michelle Kwan attended the 2024-09-05 annual review alongside David Kwan. Her title and role are not stated in the records.",
+      "source_ids": [
+        "CRM:2024-09-05:MER"
+      ]
+    },
+    {
+      "section": "business",
+      "statement": "Per borrower discussions logged in CRM, the company serves automotive OEM customers and has an aerospace contract.",
+      "source_ids": [
+        "CRM:2024-01-08:MER",
+        "CRM:2024-04-10:MER",
+        "EMAIL:T1.1"
+      ]
+    },
+    {
+      "section": "business",
+      "statement": "Bank personnel involved with the account include Marcus Chen (Senior Credit Officer) and Priya Voss, whose title is not stated.",
+      "source_ids": [
+        "EMAIL:T1.4",
+        "EMAIL:T1.5"
+      ]
+    },
+    {
+      "section": "facility",
+      "statement": "The facility is a Term Loan + Revolver with a total facility size of $8.5mm.",
+      "source_ids": [
+        "PROFILE:MER"
+      ]
+    },
+    {
+      "section": "facility",
+      "statement": "The facility carries a variable rate of SOFR+275.",
+      "source_ids": [
+        "PROFILE:MER"
+      ]
+    },
+    {
+      "section": "facility",
+      "statement": "The facility matures on 2027-03-31.",
+      "source_ids": [
+        "PROFILE:MER"
+      ]
+    },
+    {
+      "section": "facility",
+      "statement": "The stated loan purpose is equipment expansion and working capital.",
+      "source_ids": [
+        "PROFILE:MER"
+      ]
+    },
+    {
+      "section": "facility",
+      "statement": "Collateral is Machinery & Equipment plus A/R, and the facility carries a personal guarantee (personal_guarantee=Yes).",
+      "source_ids": [
+        "PROFILE:MER"
+      ]
+    },
+    {
+      "section": "facility",
+      "statement": "The loan balance fell from $8.3mm (Jan 2024) to $7.6mm (Apr and May 2025).",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2025-04",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "facility",
+      "statement": "PROFILE lists the last annual review as 2024-09-15 and the next covenant due date as 2025-06-30.",
+      "source_ids": [
+        "PROFILE:MER"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "Monthly revenue was $7,100k in Jan 2024, peaked at $7,400k in Mar 2024, and was $5,600k in May 2025.",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2024-03",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "Monthly revenue declined in each month from Sep 2024 ($6,850k) through May 2025 ($5,600k). The intervening figures were $6,600k, $6,400k, $6,200k, $6,000k, $5,900k, $5,800k and $5,700k.",
+      "source_ids": [
+        "PERF:MER:2024-09",
+        "PERF:MER:2024-10",
+        "PERF:MER:2024-11",
+        "PERF:MER:2024-12",
+        "PERF:MER:2025-01",
+        "PERF:MER:2025-02",
+        "PERF:MER:2025-03",
+        "PERF:MER:2025-04",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "Trailing twelve-month revenue for Jun 2024 through May 2025 was $75,550k, calculated by summing the twelve monthly PERF revenue figures.",
+      "source_ids": [
+        "PERF:MER:2024-06",
+        "PERF:MER:2024-07",
+        "PERF:MER:2024-08",
+        "PERF:MER:2024-09",
+        "PERF:MER:2024-10",
+        "PERF:MER:2024-11",
+        "PERF:MER:2024-12",
+        "PERF:MER:2025-01",
+        "PERF:MER:2025-02",
+        "PERF:MER:2025-03",
+        "PERF:MER:2025-04",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "Monthly EBITDA fell from $994k (Jan 2024) to $605k (May 2025). It was $1,010k in Mar 2024 and $760k in Dec 2024.",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2024-03",
+        "PERF:MER:2024-12",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "EBITDA margin fell from 14.0% (Jan and Feb 2024) to 12.3% (Dec 2024) and then to 10.8% (May 2025).",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2024-02",
+        "PERF:MER:2024-12",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "TTM DSCR declined every month from 1.45x (Jan 2024) to 1.03x (May 2025). Selected readings were 1.33x (Jun 2024), 1.21x (Sep 2024), 1.18x (Oct 2024), 1.10x (Dec 2024) and 1.04x (Apr 2025).",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2024-06",
+        "PERF:MER:2024-09",
+        "PERF:MER:2024-10",
+        "PERF:MER:2024-12",
+        "PERF:MER:2025-04",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "The leverage ratio rose from 3.2x (Jan 2024) to 4.0x (Nov 2024), 4.1x (Dec 2024) and 4.5x (May 2025).",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2024-11",
+        "PERF:MER:2024-12",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "The current ratio fell from 1.8 (Jan 2024) to 1.2 (Apr and May 2025).",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2025-04",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "Revolver utilization was 38% in Jan 2024 and rose to 58% in Aug 2024. It dipped to 52% in Sep 2024.",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2024-08",
+        "PERF:MER:2024-09"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "After Sep 2024, revolver utilization rose every month to 85% in May 2025.",
+      "source_ids": [
+        "PERF:MER:2024-09",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "Days past due were 0 in every month from Jan 2024 through May 2025.",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "financial_performance",
+      "statement": "The PERF 2024-04 note records automotive sector orders down 8% YoY per a client call.",
+      "source_ids": [
+        "PERF:MER:2024-04",
+        "CRM:2024-04-10:MER"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "The covenant minimum DSCR is 1.20x and the covenant maximum leverage is 4.0x. Both levels are unchanged in every PERF record from Jan 2024 through May 2025.",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "Covenant status was reported as Compliant for each month from Jan 2024 through Sep 2024.",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2024-09"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "For Oct 2024, covenant status was reported as Covenant Watch with TTM DSCR at 1.18x. The note reads: 'DSCR below minimum — RM notified; waiver discussion initiated'.",
+      "source_ids": [
+        "PERF:MER:2024-10"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "Covenant status was reported as Covenant Breach for each month from Nov 2024 through May 2025.",
+      "source_ids": [
+        "PERF:MER:2024-11",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "TTM DSCR has been below the 1.20x minimum in every month from Oct 2024 (1.18x) through May 2025 (1.03x).",
+      "source_ids": [
+        "PERF:MER:2024-10",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "Leverage equalled the 4.0x maximum in Nov 2024. It has exceeded the maximum in every month from Dec 2024 (4.1x) through May 2025 (4.5x).",
+      "source_ids": [
+        "PERF:MER:2024-11",
+        "PERF:MER:2024-12",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "A waiver was granted in November 2024. The CRM log records the conditions as: Q4 package by Jan 31 and updated projections showing a recovery path.",
+      "source_ids": [
+        "CRM:2024-11-08:MER",
+        "PERF:MER:2024-11"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "The RM's 2025-04-28 email to the CFO states: 'Per the terms of the November waiver, late submission triggers a reporting default.'",
+      "source_ids": [
+        "EMAIL:T1.6"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "The Q1 2024 covenant package was recorded as submitted/received on time.",
+      "source_ids": [
+        "PERF:MER:2024-03",
+        "CRM:2024-03-05:MER"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "The Q2 2024 covenant package was received 12 days late, with no advance notice per the CRM log.",
+      "source_ids": [
+        "PERF:MER:2024-06",
+        "CRM:2024-06-04:MER"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "The Q3 2024 covenant package was recorded as received on time. The CRM log entry is dated 2024-10-15.",
+      "source_ids": [
+        "CRM:2024-10-15:MER",
+        "PERF:MER:2024-09"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "The Q4 2024 covenant package had not been received as of 12/31/2024. It was received 1/18/2025, recorded as 18 days late.",
+      "source_ids": [
+        "PERF:MER:2024-12",
+        "PERF:MER:2025-01",
+        "EMAIL:T1.1"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "The Q1 2025 covenant package was due 4/30/2025. It was recorded as overdue as of 5/1/2025, and no response had been received as of 2025-05-12.",
+      "source_ids": [
+        "PERF:MER:2025-03",
+        "EMAIL:T1.6",
+        "PERF:MER:2025-05",
+        "NOTE:T1.1"
+      ]
+    },
+    {
+      "section": "covenant_history",
+      "statement": "The records contain no waiver for covenant periods after the November 2024 waiver.",
+      "source_ids": [
+        "CRM:2024-11-08:MER",
+        "PERF:MER:2025-05"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2024-01-08, the CRM log records that the CFO described the Q4 pipeline as solid. It also records that the aerospace contract was expected to contribute starting Q1, and that auto OEM orders were soft but within the normal seasonal range. The RM planned to request the Q1 package by end of April.",
+      "source_ids": [
+        "CRM:2024-01-08:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2024-02-14, the CRM log records that the CFO said the aerospace contract was still on track and that auto OEM orders were picking up slightly in February.",
+      "source_ids": [
+        "CRM:2024-02-14:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2024-04-10, the CFO disclosed that automotive OEM orders were down 8% YoY through March. He stated the aerospace contract would offset this in Q2.",
+      "source_ids": [
+        "CRM:2024-04-10:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2024-04-10, the RM asked the CFO for updated projections, and he said he would send them by end of month. In the CRM log the RM wrote: 'Tone was measured but I sense more stress than prior calls.'",
+      "source_ids": [
+        "CRM:2024-04-10:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2024-05-14, the RM sent a follow-up email requesting the updated projections. No response was received.",
+      "source_ids": [
+        "CRM:2024-05-14:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2024-06-04, the Q2 package cover note from the CFO mentioned continuing automotive softness. The RM's call to the CFO went to voicemail.",
+      "source_ids": [
+        "CRM:2024-06-04:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "In the 2024-06-04 CRM log the RM wrote: 'This is a trend I need to watch closely.'",
+      "source_ids": [
+        "CRM:2024-06-04:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2024-07-09, the CFO stated that first aerospace revenue was now expected in Q3, not Q2. He framed the 55% revolver utilization as a seasonal working capital need.",
+      "source_ids": [
+        "CRM:2024-07-09:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "In the 2024-07-09 CRM log the RM wrote: 'I'm not sure I agree given the pattern.' The RM flagged the account internally to Marcus Chen.",
+      "source_ids": [
+        "CRM:2024-07-09:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "At the 2024-09-05 annual review (60-minute video call), management stated that the aerospace contract was producing revenue but on a slower ramp than projected. The CRM log records that Michelle Kwan was confident in the aerospace pipeline.",
+      "source_ids": [
+        "CRM:2024-09-05:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "In the 2024-09-05 CRM log the RM wrote: 'I'm less confident.' The RM noted she would request updated projections.",
+      "source_ids": [
+        "CRM:2024-09-05:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2024-10-15, after the Q3 package showed DSCR at 1.18x, the RM emailed the CFO. He called back the same day and cited aerospace timing.",
+      "source_ids": [
+        "CRM:2024-10-15:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2024-11-08, a waiver call was held with the CFO, with Marcus Chen attending internally. The CFO committed to delivering the Q4 package by Jan 31 and updated projections.",
+      "source_ids": [
+        "CRM:2024-11-08:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "In his 2025-01-18 email, the CFO attributed the Q4 package delay to year-end close complications. He stated that the aerospace contract's first delivery milestone was pushed to Q2 2025 and that the contract was about 11 weeks behind.",
+      "source_ids": [
+        "EMAIL:T1.1"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "In the same 2025-01-18 email, the CFO stated that the internal projection showed DSCR back above the floor by Q3 2025. He offered to share updated projections on a call.",
+      "source_ids": [
+        "EMAIL:T1.1"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2025-01-21, the RM requested the signed management representation letter and the updated A/R aging, which were not in the Q4 package. She asked for them by Wednesday.",
+      "source_ids": [
+        "EMAIL:T1.2"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2025-01-22, the CFO stated he would send the rep letter and A/R aging by end of day Wednesday.",
+      "source_ids": [
+        "EMAIL:T1.3"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "In the 2025-01-22 email, the CFO stated that the A/R aging would show larger balances in the 60-90 day bucket because two automotive customers went on extended payment terms at year-end. He said 'Nothing we'd call collection risk at this point.'",
+      "source_ids": [
+        "EMAIL:T1.3"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2025-01-22, the RM briefed Marcus Chen and Priya Voss. She noted the client said the A/R concentration was seasonal and wrote 'we should verify'.",
+      "source_ids": [
+        "EMAIL:T1.4"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "In the 2025-01-22 internal email the RM wrote: 'If projections don't support a Q3 recovery path I think we need to start the modification conversation.'",
+      "source_ids": [
+        "EMAIL:T1.4"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2025-01-23, Marcus Chen asked the RM to ask the CFO whether the aerospace contract has a firm PO or is still conditional. He also asked her to obtain customer names for the 60-90 day A/R items.",
+      "source_ids": [
+        "EMAIL:T1.5"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On the 2025-01-23 call, the CFO committed to a Q1 recovery path. Marcus Chen asked about a firm PO on the aerospace contract, and the CFO said he would send it.",
+      "source_ids": [
+        "CRM:2025-01-23:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2025-03-14, the CFO stated that Q1 was tracking better than Q4 and that aerospace revenues were coming in. He provided no specific numbers and said the Q1 package would be on time.",
+      "source_ids": [
+        "CRM:2025-03-14:MER"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "On 2025-04-28, the RM sent a formal overdue notice on the Q1 2025 package and requested a response by end of day Thursday. No response was received as of 2025-05-12.",
+      "source_ids": [
+        "EMAIL:T1.6",
+        "CRM:2025-04-28:MER",
+        "NOTE:T1.1"
+      ]
+    },
+    {
+      "section": "communications",
+      "statement": "The 2025-03-14 call is recorded as the last logged two-way contact with the borrower as of May 2025.",
+      "source_ids": [
+        "CRM:2025-03-14:MER",
+        "NOTE:T1.1"
+      ]
+    },
+    {
+      "section": "open_requests",
+      "statement": "Updated projections have no record of receipt. They were requested 2024-04-10 and 2024-05-14, intended to be requested 2024-09-05, made a waiver condition 2024-11-08, and offered by the CFO 2025-01-18.",
+      "source_ids": [
+        "CRM:2024-04-10:MER",
+        "CRM:2024-05-14:MER",
+        "CRM:2024-09-05:MER",
+        "CRM:2024-11-08:MER",
+        "EMAIL:T1.1",
+        "EMAIL:T1.2"
+      ]
+    },
+    {
+      "section": "open_requests",
+      "statement": "The signed management representation letter for Q4 2024 has no record of receipt. It was requested 2025-01-21 and promised by end of day Wednesday 2025-01-22.",
+      "source_ids": [
+        "EMAIL:T1.2",
+        "EMAIL:T1.3"
+      ]
+    },
+    {
+      "section": "open_requests",
+      "statement": "The updated A/R aging has no record of receipt. It was requested 2025-01-21 and promised by end of day Wednesday 2025-01-22.",
+      "source_ids": [
+        "EMAIL:T1.2",
+        "EMAIL:T1.3"
+      ]
+    },
+    {
+      "section": "open_requests",
+      "statement": "A firm PO for the aerospace contract has no record of receipt. It was requested 2025-01-23, and the CRM log states it was not received as of that entry.",
+      "source_ids": [
+        "CRM:2025-01-23:MER",
+        "EMAIL:T1.5"
+      ]
+    },
+    {
+      "section": "open_requests",
+      "statement": "The Q1 2025 covenant package was due 4/30/2025 and has no record of receipt. An overdue notice was sent 2025-04-28, and no response had been received as of 2025-05-12.",
+      "source_ids": [
+        "EMAIL:T1.6",
+        "CRM:2025-04-28:MER",
+        "PERF:MER:2025-05",
+        "NOTE:T1.1"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Expected timing of first aerospace contract revenue (claim changed over time)",
+      "versions": [
+        {
+          "claim": "Aerospace contract expected to contribute starting Q1 (2024).",
+          "source_id": "CRM:2024-01-08:MER"
+        },
+        {
+          "claim": "Aerospace contract still on track.",
+          "source_id": "CRM:2024-02-14:MER"
+        },
+        {
+          "claim": "Aerospace contract will offset auto declines in Q2 (2024).",
+          "source_id": "CRM:2024-04-10:MER"
+        },
+        {
+          "claim": "Aerospace contract delayed to Q4.",
+          "source_id": "PERF:MER:2024-07"
+        },
+        {
+          "claim": "First revenue now expected in Q3, not Q2.",
+          "source_id": "CRM:2024-07-09:MER"
+        },
+        {
+          "claim": "Aerospace contract now producing revenue, slower ramp than projected.",
+          "source_id": "CRM:2024-09-05:MER"
+        },
+        {
+          "claim": "First delivery milestone pushed to Q2 2025; no Q4 revenue benefit; about 11 weeks behind.",
+          "source_id": "EMAIL:T1.1"
+        },
+        {
+          "claim": "Aerospace revenues coming in but behind projections.",
+          "source_id": "CRM:2025-01-23:MER"
+        },
+        {
+          "claim": "Aerospace revenues coming in.",
+          "source_id": "CRM:2025-03-14:MER"
+        }
+      ],
+      "affects": "Any memo statement on when the aerospace contract began or is expected to generate revenue, and the timeline of borrower explanations"
+    },
+    {
+      "topic": "Whether the aerospace contract was generating revenue in late 2024",
+      "versions": [
+        {
+          "claim": "As of the 2024-09-05 annual review, the aerospace contract was producing revenue.",
+          "source_id": "CRM:2024-09-05:MER"
+        },
+        {
+          "claim": "First delivery milestone pushed to Q2 2025, so no revenue benefit in Q4 2024.",
+          "source_id": "EMAIL:T1.1"
+        }
+      ],
+      "affects": "Statement of whether aerospace revenue was included in 2024 results"
+    },
+    {
+      "topic": "Revised aerospace timing as of July 2024",
+      "versions": [
+        {
+          "claim": "Aerospace contract delayed to Q4.",
+          "source_id": "PERF:MER:2024-07"
+        },
+        {
+          "claim": "First revenue expected in Q3.",
+          "source_id": "CRM:2024-07-09:MER"
+        }
+      ],
+      "affects": "Statement of what the borrower communicated in July 2024 about aerospace timing"
+    },
+    {
+      "topic": "Date the November 2024 waiver was granted",
+      "versions": [
+        {
+          "claim": "Waiver approved on the 2024-11-08 waiver call.",
+          "source_id": "CRM:2024-11-08:MER"
+        },
+        {
+          "claim": "Waiver granted 11/22.",
+          "source_id": "PERF:MER:2024-11"
+        }
+      ],
+      "affects": "Waiver date stated in covenant history"
+    },
+    {
+      "topic": "Terms of the November 2024 waiver",
+      "versions": [
+        {
+          "claim": "Conditions: Q4 package by Jan 31 and updated projections showing a recovery path.",
+          "source_id": "CRM:2024-11-08:MER"
+        },
+        {
+          "claim": "Per the terms of the November waiver, late submission triggers a reporting default.",
+          "source_id": "EMAIL:T1.6"
+        }
+      ],
+      "affects": "Description of waiver conditions and consequences in covenant history"
+    },
+    {
+      "topic": "Q4 2024 package due date and lateness",
+      "versions": [
+        {
+          "claim": "Waiver condition required the Q4 package by Jan 31.",
+          "source_id": "CRM:2024-11-08:MER"
+        },
+        {
+          "claim": "Q4 package received 1/18, described as 18 days late.",
+          "source_id": "PERF:MER:2025-01"
+        },
+        {
+          "claim": "Q4 package described as 18 days late.",
+          "source_id": "EMAIL:T1.4"
+        }
+      ],
+      "affects": "Statement of whether the Q4 2024 package was late and whether the waiver delivery condition was met"
+    },
+    {
+      "topic": "Q4 2024 package receipt date",
+      "versions": [
+        {
+          "claim": "Package attached to the CFO email dated January 18, 2025.",
+          "source_id": "EMAIL:T1.1"
+        },
+        {
+          "claim": "Received 1/18.",
+          "source_id": "PERF:MER:2025-01"
+        },
+        {
+          "claim": "'Q4 package received today' in an email dated January 22, 2025.",
+          "source_id": "EMAIL:T1.4"
+        }
+      ],
+      "affects": "Q4 2024 package receipt date in covenant history"
+    },
+    {
+      "topic": "Q3 2024 DSCR and covenant status",
+      "versions": [
+        {
+          "claim": "Q3 financials reviewed at the annual review: DSCR 1.21x, compliant.",
+          "source_id": "CRM:2024-09-05:MER"
+        },
+        {
+          "claim": "Sep 2024 DSCR 1.21x, Compliant; Q3 covenant package submitted.",
+          "source_id": "PERF:MER:2024-09"
+        },
+        {
+          "claim": "Q3 covenant package: DSCR 1.18x, below the 1.20x minimum, first formal breach.",
+          "source_id": "CRM:2024-10-15:MER"
+        }
+      ],
+      "affects": "Q3 2024 DSCR figure and compliance status in covenant history"
+    },
+    {
+      "topic": "Timing of Q3 2024 package submission",
+      "versions": [
+        {
+          "claim": "Q3 covenant package submitted (Sep 2024 record).",
+          "source_id": "PERF:MER:2024-09"
+        },
+        {
+          "claim": "Q3 covenant package received on time (log dated 2024-10-15).",
+          "source_id": "CRM:2024-10-15:MER"
+        }
+      ],
+      "affects": "Q3 2024 package receipt date"
+    },
+    {
+      "topic": "October 2024 covenant status label",
+      "versions": [
+        {
+          "claim": "Covenant status: Covenant Watch, DSCR 1.18x.",
+          "source_id": "PERF:MER:2024-10"
+        },
+        {
+          "claim": "DSCR 1.18x below 1.20x minimum, described as 'the first formal breach'.",
+          "source_id": "CRM:2024-10-15:MER"
+        }
+      ],
+      "affects": "Statement of when the first covenant breach occurred"
+    },
+    {
+      "topic": "Q1 2024 package timing",
+      "versions": [
+        {
+          "claim": "RM to request Q1 package by end of April 2024.",
+          "source_id": "CRM:2024-01-08:MER"
+        },
+        {
+          "claim": "Q1 package received 2024-03-05, on time, with DSCR 1.41x. The 1.41x figure is the March 2024 PERF figure, although March was not yet complete on 03-05.",
+          "source_id": "CRM:2024-03-05:MER"
+        },
+        {
+          "claim": "Q1 covenant package submitted on time (Mar 2024 record).",
+          "source_id": "PERF:MER:2024-03"
+        }
+      ],
+      "affects": "Q1 2024 package receipt date and the covenant figures it reported"
+    },
+    {
+      "topic": "Q2 2024 package lateness relative to due date",
+      "versions": [
+        {
+          "claim": "Q2 package received 2024-06-04, described as 12 days late.",
+          "source_id": "CRM:2024-06-04:MER"
+        },
+        {
+          "claim": "Q1 package due end of April, implying a quarterly package due about one month after quarter end; a June 4 receipt would precede the Q2 quarter end.",
+          "source_id": "PERF:MER:2025-03"
+        }
+      ],
+      "affects": "Q2 2024 package timeliness in covenant history"
+    },
+    {
+      "topic": "Q1 2025 package deadline and days elapsed",
+      "versions": [
+        {
+          "claim": "Package due April 30. The overdue notice was sent April 28, stating it had not been received.",
+          "source_id": "EMAIL:T1.6"
+        },
+        {
+          "claim": "Formal overdue notice sent 2025-04-28.",
+          "source_id": "CRM:2025-04-28:MER"
+        },
+        {
+          "claim": "Q1 package overdue as of 5/1.",
+          "source_id": "PERF:MER:2025-05"
+        },
+        {
+          "claim": "No response as of May 12, 2025, '14 days after deadline'. April 30 would be 12 days earlier; 14 days matches April 28.",
+          "source_id": "NOTE:T1.1"
+        }
+      ],
+      "affects": "Q1 2025 package due date and the number of days overdue"
+    },
+    {
+      "topic": "Days since last client contact as of late April 2025",
+      "versions": [
+        {
+          "claim": "No client contact in 47 days per CRM (Apr 2025 record).",
+          "source_id": "PERF:MER:2025-04"
+        },
+        {
+          "claim": "45 days since last RM contact (as of 2025-04-28).",
+          "source_id": "CRM:2025-04-28:MER"
+        }
+      ],
+      "affects": "Statement of the length of the contact gap"
+    },
+    {
+      "topic": "Last logged CRM entry",
+      "versions": [
+        {
+          "claim": "The 2025-03-14 call is the last logged contact as of May 2025.",
+          "source_id": "CRM:2025-03-14:MER"
+        },
+        {
+          "claim": "Last CRM contact log: March 14, 2025.",
+          "source_id": "NOTE:T1.1"
+        },
+        {
+          "claim": "A CRM log entry dated 2025-04-28 records an outbound formal notice email with no response.",
+          "source_id": "CRM:2025-04-28:MER"
+        }
+      ],
+      "affects": "Statement of the last CRM-logged activity versus the last two-way contact"
+    },
+    {
+      "topic": "Annual review date",
+      "versions": [
+        {
+          "claim": "Last annual review 2024-09-15.",
+          "source_id": "PROFILE:MER"
+        },
+        {
+          "claim": "Annual review held 2024-09-05.",
+          "source_id": "CRM:2024-09-05:MER"
+        }
+      ],
+      "affects": "Date of last annual review in the facility section"
+    }
+  ],
+  "gaps": [
+    {
+      "item": "Updated projections showing a recovery path. This was a waiver condition, and there is no record of receipt.",
+      "last_requested_source": "CRM:2024-11-08:MER"
+    },
+    {
+      "item": "Signed management representation letter for the Q4 2024 package; no record of receipt.",
+      "last_requested_source": "EMAIL:T1.2"
+    },
+    {
+      "item": "Updated A/R aging; no record of receipt.",
+      "last_requested_source": "EMAIL:T1.2"
+    },
+    {
+      "item": "Customer names for the 60-90 day A/R balances. Requested internally of the RM; there is no record it was asked of or received from the borrower.",
+      "last_requested_source": "EMAIL:T1.5"
+    },
+    {
+      "item": "Firm PO or contract status (firm vs conditional) for the aerospace contract; no record of receipt.",
+      "last_requested_source": "CRM:2025-01-23:MER"
+    },
+    {
+      "item": "Q1 2025 covenant compliance package; no record of receipt or borrower response.",
+      "last_requested_source": "EMAIL:T1.6"
+    },
+    {
+      "item": "Executed waiver document, including the covered periods, conditions, and any reporting default provision.",
+      "last_requested_source": null
+    },
+    {
+      "item": "Record of any waiver, forbearance, or bank action covering the Q4 2024 and later covenant breaches.",
+      "last_requested_source": null
+    },
+    {
+      "item": "Whether the November 2024 waiver conditions were deemed satisfied.",
+      "last_requested_source": null
+    },
+    {
+      "item": "Whether projections were shared on the 2025-01-23 call, and the outcome of the subsequent credit review.",
+      "last_requested_source": null
+    },
+    {
+      "item": "Identity of the personal guarantor(s) and guarantor financial information.",
+      "last_requested_source": null
+    },
+    {
+      "item": "Ownership structure of the borrower, including Michelle Kwan's title and role.",
+      "last_requested_source": null
+    },
+    {
+      "item": "Split between term loan and revolver, the revolver commitment amount, and the term loan amortization schedule.",
+      "last_requested_source": null
+    },
+    {
+      "item": "Collateral valuation, appraisal, or borrowing base information for M&E and A/R.",
+      "last_requested_source": null
+    },
+    {
+      "item": "Covenant definitions, testing frequency, and contractual reporting deadlines from the loan agreement.",
+      "last_requested_source": null
+    },
+    {
+      "item": "Annual or audited FY2024 financial statements.",
+      "last_requested_source": null
+    }
+  ]
+}

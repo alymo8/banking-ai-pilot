@@ -1,0 +1,185 @@
+{
+  "statuses": [
+    {
+      "item_id": "BLU-01",
+      "status": "done",
+      "evidence": "After a voicemail on 2024-01-24 about Q4 package timing [CRM:2024-01-24:BLU], the Q4 package from Patricia Hearn is logged as received and reviewed on 2024-02-06 [CRM:2024-02-06:BLU].",
+      "evidence_source_ids": [
+        "CRM:2024-01-24:BLU",
+        "CRM:2024-02-06:BLU"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-02",
+      "status": "no_record",
+      "evidence": "The RM noted on 2024-06-11 that she would need to discuss the temporary revolver increase internally [CRM:2024-06-11:BLU]. The June 2024 performance note records a request for a 30-day revolver extension as denied [PERF:BLU:2024-06], but the records do not show whether that is the same request or that a reply on the increase was given to Patricia.",
+      "evidence_source_ids": [
+        "CRM:2024-06-11:BLU",
+        "PERF:BLU:2024-06"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-03",
+      "status": "done",
+      "evidence": "Waiver documentation was being prepared on 2024-08-20 [CRM:2024-08-20:BLU]. Credit committee approval of the first waiver on 11/8 is recorded [CRM:2024-10-02:BLU; PERF:BLU:2024-11], though the documentation hand-off to Marcus Chen is not logged separately.",
+      "evidence_source_ids": [
+        "CRM:2024-08-20:BLU",
+        "CRM:2024-10-02:BLU",
+        "PERF:BLU:2024-11"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-04",
+      "status": "partly_done",
+      "evidence": "Monthly reporting calls held under the waiver conditions are logged on 2025-03-05 and 2025-04-01 [CRM:2025-03-05:BLU; CRM:2025-04-01:BLU]. The records do not log reporting for Nov 2024 to Feb 2025 or for May 2025, which may simply mean those contacts were not logged.",
+      "evidence_source_ids": [
+        "CRM:2024-10-02:BLU",
+        "PERF:BLU:2024-11",
+        "CRM:2025-03-05:BLU",
+        "CRM:2025-04-01:BLU"
+      ],
+      "observed": "Condition set with the waiver granted 11/8 [PERF:BLU:2024-11]. Logged monthly reporting contacts: 2025-03-05 (25 min call, 'Monthly reporting call per waiver conditions') [CRM:2025-03-05:BLU] and 2025-04-01 (30 min monthly call) [CRM:2025-04-01:BLU]. Monthly performance readings are on file for every month Nov 2024 through May 2025 [PERF:BLU:2024-11 to PERF:BLU:2025-05]."
+    },
+    {
+      "item_id": "BLU-05",
+      "status": "done",
+      "evidence": "A site visit to the BlueLine Indianapolis terminal 'per waiver conditions' is logged on 2024-11-12 [CRM:2024-11-12:BLU]. The December performance note states 'RM site visit completed 12/4. Waiver condition met.' [PERF:BLU:2024-12].",
+      "evidence_source_ids": [
+        "CRM:2024-11-12:BLU",
+        "PERF:BLU:2024-12"
+      ],
+      "observed": "Required 'by December' [CRM:2024-10-02:BLU]. CRM logs a 240-minute in-person visit on 2024-11-12 [CRM:2024-11-12:BLU]. The performance note gives a completion date of 12/4 [PERF:BLU:2024-12]. The two records show different dates, and both fall before the end of December."
+    },
+    {
+      "item_id": "BLU-06",
+      "status": "done",
+      "evidence": "The business plan was requested in December 2024 [PERF:BLU:2024-12], and the January 2025 performance note records 'Business plan received' [PERF:BLU:2025-01].",
+      "evidence_source_ids": [
+        "PERF:BLU:2024-12",
+        "PERF:BLU:2025-01"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-07",
+      "status": "done",
+      "evidence": "Patricia Hearn's formal Q1 2025 waiver request is logged as received on 2025-04-14 [CRM:2025-04-14:BLU], matching her email of the same date [EMAIL:T2.1].",
+      "evidence_source_ids": [
+        "CRM:2025-04-14:BLU",
+        "EMAIL:T2.1"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-08",
+      "status": "no_record",
+      "evidence": "The package was requested on 2025-04-15 [EMAIL:T2.2], and Patricia replied she would send everything by Wednesday morning [EMAIL:T2.3]; the formal due date was 4/30 [PERF:BLU:2025-03]. No receipt appears in later records [PERF:BLU:2025-04; CRM:2025-05-02:BLU; PERF:BLU:2025-05].",
+      "evidence_source_ids": [
+        "PERF:BLU:2025-03",
+        "EMAIL:T2.2",
+        "EMAIL:T2.3",
+        "PERF:BLU:2025-04",
+        "CRM:2025-05-02:BLU",
+        "PERF:BLU:2025-05"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-09",
+      "status": "no_record",
+      "evidence": "Requested on 2025-04-15 [EMAIL:T2.2], with delivery promised by Wednesday morning [EMAIL:T2.3]. No receipt of the cash flow projection is recorded through the as-of date.",
+      "evidence_source_ids": [
+        "EMAIL:T2.2",
+        "EMAIL:T2.3"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-10",
+      "status": "no_record",
+      "evidence": "Requested on 2025-04-15 [EMAIL:T2.2], with delivery promised by Wednesday morning [EMAIL:T2.3]. The reply described the contracts only as regional, shorter-haul routes [EMAIL:T2.3; CRM:2025-04-01:BLU], and no names, volumes, start dates or revenue estimates are recorded as received.",
+      "evidence_source_ids": [
+        "EMAIL:T2.2",
+        "EMAIL:T2.3",
+        "CRM:2025-04-01:BLU"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-11",
+      "status": "partly_done",
+      "evidence": "Patricia replied on 2025-04-15 that headcount is 'down about 14% from last September' [EMAIL:T2.3], and the RM relayed this to Marcus Chen [EMAIL:T2.4]. No current headcount figure or 90-day comparison is recorded as received.",
+      "evidence_source_ids": [
+        "EMAIL:T2.2",
+        "EMAIL:T2.3",
+        "EMAIL:T2.4"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-12",
+      "status": "no_record",
+      "evidence": "A Thursday afternoon call was offered [EMAIL:T2.2] and referenced as 'Call Thursday with CFO and VP Finance' on 2025-04-16 [EMAIL:T2.4]. No record shows the call took place.",
+      "evidence_source_ids": [
+        "EMAIL:T2.1",
+        "EMAIL:T2.2",
+        "EMAIL:T2.3",
+        "EMAIL:T2.4"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-13",
+      "status": "no_record",
+      "evidence": "Patricia said the CFO would join the Thursday call [EMAIL:T2.3], and the RM's 2025-04-16 email expects the CFO on the call [EMAIL:T2.4]. No record of the call or CFO attendance is logged.",
+      "evidence_source_ids": [
+        "EMAIL:T2.3",
+        "EMAIL:T2.4"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-14",
+      "status": "done",
+      "evidence": "The RM emailed Marcus Chen a summary of the second waiver request on 2025-04-16, before the Thursday call [EMAIL:T2.4]. An in-person briefing of Marcus Chen and Priya Voss followed on 2025-05-02 [CRM:2025-05-02:BLU].",
+      "evidence_source_ids": [
+        "CRM:2025-04-14:BLU",
+        "EMAIL:T2.4",
+        "CRM:2025-05-02:BLU"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-15",
+      "status": "no_record",
+      "evidence": "The credit committee meeting is scheduled for 6/3 [CRM:2025-05-02:BLU; PERF:BLU:2025-05], one day after the as-of date. No decision is recorded.",
+      "evidence_source_ids": [
+        "CRM:2025-05-02:BLU",
+        "PERF:BLU:2025-05"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "BLU-16",
+      "status": "no_record",
+      "evidence": "Conditional approval with a covenant reset and fee was recommended internally on 2025-05-02 [CRM:2025-05-02:BLU]. No committee decision or agreed terms are recorded as of 2025-06-02.",
+      "evidence_source_ids": [
+        "CRM:2025-05-02:BLU",
+        "PERF:BLU:2025-05"
+      ],
+      "observed": "The records give no figures for the proposed reset level or the fee [CRM:2025-05-02:BLU]. Readings after the proposal, for May 2025: DSCR TTM 0.95 against a current minimum of 1.20; leverage 4.4 against a current maximum of 4.5; revolver utilization 85% [PERF:BLU:2025-05]."
+    },
+    {
+      "item_id": "BLU-17",
+      "status": "no_record",
+      "evidence": "The next covenant package is due 2025-06-30 [PROFILE:BLU], after the as-of date. No receipt is recorded.",
+      "evidence_source_ids": [
+        "PROFILE:BLU"
+      ],
+      "observed": null
+    }
+  ]
+}

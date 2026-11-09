@@ -1,0 +1,129 @@
+Northfield Bank — Commercial Banking Email Threads
+Sample Communication Data | Jan 2024 – May 2025
+Thread 1 — Meridian Fabrication LLC
+Subject: Q4 2024 Covenant Package + Year-End Discussion
+From: David Kwan dkwan@meridianfab.com To: Sarah Okonkwo sokonkwo@northfieldbank.com Date: January 18, 2025 | 9:14 AM Subject: Q4 2024 Covenant Package — Submission + Call Request Sarah, Attached please find our Q4 2024 covenant compliance package. I apologize for the delay — we had some year-end close complications that pushed our timeline. I'd like to find time to talk through the numbers with you before you take them to credit. As you'll see, we're still working through some headwinds in the automotive segment. The aerospace contract we discussed last summer did come through but the first delivery milestone got pushed to Q2 2025, so we didn't get the revenue benefit in Q4 we were expecting. We're tracking about 11 weeks behind on that contract now. Our internal projection has us back above the DSCR floor by Q3 2025 once the aerospace revenue starts flowing. I can share updated projections on a call if that would help. Let me know what works for you. David Kwan CFO, Meridian Fabrication LLC (614) 555-0182
+From: Sarah Okonkwo sokonkwo@northfieldbank.com To: David Kwan dkwan@meridianfab.com Date: January 21, 2025 | 2:31 PM Subject: RE: Q4 2024 Covenant Package — Submission + Call Request David, Thanks for sending this over. I've logged the package and started the review. I'll flag to our credit team that you've provided context on the aerospace contract timing. Yes, let's plan a call — I'd like to hear the updated projections. Are you available Thursday or Friday this week, late morning?
+
+One thing I'll need from you ahead of that call: the signed management representation letter and the updated accounts receivable aging. I don't see those in the package. Can you get those to me by Wednesday?
+Thanks, Sarah
+Sarah Okonkwo | Relationship Manager, Commercial Banking Northfield Bank | (312) 555-0291
+From: David Kwan dkwan@meridianfab.com To: Sarah Okonkwo sokonkwo@northfieldbank.com Date: January 22, 2025 | 8:55 AM Subject: RE: Q4 2024 Covenant Package — Submission + Call Request
+Sarah — Thursday at 11 works. I'll have the rep letter and AR aging to you by end of day Wednesday.
+One heads up: the AR aging is going to show a few larger balances in the 60-90 day bucket. Two of our automotive customers went on extended payment terms at year-end — it's a pattern we see every December but it's more pronounced this year. Nothing we'd call collection risk at this point.
+Talk Thursday.
+David
+From: Sarah Okonkwo sokonkwo@northfieldbank.com To: Marcus Chen mchen@northfieldbank.com; Priya Voss pvoss@northfieldbank.com Date: January 22, 2025 | 4:45 PM Subject: FWD: Meridian Fabrication — Heads Up Before Credit Review
+Marcus, Priya —
+Flagging Meridian ahead of the formal credit review. Quick summary of where we are:
+• Q4 package received today, 18 days late • DSCR is 1.10 for Q4 against a 1.20 floor — second consecutive quarter in breach • Leverage is 4.1x against a 4.0x max • Client is flagging aerospace revenue timing as the primary driver of shortfall • AR aging has some concentration in 60-90 day buckets — client says seasonal, we should
+verify • Call with CFO Thursday 11am to review projections
+We issued a waiver in November. If projections don't support a Q3 recovery path I think we need to start the modification conversation. I'll brief you after Thursday's call.
+Sarah
+
+From: Marcus Chen mchen@northfieldbank.com To: Sarah Okonkwo sokonkwo@northfieldbank.com Date: January 23, 2025 | 9:02 AM Subject: RE: FWD: Meridian Fabrication — Heads Up Before Credit Review Sarah — thanks for the advance notice. Two things for the call: (1) ask David directly whether the aerospace contract has a firm PO or if it's still conditional. We've seen "expected Q2 revenue" stories before. (2) Get the customer name on those 60-90 day AR items — if it's one of the Tier 1 suppliers we've seen struggling, that changes the risk picture. Let me know how Thursday goes. If the recovery path isn't convincing I want to move to a watchlist classification before the end of Q1. Marcus Chen | Senior Credit Officer Northfield Bank
+From: Sarah Okonkwo sokonkwo@northfieldbank.com To: David Kwan dkwan@meridianfab.com Date: April 28, 2025 | 3:18 PM Subject: Q1 2025 Covenant Package — Overdue Notice David, I'm following up on the Q1 2025 covenant package, which was due April 30 per your loan agreement. As of today I haven't received it or any communication about a timing issue. Can you confirm when we can expect the package? Per the terms of the November waiver, late submission triggers a reporting default. I want to give you the opportunity to cure before that clock starts. Please respond by end of day Thursday. Sarah
+[No response received as of May 12, 2025 — 14 days after deadline. Last CRM contact log: March 14, 2025.]
+---
+Thread 2 — BlueLine Logistics LLC
+Subject: Waiver Request — Q1 2025 Covenant Compliance
+From: Patricia Hearn phearnn@bluelinelogistics.com To: Sarah Okonkwo sokonkwo@northfieldbank.com Date: April 14, 2025 | 10:22 AM Subject: Covenant Waiver Request — Q1 2025 Sarah,
+
+I'll get straight to it: we're going to miss the DSCR covenant again in Q1. I wanted to reach out before the package was even due rather than send it over and hope you didn't notice.
+Our DSCR is tracking at approximately 0.96x for Q1 against the 1.20x minimum. Freight rates in our lanes have been flat to down since January. We picked up two new regional contracts in March that should start improving our revenue picture in Q2, but the Q1 number is what it is.
+I know this is the second time we're coming to you for a waiver. I want to be transparent about what's changed and what hasn't, so I'd like to get on a call this week and walk you through our updated business plan. We have concrete steps we're taking — driver retention improvements, lane consolidation, fuel hedging — that we think will move us to 1.10x by Q3 and above the floor by Q4.
+I understand if Northfield needs additional conditions this time. I'd rather have that conversation now than wait.
+Patty
+Patricia Hearn | VP Finance BlueLine Logistics LLC | (317) 555-0447
+From: Sarah Okonkwo sokonkwo@northfieldbank.com To: Patricia Hearn phearnn@bluelinelogistics.com Date: April 15, 2025 | 8:40 AM Subject: RE: Covenant Waiver Request — Q1 2025
+Patty,
+I appreciate you getting ahead of this — that's the right approach and it matters.
+I need to be honest with you: this is going to be a harder conversation with our credit committee than it was in November. Two consecutive waiver requests in under 6 months with DSCR still below 1.0x is a pattern our senior credit officer is going to want to understand before approving anything.
+Here's what I need from you to make the strongest possible case:
+1. Full Q1 2025 covenant package (even before the April 30 deadline) 2. Updated 12-month cash flow projection with assumptions stated explicitly 3. Documentation on the two new contracts — names, volumes, start dates, revenue
+estimates 4. Your current driver headcount vs. 90 days ago — attrition has been a concern I've flagged
+internally
+I can get you on calendar Thursday afternoon. Before that call, I'll need to brief our CCO. I'll be direct with you: the committee is going to ask whether BlueLine can service this debt under current market conditions. Your answer to that question needs to be compelling.
+Sarah
+
+From: Patricia Hearn phearnn@bluelinelogistics.com To: Sarah Okonkwo sokonkwo@northfieldbank.com Date: April 15, 2025 | 1:55 PM Subject: RE: Covenant Waiver Request — Q1 2025
+Sarah,
+Understood. I'll have everything to you by Wednesday morning.
+On the driver headcount question — yes, we're down about 14% from last September. That's a real issue. Part of the Q1 problem is we had loads we couldn't cover. The two new contracts are regional, shorter-haul routes that we can run with our current driver base, which is part of why we think the Q2/Q3 improvement is realistic rather than aspirational.
+I'll also have our CFO on the call Thursday. He can speak to the balance sheet in more detail.
+Patty
+From: Sarah Okonkwo sokonkwo@northfieldbank.com To: Marcus Chen mchen@northfieldbank.com Date: April 16, 2025 | 9:05 AM Subject: BlueLine Logistics — Second Waiver Request, Q1 2025
+Marcus,
+BlueLine is requesting a second covenant waiver. Summary:
+• DSCR tracking ~0.96x Q1 2025 (minimum 1.20x) — below 1.0x for 7 of last 9 months • Revolver at 85% utilization; was 42% in January 2024 • Driver headcount down 14% since September — a new disclosure; not previously reported • Client projecting recovery to 1.10x by Q3, above floor by Q4 based on 2 new contracts • Call Thursday with CFO and VP Finance
+My read: the fundamental business pressure hasn't resolved. Rate environment isn't improving meaningfully. The new contracts are real but short-haul regional doesn't move the needle on DSCR like long-haul volume would. I'm concerned the Q4 recovery projection is optimistic.
+I'd recommend we discuss whether to condition any second waiver on a covenant reset with a fee, or whether this credit needs to move to Special Assets. Happy to talk before Thursday.
+Sarah
+---
+Thread 3 — Crestwood Capital Advisors
+Subject: Loan Renewal Inquiry
+
+From: James Whitmore jwhitmore@crestwoodadvisors.com To: Tom DeLuca tdeluca@northfieldbank.com Date: February 12, 2025 | 11:30 AM Subject: Our Loan — Renewal Discussion
+Tom,
+Hope things are well. I wanted to reach out because our loan matures in August 2026 and I've started having some preliminary conversations with other lenders about what the market looks like for a renewal.
+I received a term sheet from First Midwest last week — 5-year fixed at 4.90%, same structure, no prepayment penalty in years 4 and 5. Our current rate with Northfield is 5.25% fixed. I'm not shopping aggressively, but I wanted to give you the chance to have a conversation before I go further down that road with anyone else.
+We've had a good relationship with Northfield since 2021 and I'd prefer to stay, but not at a 35basis-point disadvantage if I don't have to.
+Let me know if you'd like to get together.
+James Whitmore CEO, Crestwood Capital Advisors
+From: Tom DeLuca tdeluca@northfieldbank.com To: James Whitmore jwhitmore@crestwoodadvisors.com Date: February 26, 2025 | 3:14 PM Subject: RE: Our Loan — Renewal Discussion
+James,
+Thanks for reaching out — and I appreciate the heads up on the competing offer.
+Let me pull together some numbers on our end and get back to you with a proposal. We value the relationship and I want to make sure we're competitive.
+Can we find time in mid-March to connect?
+Tom
+Tom DeLuca | Relationship Manager, Commercial Banking Northfield Bank | (312) 555-0318
+From: James Whitmore jwhitmore@crestwoodadvisors.com To: Tom DeLuca tdeluca@northfieldbank.com Date: April 3, 2025 | 9:48 AM Subject: RE: Our Loan — Renewal Discussion
+Tom,
+Following up — I haven't heard back since your note in February. We had scheduled a call for March 18th but I didn't hear from you that morning and assumed something came up.
+
+I need to make a decision on this in the next 30-45 days. The First Midwest offer is still on the table and they've been more responsive. I'd hate to move the relationship based on communication speed alone, but I do need to act. James
+From: Tom DeLuca tdeluca@northfieldbank.com To: James Whitmore jwhitmore@crestwoodadvisors.com Date: April 7, 2025 | 4:50 PM Subject: RE: Our Loan — Renewal Discussion James, I sincerely apologize — I dropped the ball on the March 18 call and didn't follow up. That's not acceptable and I own it. I have a renewal proposal ready. Can we meet this week or next? I'd like to present it in person rather than by email. Tom
+From: James Whitmore jwhitmore@crestwoodadvisors.com To: Tom DeLuca tdeluca@northfieldbank.com Date: April 8, 2025 | 8:15 AM Subject: RE: Our Loan — Renewal Discussion Tom — next Tuesday at 2pm works. Send me a calendar invite. I'll be candid: you'll need to be at or below 4.90% to have a real conversation. The relationship has value but I'm not paying for it. James
+[Internal CRM note logged by Tom DeLuca, April 9, 2025: "Renewal meeting scheduled 4/15. Flagging to manager — client has competing offer at 4.90%. Need pricing approval before Tuesday. Client is serious about leaving if we're not competitive. AUM now $2.35B — this is a relationship worth keeping."]
+---
+Thread 4 — Arcadia Property Group
+Subject: Draw Request #13 — Missing Documentation / Construction Timeline
+From: Robert Liang rliang@arcadiapropgroup.com To: Tom DeLuca tdeluca@northfieldbank.com Date: April 22, 2025 | 2:06 PM Subject: Draw Request #13 — Submission
+
+Tom,
+Attached is Draw Request #13 for the Wicker Park project. We're requesting $875,000 to cover the remaining MEP work and the exterior finish package. Our GC has certified 91% project completion.
+As you know we've run a bit behind schedule. Current estimated completion is end of July — we're about 90 days behind the original Q3 2025 target. The good news is the interest reserve is solid and the budget hasn't changed materially.
+On the pre-leasing side, we're at 71% and have three LOIs in active negotiation. I expect we'll be at or above the 75% threshold for perm conversion within 60 days.
+Let me know what else you need.
+Rob
+Robert Liang | Principal Arcadia Property Group | (312) 555-0604
+From: Tom DeLuca tdeluca@northfieldbank.com To: Robert Liang rliang@arcadiapropgroup.com Date: April 23, 2025 | 10:18 AM Subject: RE: Draw Request #13 — Missing Items
+Rob,
+Thanks for submitting. I've started the review and I'm missing a few items before I can push this to funding:
+1. Third-party inspector's report for Q1 2025 — I have Q4 2024 but not Q1 2. GC's updated schedule showing revised completion date 3. Executed lien waivers from MEP subcontractor (conditional is fine for draw funding) 4. Updated pre-lease summary — I need executed leases or LOIs with tenant names, square
+footage, and proposed rent per square foot
+On the pre-leasing: our perm conversion requires 75% of retail square footage under executed lease or letter of intent, not just verbal commitments. I want to make sure we're tracking to the right definition.
+I can get this done within 3 business days of receiving complete docs.
+Tom
+From: Robert Liang rliang@arcadiapropgroup.com To: Tom DeLuca tdeluca@northfieldbank.com Date: April 24, 2025 | 3:44 PM Subject: RE: Draw Request #13 — Missing Items
+Tom — I'll have items 1, 2, and 3 to you by Friday.
+On the pre-lease summary: two of the three LOIs are confidential pending board approval from the tenants, so I can't share tenant names yet. Is there a way to structure the disclosure so we
+
+can proceed? Both are regional restaurant concepts, total about 4,200 sq ft, proposed rent in the $38-42/sq ft range. The third LOI is a fitness studio — they've been slower to commit.
+We're genuinely close on 75% but I don't want a documentation technicality to hold up the draw if the substance is there.
+Rob
+From: Tom DeLuca tdeluca@northfieldbank.com To: Marcus Chen mchen@northfieldbank.com Date: April 25, 2025 | 9:30 AM Subject: Arcadia Property Group — Draw #13 + Pre-Lease Issue
+Marcus,
+Quick flag on Arcadia. Draw request #13 is in — $875K, straightforward on the construction side. Two issues:
+1. Pre-leasing is at 71% against our 75% perm conversion threshold. They say they have LOIs that will push them over but two tenants won't allow name disclosure. They're asking if we can fund the draw with a verbal understanding that they'll hit 75% within 60 days.
+2. Completion is now end of July — 90 days behind original schedule. Interest reserve is fine ($1.4M, covers ~9 months) so no immediate exposure, but the schedule slip is worth noting.
+On the pre-lease issue: I'm not comfortable accepting LOIs we can't independently verify. But I also don't want to hold up a $875K draw over a technicality when we're 4% short of a conversion threshold.
+What's your guidance?
+Tom
+From: Marcus Chen mchen@northfieldbank.com To: Tom DeLuca tdeluca@northfieldbank.com Date: April 25, 2025 | 11:45 AM Subject: RE: Arcadia Property Group — Draw #13 + Pre-Lease Issue
+Tom — fund the draw. The construction docs are in order and the interest reserve is fine.
+On the pre-lease: don't waive the 75% threshold for perm conversion. The LOIs need to be executed and we need tenant names for our file — confidentiality concerns are the tenant's problem, not ours. Tell Liang that when the leases are signed we'll move quickly on perm conversion, but we can't convert on verbal LOIs.
+Also: get a call on the calendar with Liang this week. I want to understand what's behind the slower-than-expected leasing velocity. The original pro forma had retail at 85% occupancy at stabilization. 75% perm conversion threshold is already a floor — if the long-term picture is 71-73%, that's a different underwriting story than what we approved.
+Marcus
+
+

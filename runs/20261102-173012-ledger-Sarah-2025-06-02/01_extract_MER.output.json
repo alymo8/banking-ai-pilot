@@ -1,0 +1,279 @@
+{
+  "items": [
+    {
+      "item_id": "MER-01",
+      "description": "Q1 2024 covenant compliance package",
+      "owed_by": "David Kwan (CFO, Meridian Fabrication)",
+      "owed_to": "Sarah Okonkwo (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2024-01-08",
+      "first_asked_source": "CRM:2024-01-08:MER",
+      "repeat_asks": [],
+      "due_date": "2024-04-30",
+      "due_basis": "\"request Q1 package by end of April\""
+    },
+    {
+      "item_id": "MER-02",
+      "description": "File the Q1 2024 covenant package and update the covenant tracking sheet",
+      "owed_by": "Sarah Okonkwo (RM)",
+      "owed_to": "Northfield Bank (internal covenant tracking)",
+      "party": "rm",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2024-03-05",
+      "first_asked_source": "CRM:2024-03-05:MER",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "MER-03",
+      "description": "Updated financial projections; the latest ask specifies updated 12-month cash flow projections with assumptions stated",
+      "owed_by": "David Kwan (CFO, Meridian Fabrication)",
+      "owed_to": "Sarah Okonkwo (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2024-04-10",
+      "first_asked_source": "CRM:2024-04-10:MER",
+      "repeat_asks": [
+        "CRM:2024-05-14:MER",
+        "CRM:2024-09-05:MER",
+        "EMAIL:T1.2",
+        "MEMO:MER.13"
+      ],
+      "due_date": "2025-02-14",
+      "due_basis": "MEMO:MER.13: \"set a February 14th deadline for David to deliver ... (2) updated 12-month cash flow projections with assumptions stated\" (the original April 2024 ask: \"said he would by end of month\")"
+    },
+    {
+      "item_id": "MER-04",
+      "description": "Waiver condition: Q4 2024 covenant package delivered by January 31, 2025",
+      "owed_by": "David Kwan (CFO, Meridian Fabrication)",
+      "owed_to": "Sarah Okonkwo (RM) / Northfield Bank",
+      "party": "borrower",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2024-11-08",
+      "first_asked_source": "CRM:2024-11-08:MER",
+      "repeat_asks": [
+        "MEMO:MER.4",
+        "MEMO:MER.7"
+      ],
+      "due_date": "2025-01-31",
+      "due_basis": "\"Conditions: Q4 package by Jan 31\""
+    },
+    {
+      "item_id": "MER-05",
+      "description": "Waiver condition: updated projections showing a recovery path to covenant compliance by Q3 2025",
+      "owed_by": "David Kwan (CFO, Meridian Fabrication)",
+      "owed_to": "Sarah Okonkwo (RM) / Northfield Bank",
+      "party": "borrower",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2024-11-08",
+      "first_asked_source": "CRM:2024-11-08:MER",
+      "repeat_asks": [
+        "MEMO:MER.7"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "MER-06",
+      "description": "Call to walk through the Q4 2024 numbers and updated projections before the package goes to credit",
+      "owed_by": "Sarah Okonkwo (RM)",
+      "owed_to": "David Kwan (CFO, Meridian Fabrication)",
+      "party": "rm",
+      "kind": "meeting_or_call",
+      "first_asked_date": "2025-01-18",
+      "first_asked_source": "EMAIL:T1.1",
+      "repeat_asks": [
+        "EMAIL:T1.2",
+        "EMAIL:T1.3"
+      ],
+      "due_date": "2025-01-23",
+      "due_basis": "\"Thursday at 11 works\" (email dated Wednesday, January 22, 2025)"
+    },
+    {
+      "item_id": "MER-07",
+      "description": "Flag to the credit team the context David provided on aerospace contract timing",
+      "owed_by": "Sarah Okonkwo (RM)",
+      "owed_to": "David Kwan (CFO, Meridian Fabrication)",
+      "party": "rm",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-01-21",
+      "first_asked_source": "EMAIL:T1.2",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "MER-08",
+      "description": "Signed management representation letter for the Q4 2024 package",
+      "owed_by": "David Kwan (CFO, Meridian Fabrication)",
+      "owed_to": "Sarah Okonkwo (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-01-21",
+      "first_asked_source": "EMAIL:T1.2",
+      "repeat_asks": [
+        "EMAIL:T1.3"
+      ],
+      "due_date": "2025-01-22",
+      "due_basis": "\"Can you get those to me by Wednesday?\" (email dated Tuesday, January 21, 2025); David: \"by end of day Wednesday\""
+    },
+    {
+      "item_id": "MER-09",
+      "description": "Updated accounts receivable aging report",
+      "owed_by": "David Kwan (CFO, Meridian Fabrication)",
+      "owed_to": "Sarah Okonkwo (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-01-21",
+      "first_asked_source": "EMAIL:T1.2",
+      "repeat_asks": [
+        "EMAIL:T1.3"
+      ],
+      "due_date": "2025-01-22",
+      "due_basis": "\"Can you get those to me by Wednesday?\" (email dated Tuesday, January 21, 2025); David: \"by end of day Wednesday\""
+    },
+    {
+      "item_id": "MER-10",
+      "description": "Brief Marcus Chen and Priya Voss on the outcome of Thursday's call with the CFO",
+      "owed_by": "Sarah Okonkwo (RM)",
+      "owed_to": "Marcus Chen (Senior Credit Officer) and Priya Voss",
+      "party": "bank_internal",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-01-22",
+      "first_asked_source": "EMAIL:T1.4",
+      "repeat_asks": [
+        "EMAIL:T1.5"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "MER-11",
+      "description": "Ask David directly on the call whether the aerospace contract has a firm purchase order or is still conditional",
+      "owed_by": "Sarah Okonkwo (RM)",
+      "owed_to": "Marcus Chen (Senior Credit Officer)",
+      "party": "bank_internal",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-01-23",
+      "first_asked_source": "EMAIL:T1.5",
+      "repeat_asks": [],
+      "due_date": "2025-01-23",
+      "due_basis": "\"Two things for the call\" (the call was set for Thursday, January 23, 2025 at 11)"
+    },
+    {
+      "item_id": "MER-12",
+      "description": "Get the customer names on the 60-90 day AR items from David on the call",
+      "owed_by": "Sarah Okonkwo (RM)",
+      "owed_to": "Marcus Chen (Senior Credit Officer)",
+      "party": "bank_internal",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-01-23",
+      "first_asked_source": "EMAIL:T1.5",
+      "repeat_asks": [],
+      "due_date": "2025-01-23",
+      "due_basis": "\"Two things for the call\" (the call was set for Thursday, January 23, 2025 at 11)"
+    },
+    {
+      "item_id": "MER-13",
+      "description": "Aerospace contract purchase order documentation",
+      "owed_by": "David Kwan (CFO, Meridian Fabrication)",
+      "owed_to": "Sarah Okonkwo (RM) and Marcus Chen (Senior Credit Officer)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-01-23",
+      "first_asked_source": "CRM:2025-01-23:MER",
+      "repeat_asks": [
+        "MEMO:MER.8",
+        "MEMO:MER.9",
+        "MEMO:MER.13"
+      ],
+      "due_date": "2025-02-14",
+      "due_basis": "MEMO:MER.13: \"set a February 14th deadline for David to deliver (1) the aerospace PO\""
+    },
+    {
+      "item_id": "MER-14",
+      "description": "Customer names on the 60-90 day accounts receivable items",
+      "owed_by": "David Kwan (CFO, Meridian Fabrication)",
+      "owed_to": "Sarah Okonkwo (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-01-31",
+      "first_asked_source": "MEMO:MER.10",
+      "repeat_asks": [
+        "MEMO:MER.13"
+      ],
+      "due_date": "2025-02-14",
+      "due_basis": "MEMO:MER.13: \"set a February 14th deadline for David to deliver ... (3) the names on the 60-90 day AR items\""
+    },
+    {
+      "item_id": "MER-15",
+      "description": "Credit committee decision on the RM recommendation to hold the existing waiver in place and set a February 14, 2025 deadline for the aerospace PO, 12-month projections and AR customer names",
+      "owed_by": "Credit committee",
+      "owed_to": "Sarah Okonkwo (RM)",
+      "party": "bank_internal",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2025-01-31",
+      "first_asked_source": "MEMO:MER.13",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "MER-16",
+      "description": "Return to the credit committee with a waiver extension recommendation if the requested documents arrive and support the recovery narrative",
+      "owed_by": "Sarah Okonkwo (RM)",
+      "owed_to": "Credit committee",
+      "party": "rm",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-01-31",
+      "first_asked_source": "MEMO:MER.13",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "MER-17",
+      "description": "Proposed restriction on additional revolver draws above 75% utilization pending the review",
+      "owed_by": "Meridian Fabrication (David Kwan, CFO)",
+      "owed_to": "Northfield Bank (Sarah Okonkwo, RM)",
+      "party": "borrower",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2025-01-31",
+      "first_asked_source": "MEMO:MER.14",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "MER-18",
+      "description": "Q1 2025 covenant compliance package",
+      "owed_by": "David Kwan (CFO, Meridian Fabrication)",
+      "owed_to": "Sarah Okonkwo (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-03-14",
+      "first_asked_source": "CRM:2025-03-14:MER",
+      "repeat_asks": [
+        "CRM:2025-04-28:MER",
+        "EMAIL:T1.6"
+      ],
+      "due_date": "2025-04-30",
+      "due_basis": "\"which was due April 30 per your loan agreement\""
+    },
+    {
+      "item_id": "MER-19",
+      "description": "Reply to the overdue notice confirming when the Q1 2025 covenant package will be delivered",
+      "owed_by": "David Kwan (CFO, Meridian Fabrication)",
+      "owed_to": "Sarah Okonkwo (RM)",
+      "party": "borrower",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-04-28",
+      "first_asked_source": "EMAIL:T1.6",
+      "repeat_asks": [],
+      "due_date": "2025-05-01",
+      "due_basis": "\"Please respond by end of day Thursday\" (email dated Monday, April 28, 2025)"
+    }
+  ]
+}

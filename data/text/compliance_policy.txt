@@ -1,0 +1,63 @@
+Northfield Bank — Artificial Intelligence Use Policy
+Commercial Banking Division | Effective: February 1, 2025 | Version 1.2
+Issued by: Office of the Chief Compliance Officer In coordination with: Information Security, Legal, Commercial Banking Leadership
+Purpose
+This policy establishes requirements for the use of artificial intelligence tools — including large language models, generative AI applications, and AI-assisted workflows — by Commercial Banking staff. It applies to all relationship managers, credit analysts, portfolio managers, and support staff in the division.
+This policy does not prohibit AI use. It defines the boundaries within which AI use is permitted and the approval process for new use cases.
+Section 1 — Approved Tools
+Approved for production use: - Claude for Work (enterprise license, procured Q1 2025) — approved for all use cases described in Section 3 - Microsoft Copilot for M365 — approved for use within the Microsoft 365 environment (Outlook, Word, Excel) subject to the constraints in Section 2
+Not approved for use with bank data: - Any personal-account AI service (ChatGPT, Claude.ai personal, Gemini, etc.) — regardless of subscription tier - Any AI tool that processes data outside of bank-approved infrastructure - Browser extensions that send page content to external AI services
+Pending evaluation (not yet approved): - AI-native document review tools - Automated covenant monitoring systems - Any tool that integrates directly with core banking systems (Fiserv, nCino)
+
+Section 2 — Data Handling Requirements
+2.1 Prohibited data inputs
+The following data categories may NOT be entered into any AI tool, including approved tools, without explicit written approval from the Chief Compliance Officer:
+• Social Security numbers, EIN, or other government identifiers of borrowers or guarantors • Non-public personal financial information of individual guarantors (personal tax returns,
+personal bank statements, personal net worth statements) • Proprietary borrower financial data that has been disclosed under a confidentiality
+agreement • Internal credit ratings, watchlist classifications, or Special Assets designations • Information subject to attorney-client privilege
+2.2 Data that may be used in approved tools
+The following data categories are approved for use in Claude for Work and Copilot for M365:
+• Business financial data from covenant packages (revenue, EBITDA, DSCR, leverage) — borrower name may be included
+• Email correspondence between RMs and commercial borrowers • Draw request documentation • Publicly available information about borrowers (news, website, industry data) • Internal call notes and relationship logs (non-privileged) • Standard loan and covenant terms
+2.3 Data residency
+Claude for Work is configured under an enterprise agreement with data processing within U.S. borders and no training on bank data. Staff should not assume any other AI tool meets this requirement.
+Section 3 — Permitted Use Cases
+The following use cases are approved without additional review:
+3.1 Document drafting assistance - Drafting client correspondence (emails, letters, formal notices) - Drafting internal memos and relationship review narratives - Summarizing documents for internal use - Reformatting data for presentations or reports
+3.2 Research and synthesis - Summarizing publicly available information about borrowers, industries, or markets - Synthesizing multiple internal documents into a summary view Identifying patterns in data the RM has manually assembled
+
+3.3 Preparation support - Generating call preparation briefs from RM notes and prior communications - Drafting meeting agendas or follow-up action items - Creating structured summaries of client interactions
+Section 4 — Restricted Use Cases (Require Approval)
+The following use cases require written approval from the CCO before deployment, even using approved tools:
+4.1 Automated monitoring and alerting
+Any system that automatically monitors borrower data and generates alerts, flags, or recommendations for RM action must be reviewed and approved. This includes: - Automated covenant breach detection - Contact frequency monitoring - Financial trend analysis with automated output
+Rationale: Automated monitoring systems that generate credit-relevant signals may constitute credit analysis under Regulation B. They also create documentation obligations and may affect credit decision records.
+4.2 Credit-adjacent outputs
+AI tools may NOT be used to: - Generate credit recommendations (approve, decline, downgrade, upgrade) - Produce content that characterizes a borrower's creditworthiness - Recommend covenant modifications, waivers, or credit structure changes - Generate content that could be interpreted as a credit decision or material influence on one
+This restriction applies to the format of the output, not just its content. An AI-generated memo that says "Based on the financial data, this borrower presents elevated risk" — even if framed as information — may constitute a credit recommendation. When in doubt, the RM must author the credit assessment language themselves.
+AI tools may be used to: Organize and present financial data, draft narrative around RMauthored assessments, flag missing information, summarize communications — as long as the credit judgment language originates with the RM.
+4.3 Borrower-facing AI-generated content
+Any content generated by AI that will be delivered to borrowers must be reviewed by the RM before sending. AI-generated content may not be sent to borrowers without human review. The RM is responsible for the accuracy and appropriateness of all communications.
+
+Section 5 — Prohibited Use Cases
+The following uses are prohibited regardless of tool or approval status:
+• Using AI to make final credit decisions or substitute for credit analyst judgment • Using AI to generate content for regulatory filings or examination materials • Using AI to analyze or draft communications related to a borrower in Special Assets or
+active litigation • Using personal-account AI services with any bank or client data (see Section 1) • Using AI to circumvent or reduce required human review steps in the credit approval
+process • Representing AI-generated content as independently authored to internal or external
+parties
+Section 6 — Existing Unauthorized Usage
+The bank conducted an AI tool usage audit in March-April 2025. Staff who have been using personal-account AI services (including personal ChatGPT accounts) with bank or client data are required to:
+1. Disclose their usage to their manager and to the compliance team by May 30, 2025 2. Immediately discontinue use of personal-account AI services with bank data 3. Migrate approved workflows to Claude for Work
+Staff who self-disclose by the deadline will not face disciplinary action for prior usage. Continued use of personal-account AI services with bank data after May 30, 2025 will be treated as a policy violation.
+Section 7 — The Claude Adoption Program
+Commercial Banking has been selected as a pilot division for the bank's Claude for Work rollout. An external consultant (Forward Deployed Engineer) will work with the division for 90 days to:
+1. Understand current RM workflows and identify high-value Claude use cases 2. Build and validate Claude-native workflows for common RM tasks 3. Train the RM team and measure adoption 4. Develop a recommendation for bank-wide rollout
+CCO requirements for the adoption program: - All use cases built during the pilot must comply with this policy - Any automated monitoring or alerting capability (Section 4.1) must receive CCO approval before going live — design can proceed in parallel - The FDE must document all prompts and workflows built so they can be reviewed by compliance - A compliance review gate is required before any Claude workflow is deployed to the full RM team
+CCO's stated priority: The CCO has explicitly asked for an early warning capability that surfaces contact frequency gaps and financial deterioration signals. The FDE should understand that this
+
+use case falls under Section 4.1 and requires approval before deployment. The CCO has indicated willingness to fast-track the approval if the use case is well-designed.
+Section 8 — Questions and Escalation
+Questions about this policy should be directed to: - Rachel Torres, Chief Compliance Officer: ratorres@northfieldbank.com - IT Security Helpdesk for tool-specific questions This policy will be reviewed and updated as the bank's AI governance framework matures. Version 2.0 is expected Q3 2025.
+Northfield Bank — Confidential Internal Policy Document Commercial Banking Division | Version 1.2 | February 2025
+
+

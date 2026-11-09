@@ -1,0 +1,26 @@
+{
+  "kept": 59,
+  "held_back": [
+    {
+      "statement": "Calendar 2024 revenue, summed from the twelve monthly PERF records (Jan-Dec 2024), totals $82,300k.",
+      "source_ids": [
+        "PERF:MER:2024-01",
+        "PERF:MER:2024-02",
+        "PERF:MER:2024-03",
+        "PERF:MER:2024-04",
+        "PERF:MER:2024-05",
+        "PERF:MER:2024-06",
+        "PERF:MER:2024-07",
+        "PERF:MER:2024-08",
+        "PERF:MER:2024-09",
+        "PERF:MER:2024-10",
+        "PERF:MER:2024-11",
+        "PERF:MER:2024-12"
+      ],
+      "unknown_ids": [],
+      "figures_not_in_sources": [
+        "82300"
+      ]
+    }
+  ]
+}

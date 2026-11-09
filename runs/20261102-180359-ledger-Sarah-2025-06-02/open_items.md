@@ -1,0 +1,126 @@
+# Open items: Sarah Okonkwo's book, as of 2025-06-02
+
+> AI-assisted, built on demand from your email, CRM and memos. Every line cites its source.
+> "No record" means nothing in the systems shows it was done. It does not mean it didn't happen.
+> Only you see this. It isn't scheduled, scored or shared.
+
+## Meridian Fabrication LLC
+
+### Waiting on the borrower
+
+| Item | Owed by → to | First asked | Asked | Due | Status | What the record shows |
+|---|---|---|---|---|---|---|
+| Signed management representation letter for the Q4 2024 covenant package | Borrower – David Kwan (CFO) → RM – Sarah Okonkwo | 2025-01-21 [EMAIL:T1.2] | 2× | 2025-01-22 (**131d past**) | no record | The CFO said he would send the rep letter by end of day Wednesday [EMAIL:T1.3]. No later record shows the signed management representation letter as received. |
+| Updated accounts receivable aging for the Q4 2024 covenant package | Borrower – David Kwan (CFO) → RM – Sarah Okonkwo | 2025-01-21 [EMAIL:T1.2] | 2× | 2025-01-22 (**131d past**) | no record | The CFO said he would send the AR aging by end of day Wednesday [EMAIL:T1.3]. The 2025-01-31 memo says the Q4 package shows elevated 60-90 day balances [MEMO:MER.10], but no record logs receipt of the updated AR aging. |
+| Updated 12-month cash flow projections with assumptions stated, supporting the Q3 2025 recovery path | Borrower – David Kwan (CFO) → RM – Sarah Okonkwo | 2025-01-18 [EMAIL:T1.1] | 3× | 2025-02-14 (**108d past**) | no record | The RM memo proposed a February 14 deadline for 12-month cash flow projections [MEMO:MER.13]. No record through 2025-06-02 shows receipt. |
+| Aerospace contract purchase order documentation | Borrower – David Kwan (CFO) → RM – Sarah Okonkwo / Marcus Chen (Senior Credit Officer) | 2025-01-23 [CRM:2025-01-23:MER] | 4× | 2025-02-14 (**108d past**) | no record | The CFO said on 2025-01-23 he would send the PO, and it was not received as of that log [CRM:2025-01-23:MER]. It was still not received as of 2025-01-31 [MEMO:MER.8], and no later record shows receipt. |
+| Customer names on the 60-90 day accounts receivable items | Borrower – David Kwan (CFO) → RM – Sarah Okonkwo | 2025-01-31 [MEMO:MER.10] | 2× | 2025-02-14 (**108d past**) | no record | Customer names were listed as outstanding on 2025-01-31 [MEMO:MER.10] and included in the proposed February 14 deadline [MEMO:MER.13]. No later record shows receipt. |
+| Q1 2025 covenant compliance package | Borrower – David Kwan (CFO) → RM – Sarah Okonkwo | 2025-03-14 [CRM:2025-03-14:MER] | 3× | 2025-04-30 (**33d past**) | no record | A formal overdue notice was sent on 2025-04-28 with no response [CRM:2025-04-28:MER][EMAIL:T1.6]. May 2025 performance notes record the Q1 package as overdue as of 5/1 [PERF:MER:2025-05]. |
+| Confirmation of when the Q1 2025 covenant package will be delivered (response to overdue notice) | Borrower – David Kwan (CFO) → RM – Sarah Okonkwo | 2025-04-28 [EMAIL:T1.6] | 1× | 2025-05-01 (**32d past**) | no record | The record note of 2025-05-12 states no response had been received 14 days after the deadline [NOTE:T1.1]. No later record shows a reply. |
+| November 2024 waiver condition: updated projections showing a recovery path to covenant compliance by Q3 2025 | Borrower – David Kwan (CFO) → Northfield Bank – Sarah Okonkwo (RM) / Marcus Chen (Senior Credit Officer) | 2024-11-08 [CRM:2024-11-08:MER] | 2× | none stated | no record | The CFO offered to share updated projections on a call [EMAIL:T1.1]. The RM memo of 2025-01-31 states "the package arrived; the projections have not" [MEMO:MER.7], and no later record shows receipt. Observed: No projections document recorded as received through 2025-06-02 [MEMO:MER.7]. Monthly DSCR (TTM) readings after the condition was set, against a 1.20 minimum: 1.14 (2024-11) [PERF:MER:2024-11], 1.10 (2024-12) [PERF:MER:2024-12], 1.08 (2025-01) [PERF:MER:2025-01], 1.06 (2025-02) [PERF:MER:2025-02], 1.05 (2025-03) [PERF:MER:2025-03], 1.04 (2025-04) [PERF:MER:2025-04], 1.03 (2025-05) [PERF:MER:2025-05]. |
+
+### You said you would
+
+| Item | Owed by → to | First asked | Asked | Due | Status | What the record shows |
+|---|---|---|---|---|---|---|
+| File the Q1 2024 covenant package and update the covenant tracking sheet | RM – Sarah Okonkwo → Northfield Bank covenant tracking | 2024-03-05 [CRM:2024-03-05:MER] | 1× | none stated | no record | The 2024-03-05 log states the RM will file the package and update the tracking sheet [CRM:2024-03-05:MER]. No later record shows the filing or the tracking sheet update, though this may not have been logged. |
+| Brief Marcus Chen and Priya Voss on the outcome of the Thursday January 23 call with the CFO | RM – Sarah Okonkwo → Marcus Chen (Senior Credit Officer) and Priya Voss | 2025-01-22 [EMAIL:T1.4] | 2× | none stated | partly done | Marcus Chen joined the last 10 minutes of the 2025-01-23 call [CRM:2025-01-23:MER], and the 2025-01-31 RM memo records the call outcome [MEMO:MER.8][MEMO:MER.9]. No record shows a briefing sent to Priya Voss or a post-call briefing sent to Marcus Chen. |
+| Obtain from the CFO the customer names on the 60-90 day AR balances | RM – Sarah Okonkwo → Marcus Chen (Senior Credit Officer) | 2025-01-23 [EMAIL:T1.5] | 1× | none stated | no record | The RM asked the CFO for the customer names, and as of 2025-01-31 they had not been provided [MEMO:MER.10]. No later record shows them obtained. |
+| Return with a waiver extension recommendation if the requested documents arrive and support the recovery narrative | RM – Sarah Okonkwo → Credit committee | 2025-01-31 [MEMO:MER.13] | 1× | none stated | no record | This was to follow receipt of the PO, projections and AR names [MEMO:MER.13]. No record shows those documents received or a waiver extension recommendation made. |
+
+### Inside the bank
+
+| Item | Owed by → to | First asked | Asked | Due | Status | What the record shows |
+|---|---|---|---|---|---|---|
+| Credit committee decision to hold the existing waiver in place (no second waiver) and set a February 14 deadline for the aerospace PO, cash flow projections and AR customer names | Credit committee → RM – Sarah Okonkwo | 2025-01-31 [MEMO:MER.13] | 1× | none stated | no record | The hold-and-deadline approach appears as an RM recommendation dated 2025-01-31 [MEMO:MER.13]. No record shows a credit committee decision on it. Observed: Recommendation dated 2025-01-31 [MEMO:MER.13]; no committee decision recorded through 2025-06-02. No records show receipt of the aerospace PO, the 12-month cash flow projections or the AR customer names by 2025-02-14 or afterward. |
+| Restriction on additional revolver draws above 75% utilization pending the review | Northfield Bank (credit / RM proposal) → Northfield Bank credit file | 2025-01-31 [MEMO:MER.14] | 1× | none stated | no record | The restriction was proposed in the RM memo of 2025-01-31 [MEMO:MER.14]. No record shows it was put in place. Observed: Proposed cap: 75% utilization, with 69% at the time of proposal [MEMO:MER.14]. Monthly revolver utilization readings: 72% (2025-01) [PERF:MER:2025-01], 75% (2025-02) [PERF:MER:2025-02], 78% (2025-03) [PERF:MER:2025-03], 81% (2025-04) [PERF:MER:2025-04], 85% (2025-05) [PERF:MER:2025-05]. |
+
+<details><summary>6 closed or superseded</summary>
+
+- Q1 2024 covenant compliance package (done): Q1 2024 covenant package logged as received on time on 2024-03-05 [CRM:2024-03-05:MER]; March 2024 performance notes also record it as submitted on time [PERF:MER:2024-03].
+- Updated financial projections (requested after the April 2024 call on automotive order decline) (superseded): Asked again on 2024-05-14 with no response [CRM:2024-05-14:MER] and noted for re-request on 2024-09-05 [CRM:2024-09-05:MER]. The November 2024 waiver replaced this ask with a condition for projections showing a recovery path [CRM:2024-11-08:MER], tracked as MER-05.
+- November 2024 waiver condition: Q4 2024 covenant package delivered by January 31, 2025 (done): The Q4 2024 package was submitted on 2025-01-18 [EMAIL:T1.1][PERF:MER:2025-01], before the January 31 waiver deadline [MEMO:MER.4].
+- Call between RM and CFO to review Q4 2024 numbers and updated projections before credit review (done): A 35-minute credit review call with David Kwan was held on 2025-01-23, with Marcus Chen joining for the last 10 minutes [CRM:2025-01-23:MER].
+- Flag to the credit team the borrower's context on aerospace contract timing (done): On 2025-01-22 the RM emailed Marcus Chen and Priya Voss noting that the client is flagging aerospace revenue timing as the primary driver of the shortfall [EMAIL:T1.4].
+- Ask the CFO directly on the call whether the aerospace contract has a firm purchase order or is still conditional (done): The firm PO question was put to the CFO on the 2025-01-23 call by Marcus Chen, and the CFO answered "firm" with the first milestone contingent on a tooling qualification [CRM:2025-01-23:MER][MEMO:MER.9].
+
+</details>
+
+### Draft follow-up to David Kwan (review before sending)
+
+**Subject:** Outstanding items: Meridian Fabrication
+
+> Hi David,
+> 
+> I'm following up on several items we are still waiting to receive from Meridian Fabrication:
+> 
+> - Signed management representation letter for the Q4 2024 covenant package (first requested January 21, 2025)
+> - Updated accounts receivable aging for the Q4 2024 covenant package (first requested January 21, 2025)
+> - Updated 12-month cash flow projections with assumptions stated, supporting the Q3 2025 recovery path (first requested January 18, 2025)
+> - Aerospace contract purchase order documentation (first requested January 23, 2025)
+> - Customer names on the 60-90 day accounts receivable items (first requested January 31, 2025)
+> - Q1 2025 covenant compliance package (first requested March 14, 2025)
+> 
+> Could you reply by the end of this week with a date when we can expect these? If something is holding any of them up, let's set up a short call to talk it through.
+> 
+> Thanks,
+> Sarah
+
+## BlueLine Logistics LLC
+
+### Waiting on the borrower
+
+| Item | Owed by → to | First asked | Asked | Due | Status | What the record shows |
+|---|---|---|---|---|---|---|
+| Full Q1 2025 covenant package | Patricia Hearn, VP Finance, BlueLine Logistics → Sarah Okonkwo, RM | 2025-04-15 [EMAIL:T2.2] | 2× | 2025-04-16 (**47d past**) | no record | Patricia Hearn wrote she would send everything by Wednesday morning [EMAIL:T2.3], and the package deadline was noted as 4/30 [PERF:BLU:2025-03]. No receipt of the Q1 2025 package is recorded. |
+| Updated 12-month cash flow projection with assumptions stated explicitly | Patricia Hearn, VP Finance, BlueLine Logistics → Sarah Okonkwo, RM | 2025-04-15 [EMAIL:T2.2] | 2× | 2025-04-16 (**47d past**) | no record | Patricia Hearn wrote she would send everything by Wednesday morning [EMAIL:T2.3]. No receipt of an updated 12-month cash flow projection is recorded. |
+| Documentation on the two new regional contracts: names, volumes, start dates, revenue estimates | Patricia Hearn, VP Finance, BlueLine Logistics → Sarah Okonkwo, RM | 2025-04-15 [EMAIL:T2.2] | 2× | 2025-04-16 (**47d past**) | no record | Emails and CRM describe the two contracts only as regional, shorter-haul and signed in March [EMAIL:T2.1][EMAIL:T2.3][CRM:2025-04-01:BLU]. No record shows receipt of names, volumes, start dates or revenue estimates. |
+| Current driver headcount vs. 90 days ago | Patricia Hearn, VP Finance, BlueLine Logistics → Sarah Okonkwo, RM | 2025-04-15 [EMAIL:T2.2] | 2× | 2025-04-16 (**47d past**) | partly done | Patricia Hearn replied that headcount is 'down about 14% from last September' [EMAIL:T2.3]. A current headcount figure and the comparison to 90 days ago are not recorded. |
+| BlueLine CFO to join the Thursday call to speak to the balance sheet | Patricia Hearn, VP Finance, BlueLine Logistics → Sarah Okonkwo, RM | 2025-04-15 [EMAIL:T2.3] | 2× | 2025-04-17 (**46d past**) | no record | Patricia Hearn said the CFO would join Thursday's call [EMAIL:T2.3], and the RM's 2025-04-16 email lists the call as upcoming [EMAIL:T2.4]. No record shows the call was held or who attended. |
+| First waiver condition: monthly reporting by BlueLine | Patricia Hearn, VP Finance, BlueLine Logistics → Sarah Okonkwo, RM / Northfield Bank | 2024-10-02 [CRM:2024-10-02:BLU] | 4× | none stated | partly done | Monthly reporting calls held 'per waiver conditions' are logged on 2025-03-05 and 2025-04-01 [CRM:2025-03-05:BLU][CRM:2025-04-01:BLU]. No monthly reporting entries are logged for Nov 2024–Feb 2025 or May 2025. Observed: Condition set 2024-10-02 and approved 11/8 [CRM:2024-10-02:BLU][PERF:BLU:2024-11]. Logged monthly reporting calls: 2025-03-05 and 2025-04-01 [CRM:2025-03-05:BLU][CRM:2025-04-01:BLU]. Monthly performance readings are on file for each month from 2024-11 through 2025-05 (DSCR TTM 0.94, 0.91, 0.93, 0.95, 0.97, 0.96, 0.95) [PERF:BLU:2024-11][PERF:BLU:2024-12][PERF:BLU:2025-01][PERF:BLU:2025-02][PERF:BLU:2025-03][PERF:BLU:2025-04][PERF:BLU:2025-05]. |
+
+### You said you would
+
+| Item | Owed by → to | First asked | Asked | Due | Status | What the record shows |
+|---|---|---|---|---|---|---|
+| Call with BlueLine to walk through the updated business plan for the second waiver | Sarah Okonkwo, RM → Patricia Hearn, VP Finance, BlueLine Logistics | 2025-04-14 [EMAIL:T2.1] | 4× | 2025-04-17 (**46d past**) | no record | The RM's 2025-04-16 email to Marcus Chen refers to a 'Call Thursday with CFO and VP Finance' as upcoming [EMAIL:T2.4]; no record shows the call was held. |
+| Internal discussion and response to Patricia Hearn's request for a temporary revolver increase | Sarah Okonkwo, RM → Patricia Hearn, VP Finance, BlueLine Logistics | 2024-06-11 [CRM:2024-06-11:BLU] | 1× | none stated | no record | No record shows an internal discussion or a reply to Patricia Hearn on a temporary revolver increase. The June 2024 performance note records a client request for a 30-day revolver extension as denied [PERF:BLU:2024-06], but it does not reference the temporary increase raised on 2024-06-11 [CRM:2024-06-11:BLU]. |
+
+### Inside the bank
+
+| Item | Owed by → to | First asked | Asked | Due | Status | What the record shows |
+|---|---|---|---|---|---|---|
+| Credit committee decision on BlueLine's second covenant waiver (Q1 2025 DSCR) | Northfield Bank credit committee (Marcus Chen, Priya Voss) → Patricia Hearn, VP Finance, BlueLine Logistics | 2025-04-14 [EMAIL:T2.1] | 5× | 2025-06-03 | no record | As of 2025-06-02 the second waiver is recorded as under review, with the credit committee meeting scheduled for 6/3 [PERF:BLU:2025-05][CRM:2025-05-02:BLU]; no decision is recorded. Observed: Committee meeting scheduled 2025-06-03 [PERF:BLU:2025-05][CRM:2025-05-02:BLU]. Readings since the request on 2025-04-14: April DSCR TTM 0.96 and May 0.95 against a 1.20 minimum; leverage 4.3 and 4.4 against a 4.5 maximum; revolver utilization 83% and 85% [PERF:BLU:2025-04][PERF:BLU:2025-05]. |
+| Proposed second-waiver terms: conditional approval with covenant reset and fee (not yet approved) | Northfield Bank credit committee (Marcus Chen, Priya Voss) → Sarah Okonkwo, RM / BlueLine Logistics | 2025-05-02 [CRM:2025-05-02:BLU] | 1× | none stated | no record | The RM recommended conditional approval with covenant reset and fee on 2025-05-02 [CRM:2025-05-02:BLU]. The May note records the waiver as still under review, with committee meeting 6/3 [PERF:BLU:2025-05]; no approval is recorded. Observed: Proposed terms: conditional approval with covenant reset and fee, recommended 2025-05-02 [CRM:2025-05-02:BLU]; no specific reset levels or fee amount are recorded. May 2025 readings after the proposal: DSCR TTM 0.95 (minimum 1.20), leverage 4.4 (maximum 4.5), revolver utilization 85%, days past due 0 [PERF:BLU:2025-05]. |
+
+<details><summary>6 closed or superseded</summary>
+
+- Q4 2023 covenant package (timing of delivery) (done): Q4 package was received from Patricia Hearn on 2024-02-06 [CRM:2024-02-06:BLU], following the 2024-01-24 voicemail about timing [CRM:2024-01-24:BLU].
+- First covenant waiver request documentation for the Q3 2024 DSCR breach (superseded): The RM noted she was preparing the waiver documentation on 2024-08-20 [CRM:2024-08-20:BLU]. Credit committee approved the first waiver on 11/8 [CRM:2024-10-02:BLU][PERF:BLU:2024-11], a step that required the request to have gone forward.
+- First waiver condition: RM site visit to BlueLine (done): A site visit to the Indianapolis terminal 'per waiver conditions' is logged on 2024-11-12 [CRM:2024-11-12:BLU]. The December performance note states 'RM site visit completed 12/4. Waiver condition met.' [PERF:BLU:2024-12].
+- New business plan from BlueLine (done): The January 2025 performance note states 'Business plan received — projects DSCR recovery to 1.25x by Q4 2025' [PERF:BLU:2025-01].
+- Formal Q1 2025 covenant waiver request from BlueLine (done): Patricia Hearn submitted the formal Q1 2025 waiver request by email on 2025-04-14 [EMAIL:T2.1][CRM:2025-04-14:BLU].
+- Internal briefing of Marcus Chen / CCO on BlueLine's second waiver request before the Thursday client call (done): The RM emailed Marcus Chen a summary of the second waiver request on 2025-04-16, before the Thursday call [EMAIL:T2.4]. An in-person briefing of Marcus Chen and Priya Voss followed on 2025-05-02 [CRM:2025-05-02:BLU].
+
+</details>
+
+### Draft follow-up to Patricia Hearn (review before sending)
+
+**Subject:** BlueLine Logistics – Outstanding Items Requested April 15
+
+> Hi Patricia,
+> 
+> I'm following up on the items we requested on April 15, 2025. Our records show we haven't received them yet:
+> 
+> 1. Full Q1 2025 covenant package (requested April 15, 2025)
+> 2. Updated 12-month cash flow projection, with assumptions stated explicitly (requested April 15, 2025)
+> 3. Documentation on the two new regional contracts: names, volumes, start dates and revenue estimates (requested April 15, 2025)
+> 4. Current driver headcount compared with 90 days ago (requested April 15, 2025)
+> 
+> Could you send these over by [date], or let me know a date that works? If something is holding any of them up, I'm happy to set up a quick call this week to talk it through. Just let me know a time that suits you.
+> 
+> Thanks, Patricia. I appreciate your help getting these across.
+> 
+> Best regards,
+> Sarah
+

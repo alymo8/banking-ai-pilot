@@ -1,0 +1,166 @@
+{
+  "facts": [
+    {
+      "fact": "312 employees",
+      "verdict": "covered",
+      "evidence_quote": "with 312 employees and annual revenue of $82mm per the portfolio profile"
+    },
+    {
+      "fact": "two facilities",
+      "verdict": "absent",
+      "evidence_quote": ""
+    },
+    {
+      "fact": "relationship with Northfield since 2019",
+      "verdict": "covered",
+      "evidence_quote": "The banking relationship dates from 2019"
+    },
+    {
+      "fact": "David Kwan, CFO, is the primary contact",
+      "verdict": "covered",
+      "evidence_quote": "The primary borrower contact is David Kwan, CFO"
+    },
+    {
+      "fact": "Michelle Kwan handles operations",
+      "verdict": "absent",
+      "evidence_quote": "Michelle Kwan attended the 2024-09-05 annual review with David Kwan, and the records do not state her title or role"
+    },
+    {
+      "fact": "family-controlled since 2007, with a silent minority partner",
+      "verdict": "absent",
+      "evidence_quote": ""
+    },
+    {
+      "fact": "automotive customers are the core business; diversifying into aerospace",
+      "verdict": "absent",
+      "evidence_quote": "Records reference automotive OEM customers and an aerospace contract as segments of the business"
+    },
+    {
+      "fact": "$8.5MM term loan plus revolver at SOFR+275",
+      "verdict": "covered",
+      "evidence_quote": "The facility is an $8.5mm term loan and revolver, priced at a variable rate of SOFR+275"
+    },
+    {
+      "fact": "maturity March 2027",
+      "verdict": "covered",
+      "evidence_quote": "maturing 2027-03-31"
+    },
+    {
+      "fact": "personal guarantee in place",
+      "verdict": "covered",
+      "evidence_quote": "the profile records a personal guarantee"
+    },
+    {
+      "fact": "Q4 package arrived January 18, 18 days late",
+      "verdict": "covered",
+      "evidence_quote": "Per the PERF record, it was received January 18, 18 days late"
+    },
+    {
+      "fact": "Q2 package was 12 days late",
+      "verdict": "covered",
+      "evidence_quote": "The Q2 2024 package was recorded as received 12 days late with no advance notice"
+    },
+    {
+      "fact": "waiver conditions: Q4 package by Jan 31 and recovery projections",
+      "verdict": "covered",
+      "evidence_quote": "Its conditions were delivery of the Q4 package by January 31 and updated projections showing a recovery path"
+    },
+    {
+      "fact": "Q4 DSCR 1.10x against a 1.20x floor",
+      "verdict": "covered",
+      "evidence_quote": "The Q4 package showed DSCR of 1.10x and leverage of 4.1x"
+    },
+    {
+      "fact": "leverage 4.1x against a 4.0x maximum",
+      "verdict": "covered",
+      "evidence_quote": "The leverage ratio exceeded the 4.0x maximum at 4.1x in December 2024"
+    },
+    {
+      "fact": "DSCR was 1.41x in January 2024",
+      "verdict": "contradicted",
+      "evidence_quote": "It went from 1.45x in January 2024 to 1.21x in September 2024"
+    },
+    {
+      "fact": "leverage was 3.2x in January 2024",
+      "verdict": "covered",
+      "evidence_quote": "The leverage ratio rose from 3.2x in January 2024"
+    },
+    {
+      "fact": "revenue down about 13% for the year versus 2023",
+      "verdict": "absent",
+      "evidence_quote": ""
+    },
+    {
+      "fact": "automotive orders down 8% YoY",
+      "verdict": "covered",
+      "evidence_quote": "The April 2024 PERF note records automotive sector orders down 8% YoY, per a client call"
+    },
+    {
+      "fact": "EBITDA margin compressed from about 14% to 12%",
+      "verdict": "covered",
+      "evidence_quote": "EBITDA margin was 14.0% in January and February 2024 ... reaching 12.3% in December 2024 and 12.0% in January 2025"
+    },
+    {
+      "fact": "revolver utilization 38% at start of 2024 to 69% in December",
+      "verdict": "covered",
+      "evidence_quote": "Revolver utilization rose from 38% in January 2024 ... | 2024-12 | 6200 | 12.3% | 1.10x | 4.1x | 69% |"
+    },
+    {
+      "fact": "waiver granted November 22 for the Q3 breach at 1.18x",
+      "verdict": "covered",
+      "evidence_quote": "The November 2024 PERF record notes \"waiver granted 11/22\""
+    },
+    {
+      "fact": "updated projections not received",
+      "verdict": "covered",
+      "evidence_quote": "No record shows written projections received"
+    },
+    {
+      "fact": "aerospace revenue timing has moved repeatedly",
+      "verdict": "covered",
+      "evidence_quote": "He said the aerospace contract was delayed further, with first revenue now expected in Q3 rather than Q2."
+    },
+    {
+      "fact": "aerospace purchase order requested and not received",
+      "verdict": "covered",
+      "evidence_quote": "Firm PO for the aerospace contract. Requested on the 2025-01-23 call. The CRM log records it as not received as of that entry"
+    },
+    {
+      "fact": "first aerospace milestone contingent on a tooling qualification",
+      "verdict": "absent",
+      "evidence_quote": ""
+    },
+    {
+      "fact": "elevated 60-90 day AR; two automotive customers on extended terms",
+      "verdict": "covered",
+      "evidence_quote": "the AR aging would show larger balances in the 60-90 day bucket because two automotive customers went on extended payment terms at year-end"
+    },
+    {
+      "fact": "AR customer names still outstanding",
+      "verdict": "covered",
+      "evidence_quote": "Customer names on 60-90 day AR balances. Requested internally by Marcus Chen on 2025-01-23. No record shows they were asked of or received from the borrower"
+    }
+  ],
+  "conflicts": [
+    {
+      "conflict": "Waiver date: 11/8 (CRM) vs 11/22 (performance record)",
+      "found": true,
+      "evidence_quote": "Date the waiver was granted: “Waiver approved on the 2024-11-08 waiver call” [CRM:2024-11-08:MER]; “Waiver granted 11/22” [PERF:MER:2024-11]"
+    },
+    {
+      "conflict": "Aerospace revenue timing moved repeatedly (Q1 2024, Q2, Q3, Q4 2024, Q2 2025)",
+      "found": true,
+      "evidence_quote": "Expected start of aerospace contract revenue, as stated over time: “Expected to contribute starting Q1 (2024)” ... “First delivery milestone pushed to Q2 2025; contract about 11 weeks behind”"
+    },
+    {
+      "conflict": "Whether aerospace revenue has started: CRM says producing or coming in; CFO email says first delivery is in Q2 2025",
+      "found": true,
+      "evidence_quote": "Whether the aerospace contract was producing revenue in H2 2024: “Aerospace contract is now producing revenue (Sep 2024)” [CRM:2024-09-05:MER]; “No revenue benefit in Q4; first delivery milestone pushed to Q2 2025” [EMAIL:T1.1]"
+    },
+    {
+      "conflict": "Q4 package described as 18 days late although the waiver deadline was January 31",
+      "found": true,
+      "evidence_quote": "Deadline for the Q4 2024 package (timeliness): “The waiver condition required the Q4 package by Jan 31” [CRM:2024-11-08:MER]; “Package received 1/18 described as 18 days late” [PERF:MER:2025-01]"
+    }
+  ]
+}

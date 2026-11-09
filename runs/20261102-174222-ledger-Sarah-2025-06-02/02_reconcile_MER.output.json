@@ -1,0 +1,208 @@
+{
+  "statuses": [
+    {
+      "item_id": "MER-01",
+      "status": "done",
+      "evidence": "The Q1 covenant package was logged as received on time on 2024-03-05 [CRM:2024-03-05:MER]. The March 2024 performance record notes 'Q1 covenant package submitted on time' [PERF:MER:2024-03].",
+      "evidence_source_ids": [
+        "CRM:2024-03-05:MER",
+        "PERF:MER:2024-03"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-02",
+      "status": "no_record",
+      "evidence": "The 2024-03-05 log says 'Will file and update tracking sheet' [CRM:2024-03-05:MER]. No later record shows the filing or the tracking sheet update; this may simply not have been logged.",
+      "evidence_source_ids": [
+        "CRM:2024-03-05:MER"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-03",
+      "status": "no_record",
+      "evidence": "The 2024-04-10 log records 'Did not receive projections' [CRM:2024-04-10:MER]. A follow-up on 2024-05-14 got no response [CRM:2024-05-14:MER], and projections were to be requested again on 2024-09-05 [CRM:2024-09-05:MER]; no receipt is recorded.",
+      "evidence_source_ids": [
+        "CRM:2024-04-10:MER",
+        "CRM:2024-05-14:MER",
+        "CRM:2024-09-05:MER"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-04",
+      "status": "done",
+      "evidence": "The Q4 2024 package was attached to the CFO's email of 2025-01-18 [EMAIL:T1.1] and recorded as received 1/18 [PERF:MER:2025-01]. The RM memo states the package arrived before the January 31 waiver deadline [MEMO:MER.4].",
+      "evidence_source_ids": [
+        "EMAIL:T1.1",
+        "PERF:MER:2025-01",
+        "MEMO:MER.4",
+        "MEMO:MER.7"
+      ],
+      "observed": "Q4 2024 package received 2025-01-18 against the 2025-01-31 condition date [EMAIL:T1.1][PERF:MER:2025-01]. The memo also notes it was 18 days after the December 31 deadline [MEMO:MER.4]."
+    },
+    {
+      "item_id": "MER-05",
+      "status": "no_record",
+      "evidence": "The 2025-01-31 memo states 'The package arrived; the projections have not' [MEMO:MER.7]. A new February 14 deadline for 12-month cash flow projections was then proposed [MEMO:MER.13], and no later record shows projections received.",
+      "evidence_source_ids": [
+        "MEMO:MER.7",
+        "EMAIL:T1.1",
+        "CRM:2025-01-23:MER",
+        "MEMO:MER.13"
+      ],
+      "observed": "The CFO's 2025-01-18 email describes an internal projection returning above the DSCR floor by Q3 2025 and offers to share it on a call [EMAIL:T1.1]. The 2025-01-23 call records a verbal commitment to a Q1 recovery path [CRM:2025-01-23:MER]. No projection document is recorded as received through 2025-06-02 [MEMO:MER.7]."
+    },
+    {
+      "item_id": "MER-06",
+      "status": "done",
+      "evidence": "A 35-minute call with David Kwan was logged on 2025-01-23 following the Q4 package submission [CRM:2025-01-23:MER].",
+      "evidence_source_ids": [
+        "CRM:2025-01-23:MER"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-07",
+      "status": "no_record",
+      "evidence": "The February 14 deadline for updated 12-month cash flow projections was set in the 2025-01-31 memo [MEMO:MER.13]. No later record shows them received; the 2025-03-14 call notes 'No specific numbers provided' [CRM:2025-03-14:MER].",
+      "evidence_source_ids": [
+        "MEMO:MER.13",
+        "CRM:2025-03-14:MER"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-08",
+      "status": "no_record",
+      "evidence": "The CFO said the rep letter would be sent by end of day Wednesday [EMAIL:T1.3]. No record shows the signed management representation letter was received; this may not have been logged.",
+      "evidence_source_ids": [
+        "EMAIL:T1.2",
+        "EMAIL:T1.3"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-09",
+      "status": "no_record",
+      "evidence": "The CFO said the AR aging would be sent by end of day Wednesday [EMAIL:T1.3]. The 2025-01-31 memo refers to 60-90 day balances shown in the Q4 package [MEMO:MER.10] but does not record receipt of the updated aging report.",
+      "evidence_source_ids": [
+        "EMAIL:T1.2",
+        "EMAIL:T1.3",
+        "MEMO:MER.10"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-10",
+      "status": "done",
+      "evidence": "The RM's 2025-01-22 email to Marcus Chen and Priya Voss states that the client is flagging aerospace revenue timing as the primary driver [EMAIL:T1.4].",
+      "evidence_source_ids": [
+        "EMAIL:T1.4"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-11",
+      "status": "partly_done",
+      "evidence": "Marcus Chen joined the last 10 minutes of the 2025-01-23 call [CRM:2025-01-23:MER], and the 2025-01-31 memo summarizes the call [MEMO:MER.8][MEMO:MER.9]. No record shows a post-call briefing sent to Priya Voss or Marcus Chen.",
+      "evidence_source_ids": [
+        "CRM:2025-01-23:MER",
+        "MEMO:MER.8",
+        "MEMO:MER.9",
+        "EMAIL:T1.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-12",
+      "status": "done",
+      "evidence": "On the 2025-01-23 call the question of a firm PO was asked, by Marcus Chen [CRM:2025-01-23:MER]. The memo records that David said 'firm' but that the first milestone was contingent on a tooling qualification [MEMO:MER.9].",
+      "evidence_source_ids": [
+        "CRM:2025-01-23:MER",
+        "MEMO:MER.9"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-13",
+      "status": "no_record",
+      "evidence": "The 2025-01-31 memo says the customer names were requested and that David hasn't provided them yet [MEMO:MER.10]. No later record shows they were obtained.",
+      "evidence_source_ids": [
+        "MEMO:MER.10",
+        "EMAIL:T1.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-14",
+      "status": "no_record",
+      "evidence": "The PO was 'Not received as of this log entry' on 2025-01-23 [CRM:2025-01-23:MER], was still not in hand on 2025-01-31 [MEMO:MER.8], and was given a February 14 deadline [MEMO:MER.13]. No later record shows receipt.",
+      "evidence_source_ids": [
+        "CRM:2025-01-23:MER",
+        "MEMO:MER.8",
+        "MEMO:MER.9",
+        "MEMO:MER.13"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-15",
+      "status": "no_record",
+      "evidence": "The 2025-01-31 memo states the customer names are 'still outstanding' [MEMO:MER.10], and a February 14 deadline was set [MEMO:MER.13]. No later record shows receipt.",
+      "evidence_source_ids": [
+        "MEMO:MER.10",
+        "MEMO:MER.13"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-16",
+      "status": "no_record",
+      "evidence": "The recommendation was conditional on the PO, projections and AR names arriving [MEMO:MER.13]. No record shows those items received or a waiver extension recommendation made.",
+      "evidence_source_ids": [
+        "MEMO:MER.13"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-17",
+      "status": "no_record",
+      "evidence": "The restriction was proposed in the 2025-01-31 memo [MEMO:MER.14]. No record shows it was approved or put in place.",
+      "evidence_source_ids": [
+        "MEMO:MER.14",
+        "PERF:MER:2024-12",
+        "PERF:MER:2025-01",
+        "PERF:MER:2025-02",
+        "PERF:MER:2025-03",
+        "PERF:MER:2025-04",
+        "PERF:MER:2025-05"
+      ],
+      "observed": "Proposed cap of 75% utilization on 2025-01-31 [MEMO:MER.14]. Revolver utilization readings: Dec 2024 69% [PERF:MER:2024-12]; Jan 2025 72% [PERF:MER:2025-01]; Feb 75% [PERF:MER:2025-02]; Mar 78% [PERF:MER:2025-03]; Apr 81% [PERF:MER:2025-04]; May 85% [PERF:MER:2025-05]."
+    },
+    {
+      "item_id": "MER-18",
+      "status": "no_record",
+      "evidence": "A formal overdue notice was sent on 2025-04-28 with no response [CRM:2025-04-28:MER][EMAIL:T1.6]. The May 2025 performance record notes 'Q1 package overdue as of 5/1' [PERF:MER:2025-05]; no receipt is recorded.",
+      "evidence_source_ids": [
+        "CRM:2025-03-14:MER",
+        "CRM:2025-04-28:MER",
+        "EMAIL:T1.6",
+        "PERF:MER:2025-05"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "MER-19",
+      "status": "no_record",
+      "evidence": "A record note states 'No response received as of May 12, 2025' [NOTE:T1.1]. No later record shows a reply.",
+      "evidence_source_ids": [
+        "EMAIL:T1.6",
+        "CRM:2025-04-28:MER",
+        "NOTE:T1.1"
+      ],
+      "observed": null
+    }
+  ]
+}

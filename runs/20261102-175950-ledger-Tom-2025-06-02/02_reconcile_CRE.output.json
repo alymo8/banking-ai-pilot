@@ -1,0 +1,111 @@
+{
+  "statuses": [
+    {
+      "item_id": "CRE-01",
+      "status": "done",
+      "evidence": "An annual review video call with Whitmore was held on 2024-01-30 (55 min, completed) [CRM:2024-01-30:CRE].",
+      "evidence_source_ids": [
+        "CRM:2024-01-30:CRE"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-02",
+      "status": "done",
+      "evidence": "The RM replied to Whitmore on 2025-02-26, acknowledging the competing offer and saying he would pull together numbers [EMAIL:T3.2] [CRM:2025-02-26:CRE].",
+      "evidence_source_ids": [
+        "EMAIL:T3.2",
+        "CRM:2025-02-26:CRE"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-03",
+      "status": "done",
+      "evidence": "An in-person renewal meeting with Whitmore was held on 2025-04-15 (60 min), and the renewal proposal was presented [CRM:2025-04-15:CRE].",
+      "evidence_source_ids": [
+        "CRM:2025-04-15:CRE"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-04",
+      "status": "done",
+      "evidence": "A renewal proposal of 5.05% fixed for 5 years, with no prepayment penalty in years 4-5, was presented to Whitmore on 2025-04-15 [CRM:2025-04-15:CRE].",
+      "evidence_source_ids": [
+        "CRM:2025-04-15:CRE"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-05",
+      "status": "partly_done",
+      "evidence": "A 5.05% proposal was presented on 2025-04-15 [CRM:2025-04-15:CRE]. On 2025-05-12 Whitmore was told the pricing exception was still in review and was asked for an extension [CRM:2025-05-12:CRE]; no final answer is recorded through the as-of date.",
+      "evidence_source_ids": [
+        "CRM:2025-04-15:CRE",
+        "CRM:2025-05-12:CRE",
+        "PERF:CRE:2025-05"
+      ],
+      "observed": "Decision window stated 2025-04-03 as 30-45 days (outer bound 2025-05-18) [EMAIL:T3.3]. Recorded steps: 5.05% proposal presented 2025-04-15 [CRM:2025-04-15:CRE]; pricing exception at 4.90% submitted, approval pending, 2025-05-08 [CRM:2025-05-08:CRE]; client emailed that the exception was still in review and asked for an extension, 2025-05-12 [CRM:2025-05-12:CRE]. The 2025-05 performance note records no further renewal response as of 5/31 [PERF:CRE:2025-05]."
+    },
+    {
+      "item_id": "CRE-06",
+      "status": "superseded",
+      "evidence": "No calendar invite is logged, but the Tuesday renewal meeting it was for took place on 2025-04-15 [CRM:2025-04-15:CRE].",
+      "evidence_source_ids": [
+        "CRM:2025-04-15:CRE"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-07",
+      "status": "no_record",
+      "evidence": "The rate presented on 2025-04-15 was 5.05% fixed, and Whitmore asked for a 4.90% match [CRM:2025-04-15:CRE]. A 4.90% pricing exception was still pending as of 2025-05-12 [CRM:2025-05-12:CRE], and no rate at or below 4.90% is recorded.",
+      "evidence_source_ids": [
+        "CRM:2025-04-15:CRE",
+        "CRM:2025-05-08:CRE",
+        "CRM:2025-05-12:CRE"
+      ],
+      "observed": "Condition: at or below 4.90% fixed [EMAIL:T3.5]. Current rate 5.25% fixed [PROFILE:CRE]. Offered 5.05% fixed 5-year on 2025-04-15 [CRM:2025-04-15:CRE]. Exception request to match 4.90% submitted 2025-05-08, status pending [CRM:2025-05-08:CRE]; still in review 2025-05-12 [CRM:2025-05-12:CRE]. No later pricing record."
+    },
+    {
+      "item_id": "CRE-08",
+      "status": "superseded",
+      "evidence": "No pricing approval is logged, but the April 15 meeting it was meant to precede took place, and a 5.05% proposal was presented there [CRM:2025-04-15:CRE].",
+      "evidence_source_ids": [
+        "CRM:2025-04-15:CRE"
+      ],
+      "observed": "Approval flagged as needed before Tuesday 4/15 [NOTE:T3.1]. The 2025-04-15 meeting presented 5.05% fixed [CRM:2025-04-15:CRE]. No approval record dated 2025-04-09 to 2025-04-14."
+    },
+    {
+      "item_id": "CRE-09",
+      "status": "partly_done",
+      "evidence": "A pricing exception request to match 4.90% was submitted on 2025-05-08 [CRM:2025-05-08:CRE], and on 2025-05-12 Whitmore was emailed that it was still in review [CRM:2025-05-12:CRE]. A response with the pricing outcome is not recorded.",
+      "evidence_source_ids": [
+        "CRM:2025-05-08:CRE",
+        "CRM:2025-05-12:CRE",
+        "PERF:CRE:2025-05"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-10",
+      "status": "no_record",
+      "evidence": "The exception request was logged as approval pending on 2025-05-08 [CRM:2025-05-08:CRE] and still in review on 2025-05-12 [CRM:2025-05-12:CRE]. No approval decision is recorded after that.",
+      "evidence_source_ids": [
+        "CRM:2025-05-08:CRE",
+        "CRM:2025-05-12:CRE"
+      ],
+      "observed": "Request: match First Midwest at 4.90% fixed, submitted 2025-05-08, status Approval Pending [CRM:2025-05-08:CRE]. Status on 2025-05-12: still in review [CRM:2025-05-12:CRE]. No decision logged through 2025-06-02."
+    },
+    {
+      "item_id": "CRE-11",
+      "status": "no_record",
+      "evidence": "An extension was requested from Whitmore on 2025-05-12 [CRM:2025-05-12:CRE]. No reply from him is recorded through the as-of date.",
+      "evidence_source_ids": [
+        "CRM:2025-05-12:CRE"
+      ],
+      "observed": null
+    }
+  ]
+}

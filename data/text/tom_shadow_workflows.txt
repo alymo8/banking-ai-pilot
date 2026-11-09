@@ -1,0 +1,61 @@
+Tom DeLuca — Personal AI Workflow Notes
+Private document — found on shared drive during internal tool audit, April 2025
+These notes were discovered during an IT audit of RM shared drives as part of the bank's AI governance review. Tom was notified and has consented to their use for the Claude adoption project. The compliance team has flagged specific items below. Tom has been cooperative but is anxious about whether his prior usage constitutes a policy violation.
+My AI Setup (as of March 2025)
+Been using ChatGPT Plus since November 2024. Started because I was drowning in the Arcadia draw documentation — takes me forever to write those formal update memos and I kept secondguessing my language. Figured I'd try it for drafting. Now I use it for basically everything that involves writing. Saves me probably 90 minutes a day. The stuff below is what I've figured out that actually works. Tools I'm using: - ChatGPT Plus (personal account, $20/month — expensed as "productivity software," not sure if that's approved) - Excel for all the tracking — I haven't found a way to use AI directly in Excel yet - Outlook — still manual
+Prompts That Actually Work
+1. Draw Request Response Letter
+This one took me about 3 weeks to get right. I paste in the draw request details and it drafts the formal response including the missing docs checklist. I then edit it — maybe 10 minutes of cleanup vs. 45 minutes of writing from scratch.
+You are a commercial real estate lending officer at a regional bank. Draft a professional letter responding to a construction loan draw request.
+Draw details: [paste draw request summary] Missing documentation: [list what's missing] Project status: [paste from my notes]
+The letter should: - Acknowledge receipt of the draw request - List specifically what documentation is still needed before funding
+
+- Give a realistic timeline for funding once docs are received - Be professional but direct — we have a good relationship with this borrower - Not make any promises about approval
+Use formal business letter format. Keep it under 300 words.
+How I use it: Copy the draw request email, pull my notes on what's missing, paste both into the prompt. Takes about 5 minutes total. Output is 85% usable, I always review and adjust.
+What I edit: Anything that sounds too stiff or legal. I want it to sound like me.
+2. Relationship Review Memo Draft
+This is the big one. These memos take me 3-4 hours normally. With this prompt and my notes, I'm down to about 45 minutes including review.
+⚠️ COMPLIANCE FLAG (noted by IT audit): Tom was pasting borrower financial data from covenant packages directly into ChatGPT. This includes DSCR, revenue figures, leverage ratios, and in at least two cases, borrower names. This may violate the bank's data handling policy for confidential client information. Tom has been using a personal (non-enterprise) ChatGPT account with no data privacy protections. See compliance policy section 4.2.
+You are helping a commercial banker draft an annual relationship review memorandum.
+Borrower background: [paste my notes on the company] Financial summary: [paste covenant package highlights] Covenant history: [paste from my tracking sheet] Recent communications: [paste notes from my call log] My assessment: [write 2-3 sentences of what I actually think]
+Draft a relationship review memo that covers: 1. Credit overview (one paragraph) 2. Business description (one paragraph — keep it factual) 3. Financial performance (use the numbers I provided) 4. Covenant compliance history 5. Key risks (based on what I've told you — don't make stuff up) 6. Recommended action
+Write this in a professional banking tone. The audience is our Chief Credit Officer. Do NOT make any credit recommendations beyond what I've explicitly stated in my assess Flag anywhere you're uncertain or where I haven't given you enough information.
+How I use it: I write my own 2-3 sentence assessment first — that's important, I don't let the AI decide what I think. Then I paste everything else in. Output is usually 70% usable but the structure is always right which saves a ton of time.
+
+Crestwood memo I drafted this way came back from Marcus Chen with zero edits. He didn't know I used AI. Not sure if I should have told him.
+3. Client Email Drafts
+Simple one. I describe what I need to say and it drafts the email. Most useful for: - Covenant package overdue notices (I hate writing these — they always sound either too harsh or too soft) Draw request missing doc requests - Renewal preliminary conversations
+Draft a professional email from a commercial banker to a client.
+Situation: [describe what happened and what I need to communicate] Relationship context: [how long we've known them, current relationship health] Tone goal: [firm but respectful / warm and relationship-focused / etc.] Key points to include: [list them] Key things to avoid: [anything I don't want to say]
+Keep it under 200 words. Use a professional but not stiff tone.
+Works great for: Overdue notices, draw documentation requests, renewal openers Doesn't work well for: Anything involving bad news about credit status — I always write those myself
+4. Call Prep Brief
+This is newer — started in February. Before any important client call, I paste in my notes and recent emails and ask it to prepare me.
+I have a [type of call] with [borrower description] in 30 minutes.
+Recent context: [paste last 2-3 log entries and any recent emails]
+Prepare a brief with: 1. What they probably want from this call 2. What I need to find out 3. 3-5 specific questions I should ask 4. Any risks or sensitivities I should be aware of 5. How to open the call
+Keep it under a page. Be direct — I don't need preamble.
+This one has genuinely changed how I prepare. The Whitmore renewal meeting — I used this prompt the morning before and it surfaced the question "what's your timeline for a decision" which I wouldn't have thought to ask explicitly. When Whitmore said 2 weeks I was ready.
+
+5. Portfolio Summary for Myself (Weekly)
+Every Monday morning I do this to get my head straight for the week. Takes me about 15 minutes including the AI step.
+COMPLIANCE FLAG: Tom was compiling portfolio-level summaries that included borrower ⚠️ names, loan balances, and DSCR figures across multiple accounts and pasting them into ChatGPT in a single prompt. This represents a higher-risk data handling pattern than singleaccount queries.
+Here is a summary of my commercial loan portfolio as of [date]:
+[paste table with: borrower, DSCR, covenant status, last contact date, next action nee
+Summarize: 1. Which borrowers need attention this week and why 2. Any patterns or trends I should be aware of across the portfolio 3. My top 3 priorities for the week
+Be concise. I don't need explanations — just the most important things.
+Output quality is honestly impressive. Last week it flagged that I hadn't contacted Crestwood in over 6 weeks and there was a pending renewal item. I had completely lost track of it. (Note: This is the Whitmore situation. Tom flagged it via AI before Sarah flagged it to him. He had not yet escalated to management as of the audit date.)
+Things I've Tried That Don't Work Well
+• Asking it to assess credit risk or make recommendations. It tries but the outputs aren't reliable enough and I don't trust them. I always do my own credit thinking.
+• Long complex documents with lots of tables. Formatting gets messy. • Anything where I don't have good notes. Garbage in, garbage out. • Asking it to predict what clients will do. Useless.
+What I Wish I Had
+• Something that automatically flags when I haven't contacted a borrower in X days • A way to search across all my emails for a specific borrower without manually scrolling
+through Outlook • A template library I can update and reuse instead of re-writing prompts from scratch every
+time
+
+• Something that reads the covenant package and fills in my tracking spreadsheet automatically
+I've tried building some of this but I don't have time to do it right. If the bank is going to roll out Claude I'd want to be involved in designing these workflows. The RM perspective is completely missing from how these systems usually get built.
+Last updated: March 28, 2025 T. DeLuca, RM — Commercial Banking
+
+

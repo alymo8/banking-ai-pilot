@@ -1,0 +1,225 @@
+{
+  "items": [
+    {
+      "item_id": "ARC-01",
+      "description": "Complete draw documentation per the bank's draw checklist for all future draw requests",
+      "owed_by": "Robert Liang (Principal, Arcadia Property Group)",
+      "owed_to": "Tom DeLuca (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2024-01-17",
+      "first_asked_source": "CRM:2024-01-17:ARC",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "ARC-02",
+      "description": "Lien waiver from HVAC subcontractor missing from Draw #6 request",
+      "owed_by": "Robert Liang (Principal, Arcadia Property Group)",
+      "owed_to": "Tom DeLuca (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2024-04-25",
+      "first_asked_source": "CRM:2024-04-25:ARC",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "ARC-03",
+      "description": "Keep RM updated on the GC-flagged HVAC subcontractor delay",
+      "owed_by": "Robert Liang (Principal, Arcadia Property Group)",
+      "owed_to": "Tom DeLuca (RM)",
+      "party": "borrower",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2024-06-28",
+      "first_asked_source": "CRM:2024-06-28:ARC",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "ARC-04",
+      "description": "Written documentation of the HVAC delay and the GC/HVAC subcontractor change-order dispute, required before draw processing",
+      "owed_by": "Robert Liang (Principal, Arcadia Property Group)",
+      "owed_to": "Tom DeLuca (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2024-06-28",
+      "first_asked_source": "CRM:2024-06-28:ARC",
+      "repeat_asks": [
+        "CRM:2024-08-06:ARC",
+        "CRM:2024-09-24:ARC"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "ARC-05",
+      "description": "Revised construction schedule reflecting the HVAC delay, required before Draw #10/#11 processing",
+      "owed_by": "Robert Liang (Principal, Arcadia Property Group)",
+      "owed_to": "Tom DeLuca (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2024-08-06",
+      "first_asked_source": "CRM:2024-08-06:ARC",
+      "repeat_asks": [
+        "CRM:2024-09-24:ARC"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "ARC-06",
+      "description": "Guidance on pre-lease documentation requirements for perm conversion (confidential LOIs, 71% vs 75% threshold)",
+      "owed_by": "Marcus Chen (Northfield Bank credit)",
+      "owed_to": "Tom DeLuca (RM)",
+      "party": "bank_internal",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-04-09",
+      "first_asked_source": "CRM:2025-04-09:ARC",
+      "repeat_asks": [
+        "EMAIL:T4.4"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "ARC-07",
+      "description": "Perm conversion condition: 75% of retail square footage under executed lease or executed LOI with tenant names; threshold not to be waived and verbal LOIs not accepted",
+      "owed_by": "Robert Liang (Principal, Arcadia Property Group)",
+      "owed_to": "Tom DeLuca (RM) / Northfield Bank",
+      "party": "borrower",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2025-01-08",
+      "first_asked_source": "CRM:2025-01-08:ARC",
+      "repeat_asks": [
+        "PERF:ARC:2025-02",
+        "PERF:ARC:2025-04",
+        "CRM:2025-04-09:ARC",
+        "EMAIL:T4.2",
+        "EMAIL:T4.4",
+        "EMAIL:T4.5"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "ARC-08",
+      "description": "Fund Draw Request #13 ($875,000) for remaining MEP work and exterior finish package",
+      "owed_by": "Tom DeLuca (RM)",
+      "owed_to": "Robert Liang (Principal, Arcadia Property Group)",
+      "party": "rm",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-04-22",
+      "first_asked_source": "EMAIL:T4.1",
+      "repeat_asks": [
+        "EMAIL:T4.5"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "ARC-09",
+      "description": "Third-party inspector's report for Q1 2025 for Draw #13",
+      "owed_by": "Robert Liang (Principal, Arcadia Property Group)",
+      "owed_to": "Tom DeLuca (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-04-23",
+      "first_asked_source": "EMAIL:T4.2",
+      "repeat_asks": [
+        "EMAIL:T4.3"
+      ],
+      "due_date": "2025-04-25",
+      "due_basis": "\"I'll have items 1, 2, and 3 to you by Friday\" (email dated Thursday, April 24, 2025)"
+    },
+    {
+      "item_id": "ARC-10",
+      "description": "GC's updated construction schedule showing revised completion date for Draw #13",
+      "owed_by": "Robert Liang (Principal, Arcadia Property Group)",
+      "owed_to": "Tom DeLuca (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-04-23",
+      "first_asked_source": "EMAIL:T4.2",
+      "repeat_asks": [
+        "EMAIL:T4.3"
+      ],
+      "due_date": "2025-04-25",
+      "due_basis": "\"I'll have items 1, 2, and 3 to you by Friday\" (email dated Thursday, April 24, 2025)"
+    },
+    {
+      "item_id": "ARC-11",
+      "description": "Executed lien waivers (conditional acceptable) from MEP subcontractor for Draw #13",
+      "owed_by": "Robert Liang (Principal, Arcadia Property Group)",
+      "owed_to": "Tom DeLuca (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-04-23",
+      "first_asked_source": "EMAIL:T4.2",
+      "repeat_asks": [
+        "EMAIL:T4.3"
+      ],
+      "due_date": "2025-04-25",
+      "due_basis": "\"I'll have items 1, 2, and 3 to you by Friday\" (email dated Thursday, April 24, 2025)"
+    },
+    {
+      "item_id": "ARC-12",
+      "description": "Updated pre-lease summary: executed leases or LOIs with tenant names, square footage and proposed rent per square foot",
+      "owed_by": "Robert Liang (Principal, Arcadia Property Group)",
+      "owed_to": "Tom DeLuca (RM)",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-04-23",
+      "first_asked_source": "EMAIL:T4.2",
+      "repeat_asks": [
+        "EMAIL:T4.5"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "ARC-13",
+      "description": "Complete Draw #13 processing within 3 business days of receiving complete documents",
+      "owed_by": "Tom DeLuca (RM)",
+      "owed_to": "Robert Liang (Principal, Arcadia Property Group)",
+      "party": "rm",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-04-23",
+      "first_asked_source": "EMAIL:T4.2",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "ARC-14",
+      "description": "Reply to Liang on whether LOI disclosure can be structured without tenant names; relay bank position that LOIs must be executed with tenant names and bank will move quickly on perm conversion once leases are signed",
+      "owed_by": "Tom DeLuca (RM)",
+      "owed_to": "Robert Liang (Principal, Arcadia Property Group)",
+      "party": "rm",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-04-24",
+      "first_asked_source": "EMAIL:T4.3",
+      "repeat_asks": [
+        "EMAIL:T4.5"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "ARC-15",
+      "description": "Schedule a call with Robert Liang to understand the slower-than-expected retail leasing velocity and long-term occupancy outlook versus the 85% pro forma",
+      "owed_by": "Tom DeLuca (RM)",
+      "owed_to": "Marcus Chen (Northfield Bank credit)",
+      "party": "bank_internal",
+      "kind": "meeting_or_call",
+      "first_asked_date": "2025-04-25",
+      "first_asked_source": "EMAIL:T4.5",
+      "repeat_asks": [],
+      "due_date": "2025-04-25",
+      "due_basis": "\"get a call on the calendar with Liang this week\" (email dated Friday, April 25, 2025)"
+    }
+  ]
+}

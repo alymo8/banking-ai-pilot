@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "expected": "[MER] Aerospace purchase order documentation",
+      "found": true,
+      "status_open": true,
+      "matched_description": "[MER] Aerospace contract purchase order documentation | status=no_record | due=2025-02-14"
+    },
+    {
+      "expected": "[MER] Updated / 12-month cash flow projections",
+      "found": true,
+      "status_open": true,
+      "matched_description": "[MER] Updated 12-month cash flow projections with assumptions stated, supporting the Q3 2025 recovery path | status=no_record | due=2025-02-14"
+    },
+    {
+      "expected": "[MER] Customer names on 60-90 day AR",
+      "found": true,
+      "status_open": true,
+      "matched_description": "[MER] Customer names on the 60-90 day accounts receivable items | status=no_record | due=2025-02-14"
+    },
+    {
+      "expected": "[MER] Signed management representation letter",
+      "found": true,
+      "status_open": true,
+      "matched_description": "[MER] Signed management representation letter for the Q4 2024 covenant package | status=no_record | due=2025-01-22"
+    },
+    {
+      "expected": "[MER] Updated AR aging",
+      "found": true,
+      "status_open": true,
+      "matched_description": "[MER] Updated accounts receivable aging for the Q4 2024 covenant package | status=no_record | due=2025-01-22"
+    },
+    {
+      "expected": "[MER] Q1 2025 covenant package (overdue)",
+      "found": true,
+      "status_open": true,
+      "matched_description": "[MER] Q1 2025 covenant compliance package | status=no_record | due=2025-04-30 (overdue as of 5/1)"
+    },
+    {
+      "expected": "[MER] Feb 14 deadline set in the Jan 31 memo (attached to the PO/projections/AR items)",
+      "found": true,
+      "status_open": true,
+      "matched_description": "due=2025-02-14 on the aerospace PO, 12-month cash flow projections and AR customer names rows (all status=no_record), citing MEMO:MER.13"
+    },
+    {
+      "expected": "[MER] RM-proposed revolver cap at 75% with utilization readings above it",
+      "found": true,
+      "status_open": true,
+      "matched_description": "[MER] Restriction on additional revolver draws above 75% utilization pending the review | status=no_record (readings 78%, 81%, 85%)"
+    },
+    {
+      "expected": "[BLU] Full Q1 2025 covenant package",
+      "found": true,
+      "status_open": true,
+      "matched_description": "[BLU] Full Q1 2025 covenant package | status=no_record | due=2025-04-16"
+    },
+    {
+      "expected": "[BLU] Updated 12-month cash flow projection",
+      "found": true,
+      "status_open": true,
+      "matched_description": "[BLU] Updated 12-month cash flow projection with assumptions stated explicitly | status=no_record | due=2025-04-16"
+    },
+    {
+      "expected": "[BLU] Documentation on the two new contracts",
+      "found": true,
+      "status_open": true,
+      "matched_description": "[BLU] Documentation on the two new regional contracts: names, volumes, start dates, revenue estimates | status=no_record | due=2025-04-16"
+    },
+    {
+      "expected": "[BLU] Driver headcount vs 90 days ago",
+      "found": true,
+      "status_open": true,
+      "matched_description": "[BLU] Current driver headcount vs. 90 days ago | status=partly_done | due=2025-04-16"
+    }
+  ]
+}

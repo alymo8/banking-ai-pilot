@@ -1,0 +1,131 @@
+{
+  "statuses": [
+    {
+      "item_id": "CRE-01",
+      "status": "done",
+      "evidence": "The annual review video call with Whitmore was held on 2024-01-30, 55 minutes, outcome Completed [CRM:2024-01-30:CRE].",
+      "evidence_source_ids": [
+        "CRM:2024-01-30:CRE"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-02",
+      "status": "done",
+      "evidence": "The 2025-03-18 call is logged as not completed, reconstructed from calendar data [CRM:2025-03-18:CRE]. A renewal discussion was later held in person on 2025-04-15, 60 minutes [CRM:2025-04-15:CRE].",
+      "evidence_source_ids": [
+        "CRM:2025-03-18:CRE",
+        "EMAIL:T3.3",
+        "EMAIL:T3.4",
+        "CRM:2025-04-15:CRE"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-03",
+      "status": "done",
+      "evidence": "A renewal proposal was presented to Whitmore on 2025-04-15 at 5.05% fixed for 5 years, with no prepayment penalty in years 4-5 [CRM:2025-04-15:CRE].",
+      "evidence_source_ids": [
+        "CRM:2025-04-15:CRE",
+        "EMAIL:T3.4"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-04",
+      "status": "done",
+      "evidence": "Northfield's renewal offer (5.05% fixed) was presented on 2025-04-15, before the window's outer end of 2025-05-18 [CRM:2025-04-15:CRE]. No revised offer at Whitmore's requested 4.90% is recorded through the as-of date [CRM:2025-05-12:CRE].",
+      "evidence_source_ids": [
+        "CRM:2025-04-15:CRE",
+        "EMAIL:T3.3",
+        "CRM:2025-05-08:CRE",
+        "CRM:2025-05-12:CRE",
+        "PERF:CRE:2025-05"
+      ],
+      "observed": "Decision window stated 2025-04-03: 30-45 days, i.e. 2025-05-03 to 2025-05-18 [EMAIL:T3.3]. Offer of 5.05% fixed presented 2025-04-15 [CRM:2025-04-15:CRE]. Pricing exception to 4.90% submitted 2025-05-08, approval pending [CRM:2025-05-08:CRE]. On 2025-05-12, Whitmore was told the exception was still in review and an extension was requested [CRM:2025-05-12:CRE]. The 2025-05 performance note reads 'No response from RM on renewal inquiry as of 5/31' [PERF:CRE:2025-05]."
+    },
+    {
+      "item_id": "CRE-05",
+      "status": "done",
+      "evidence": "The in-person renewal meeting with Whitmore was held on 2025-04-15, 60 minutes, outcome Renewal Proposal Presented [CRM:2025-04-15:CRE].",
+      "evidence_source_ids": [
+        "CRM:2025-04-15:CRE",
+        "NOTE:T3.1"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-06",
+      "status": "no_record",
+      "evidence": "No record shows a calendar invite being sent. The meeting itself took place on 2025-04-15 [CRM:2025-04-15:CRE], so the invite may simply not have been logged.",
+      "evidence_source_ids": [
+        "EMAIL:T3.5",
+        "CRM:2025-04-15:CRE"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-07",
+      "status": "no_record",
+      "evidence": "No record shows pricing at or below 4.90% being offered. The offer recorded on 2025-04-15 was 5.05% [CRM:2025-04-15:CRE], and a 4.90% exception request was still in review on 2025-05-12 [CRM:2025-05-12:CRE].",
+      "evidence_source_ids": [
+        "EMAIL:T3.5",
+        "CRM:2025-04-15:CRE",
+        "CRM:2025-05-08:CRE",
+        "CRM:2025-05-12:CRE"
+      ],
+      "observed": "Requested level: at or below 4.90% fixed [EMAIL:T3.5]. Current rate: 5.25% fixed [PROFILE:CRE]. Offered 2025-04-15: 5.05% fixed [CRM:2025-04-15:CRE]. 4.90% exception submitted 2025-05-08, approval pending [CRM:2025-05-08:CRE]. Still in review 2025-05-12 [CRM:2025-05-12:CRE]. No later pricing record through 2025-06-02."
+    },
+    {
+      "item_id": "CRE-08",
+      "status": "no_record",
+      "evidence": "The approval need was flagged to the manager on 2025-04-09 [NOTE:T3.1]. No record shows the approval itself; a 5.05% proposal was presented on 2025-04-15 [CRM:2025-04-15:CRE].",
+      "evidence_source_ids": [
+        "NOTE:T3.1",
+        "CRM:2025-04-15:CRE"
+      ],
+      "observed": "Approval flagged 2025-04-09 with a target of before Tuesday 2025-04-15 [NOTE:T3.1]. No approval record found. A proposal at 5.05% fixed was presented 2025-04-15 [CRM:2025-04-15:CRE]."
+    },
+    {
+      "item_id": "CRE-09",
+      "status": "partly_done",
+      "evidence": "A pricing exception request to match 4.90% was submitted on 2025-05-08 [CRM:2025-05-08:CRE], and Whitmore was emailed on 2025-05-12 that it was still in review [CRM:2025-05-12:CRE]. No pricing answer to Whitmore is recorded; the 2025-05 note reads 'No response from RM on renewal inquiry as of 5/31' [PERF:CRE:2025-05].",
+      "evidence_source_ids": [
+        "CRM:2025-04-15:CRE",
+        "CRM:2025-05-08:CRE",
+        "CRM:2025-05-12:CRE",
+        "PERF:CRE:2025-05"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-10",
+      "status": "no_record",
+      "evidence": "The exception request was submitted with approval pending on 2025-05-08 [CRM:2025-05-08:CRE] and was still in review on 2025-05-12 [CRM:2025-05-12:CRE]. No approval or decision is recorded through the as-of date.",
+      "evidence_source_ids": [
+        "CRM:2025-05-08:CRE",
+        "CRM:2025-05-12:CRE"
+      ],
+      "observed": "Submitted 2025-05-08, status Approval Pending [CRM:2025-05-08:CRE]. Still in review 2025-05-12 [CRM:2025-05-12:CRE]. No subsequent record through 2025-06-02."
+    },
+    {
+      "item_id": "CRE-11",
+      "status": "no_record",
+      "evidence": "The extension was requested by email on 2025-05-12 [CRM:2025-05-12:CRE]. No reply from Whitmore is recorded through the as-of date; a reply may have been received and not logged.",
+      "evidence_source_ids": [
+        "CRM:2025-05-12:CRE"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "CRE-12",
+      "status": "no_record",
+      "evidence": "The next covenant package is due 2025-09-30 [PROFILE:CRE], and no receipt is recorded as of 2025-06-02. The most recent package noted is the Q1 2025 package [PERF:CRE:2025-03].",
+      "evidence_source_ids": [
+        "PROFILE:CRE",
+        "PERF:CRE:2025-03"
+      ],
+      "observed": null
+    }
+  ]
+}

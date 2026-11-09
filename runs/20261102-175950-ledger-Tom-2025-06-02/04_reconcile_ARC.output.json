@@ -1,0 +1,136 @@
+{
+  "statuses": [
+    {
+      "item_id": "ARC-01",
+      "status": "done",
+      "evidence": "The CRM log of 2024-05-02 records \"Got missing docs. Drew funded.\" for Draw #6 [CRM:2024-05-02:ARC], following the HVAC lien waiver request [CRM:2024-04-25:ARC].",
+      "evidence_source_ids": [
+        "CRM:2024-05-02:ARC",
+        "CRM:2024-04-25:ARC"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-02",
+      "status": "superseded",
+      "evidence": "Asked again on 2024-08-06 and 2024-09-24 [CRM:2024-08-06:ARC][CRM:2024-09-24:ARC]; receipt of the written documentation is not logged. Draw #11 was later funded after the GC dispute was resolved, with a new Q4 2025 timeline noted [CRM:2024-12-04:ARC][PERF:ARC:2024-11].",
+      "evidence_source_ids": [
+        "CRM:2024-08-06:ARC",
+        "CRM:2024-09-24:ARC",
+        "CRM:2024-12-04:ARC",
+        "PERF:ARC:2024-11"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-03",
+      "status": "superseded",
+      "evidence": "Receipt of a revised schedule is not logged, but Draw #10 is shown as complete [PERF:ARC:2024-08] and Draw #11 was funded on a new Q4 2025 completion timeline [CRM:2024-12-04:ARC][PERF:ARC:2024-10].",
+      "evidence_source_ids": [
+        "PERF:ARC:2024-08",
+        "PERF:ARC:2024-10",
+        "CRM:2024-12-04:ARC"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-04",
+      "status": "done",
+      "evidence": "Marcus Chen replied on 2025-04-25 directing that the draw be funded, that the 75% threshold not be waived, and that executed LOIs with tenant names are required [EMAIL:T4.5].",
+      "evidence_source_ids": [
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-05",
+      "status": "no_record",
+      "evidence": "Liang committed to send it by Friday 2025-04-25 [EMAIL:T4.3]. Credit's email that day says \"the construction docs are in order\" [EMAIL:T4.5], but no record shows receipt of the Q1 2025 inspector's report.",
+      "evidence_source_ids": [
+        "EMAIL:T4.3",
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-06",
+      "status": "no_record",
+      "evidence": "Liang committed to send it by Friday 2025-04-25 [EMAIL:T4.3] and stated an end-of-July completion estimate in his submission email [EMAIL:T4.1]. No record shows receipt of the GC's updated schedule.",
+      "evidence_source_ids": [
+        "EMAIL:T4.3",
+        "EMAIL:T4.1"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-07",
+      "status": "no_record",
+      "evidence": "Liang committed to send the MEP lien waivers by Friday 2025-04-25 [EMAIL:T4.3]. Credit's email that day says the construction docs are in order [EMAIL:T4.5], but no record shows receipt of the waivers.",
+      "evidence_source_ids": [
+        "EMAIL:T4.3",
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-08",
+      "status": "partly_done",
+      "evidence": "Liang gave square footage (about 4,200 sq ft) and a rent range ($38-42/sq ft) for two confidential restaurant LOIs and mentioned a third fitness-studio LOI [EMAIL:T4.3]. Still missing: tenant names, executed leases or LOIs, and details for the third LOI. Credit reiterated that names are required [EMAIL:T4.5].",
+      "evidence_source_ids": [
+        "EMAIL:T4.3",
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-09",
+      "status": "no_record",
+      "evidence": "Credit confirmed on 2025-04-25 that the 75% threshold is not waived and verbal LOIs are not accepted [EMAIL:T4.5]. No record shows 75% reached or executed LOIs with tenant names received.",
+      "evidence_source_ids": [
+        "EMAIL:T4.5",
+        "PERF:ARC:2025-04",
+        "PERF:ARC:2025-05"
+      ],
+      "observed": "Pre-leasing readings: 71% on 2025-04-09 [CRM:2025-04-09:ARC] and 2025-04-22 [EMAIL:T4.1]; 68% in April 2025 monthly data [PERF:ARC:2025-04]; 71% in May 2025 monthly data [PERF:ARC:2025-05], against the 75% conversion threshold. May data lists a perm conversion target of Q3 2025."
+    },
+    {
+      "item_id": "ARC-10",
+      "status": "no_record",
+      "evidence": "No record shows the date complete Draw #13 documentation was received or that the review was completed. The last related record is credit's 2025-04-25 direction to fund [EMAIL:T4.5].",
+      "evidence_source_ids": [
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-11",
+      "status": "no_record",
+      "evidence": "Credit provided the position to relay on 2025-04-25 [EMAIL:T4.5]. No record of a reply to Liang appears after that date.",
+      "evidence_source_ids": [
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-12",
+      "status": "no_record",
+      "evidence": "Credit directed funding on 2025-04-25 [EMAIL:T4.5]. No record logs Draw #13 funding; the loan balance is shown as $22.0M in April and May 2025, up from $21.9M in March [PERF:ARC:2025-03][PERF:ARC:2025-04][PERF:ARC:2025-05].",
+      "evidence_source_ids": [
+        "EMAIL:T4.5",
+        "PERF:ARC:2025-03",
+        "PERF:ARC:2025-04",
+        "PERF:ARC:2025-05"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-13",
+      "status": "no_record",
+      "evidence": "Credit asked on 2025-04-25 for a call with Liang that week [EMAIL:T4.5]. No CRM entry or email after that date records a scheduled or held call.",
+      "evidence_source_ids": [
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "statuses": [
+    {
+      "item_id": "ARC-01",
+      "status": "partly_done",
+      "evidence": "Draws #4 through #12 were processed or funded [CRM:2024-02-27:ARC] [CRM:2024-05-02:ARC] [PERF:ARC:2024-12]. Items were missing from Draw #6 [CRM:2024-04-25:ARC] and from Draw #13 [EMAIL:T4.2], and no receipt of the Draw #13 items is recorded.",
+      "evidence_source_ids": [
+        "CRM:2024-02-27:ARC",
+        "CRM:2024-04-25:ARC",
+        "CRM:2024-05-02:ARC",
+        "PERF:ARC:2024-12",
+        "EMAIL:T4.2"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-02",
+      "status": "done",
+      "evidence": "The RM logged 'Got missing docs. Drew funded.' on 2024-05-02, following the Draw #6 lien waiver request [CRM:2024-05-02:ARC].",
+      "evidence_source_ids": [
+        "CRM:2024-05-02:ARC"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-03",
+      "status": "done",
+      "evidence": "Liang gave HVAC delay updates on an inbound call on 2024-08-06 [CRM:2024-08-06:ARC] and by email in September 2024 [PERF:ARC:2024-09]. Resolution of the dispute was recorded by 2024-12-04 [CRM:2024-12-04:ARC].",
+      "evidence_source_ids": [
+        "CRM:2024-08-06:ARC",
+        "PERF:ARC:2024-09",
+        "CRM:2024-12-04:ARC"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-04",
+      "status": "no_record",
+      "evidence": "Written documentation was asked for again on 2024-08-06 [CRM:2024-08-06:ARC] and 2024-09-24 [CRM:2024-09-24:ARC]. Draw #11 was funded after the dispute was resolved [CRM:2024-12-04:ARC], but the records do not mention receipt of written documentation.",
+      "evidence_source_ids": [
+        "CRM:2024-08-06:ARC",
+        "CRM:2024-09-24:ARC",
+        "CRM:2024-12-04:ARC"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-05",
+      "status": "no_record",
+      "evidence": "The schedule was asked for again on 2024-09-24 [CRM:2024-09-24:ARC]. A new Q4 2025 completion timeline was noted [PERF:ARC:2024-10] [CRM:2024-12-04:ARC], but no revised schedule document is recorded as received.",
+      "evidence_source_ids": [
+        "CRM:2024-09-24:ARC",
+        "PERF:ARC:2024-10",
+        "CRM:2024-12-04:ARC"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-06",
+      "status": "done",
+      "evidence": "Marcus Chen replied on 2025-04-25: do not waive the 75% threshold, LOIs must be executed with tenant names, and no conversion on verbal LOIs [EMAIL:T4.5].",
+      "evidence_source_ids": [
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-07",
+      "status": "no_record",
+      "evidence": "Chen confirmed on 2025-04-25 that the 75% threshold is not waived and that verbal LOIs are not accepted [EMAIL:T4.5]. No record shows 75% of retail square footage under executed lease or named executed LOI.",
+      "evidence_source_ids": [
+        "EMAIL:T4.5",
+        "PERF:ARC:2025-05"
+      ],
+      "observed": "Pre-leasing readings against the 75% threshold: 61% [CRM:2025-01-08:ARC] [PERF:ARC:2025-02], 64% [PERF:ARC:2025-03], 68% [PERF:ARC:2025-04], 71% [CRM:2025-04-09:ARC] [EMAIL:T4.1] [PERF:ARC:2025-05]. Perm conversion target is Q3 2025 [PERF:ARC:2025-05]."
+    },
+    {
+      "item_id": "ARC-08",
+      "status": "no_record",
+      "evidence": "Chen instructed 'fund the draw' on 2025-04-25 [EMAIL:T4.5], but no funding of Draw #13 is recorded. The loan balance reads $22.0M in both April and May 2025 [PERF:ARC:2025-04] [PERF:ARC:2025-05].",
+      "evidence_source_ids": [
+        "EMAIL:T4.5",
+        "PERF:ARC:2025-04",
+        "PERF:ARC:2025-05"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-09",
+      "status": "no_record",
+      "evidence": "Liang said on 2025-04-24 that he would send the item by Friday [EMAIL:T4.3]. Chen wrote on 2025-04-25 that 'construction docs are in order' [EMAIL:T4.5], but no receipt of the Q1 2025 inspector report is recorded.",
+      "evidence_source_ids": [
+        "EMAIL:T4.3",
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-10",
+      "status": "no_record",
+      "evidence": "Liang said on 2025-04-24 that he would send the item by Friday [EMAIL:T4.3]. No receipt of the GC's updated schedule is recorded; Liang's submission stated an end-of-July completion estimate [EMAIL:T4.1].",
+      "evidence_source_ids": [
+        "EMAIL:T4.3",
+        "EMAIL:T4.1"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-11",
+      "status": "no_record",
+      "evidence": "Liang said on 2025-04-24 that he would send the item by Friday [EMAIL:T4.3]. No receipt of the MEP subcontractor lien waivers is recorded.",
+      "evidence_source_ids": [
+        "EMAIL:T4.3"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-12",
+      "status": "partly_done",
+      "evidence": "Liang provided combined square footage (about 4,200 sq ft) and a rent range ($38-42/sq ft) for two restaurant LOIs, without tenant names or executed status [EMAIL:T4.3]. Still missing are tenant names, executed leases or LOIs, and details for the fitness studio LOI; Chen reiterated the tenant-name requirement [EMAIL:T4.5].",
+      "evidence_source_ids": [
+        "EMAIL:T4.3",
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-13",
+      "status": "no_record",
+      "evidence": "The records do not show receipt of the complete Draw #13 document set or completion of processing. The last related record is Chen's funding instruction on 2025-04-25 [EMAIL:T4.5].",
+      "evidence_source_ids": [
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-14",
+      "status": "no_record",
+      "evidence": "Chen's position for relaying to Liang was given on 2025-04-25 [EMAIL:T4.5]. No reply from the RM to Liang is in the records.",
+      "evidence_source_ids": [
+        "EMAIL:T4.5"
+      ],
+      "observed": null
+    },
+    {
+      "item_id": "ARC-15",
+      "status": "no_record",
+      "evidence": "Chen asked for a call with Liang to be scheduled the week of 2025-04-25 [EMAIL:T4.5]. No CRM entry for a call is recorded after 2025-04-09 [CRM:2025-04-09:ARC].",
+      "evidence_source_ids": [
+        "EMAIL:T4.5",
+        "CRM:2025-04-09:ARC"
+      ],
+      "observed": null
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+Northfield Bank — RM Personas
+Commercial Banking Division | Prepared for Claude Adoption Pilot
+These profiles were developed through interviews with RM team members in March 2025 as part of the adoption pilot scoping. Names and details are real. Each RM reviewed and approved their profile.
+Sarah Okonkwo
+Title: Relationship Manager, Commercial Banking Tenure at Northfield: 9 years Portfolio: 62 active relationships | $148M in total commitments Specialty: Industrial manufacturing, logistics, and supply chain
+How She Works
+Sarah's day starts at 7:15am. Before she opens email, she reviews her handwritten tracking sheet — a legal pad she's maintained for years that lists every borrower, last contact date, next covenant due date, and any open items. She updates it in pen every morning. It lives in the top left drawer of her desk.
+She processes email in two blocks: 7:30–9:00am and after lunch. She has 847 unread emails in a subfolder called "FYI" that she's never gone back to. Her sent folder is meticulously organized by borrower name. She types faster than almost anyone on the team.
+A typical Monday morning: review weekend emails (20–30 minutes), update the legal pad, pull up three to five borrower files in nCino to check on open items, prepare for any calls scheduled that week. She spends about 40% of her time on documentation and administrative work that she considers essential but not high-value.
+Her most painful task: writing relationship review memos. "It takes me three to four hours because I care about getting the words right and I know Marcus reads them carefully. I rewrite the risk section at least twice every time."
+Her second most painful task: tracking down overdue covenant packages. "I send the same email, wait a week, send it again, wait another week. It's just time."
+Relationship with Technology
+Sarah uses: Outlook, Excel (her tracking spreadsheet is a masterpiece of manual logic), nCino (the bank's CRM/loan system — she finds it slow and clunky), Word for memos. She does not use any AI tools currently.
+
+She tried the bank's earlier AI chatbot pilot two years ago. "It gave me wrong information about a covenant term and I had to spend two hours correcting what I'd already sent to a client. After that I didn't trust it."
+She is not opposed to Claude in principle. She's opposed to broken tools. "If it actually saves me time, I'll use it. If it creates work for me to fix its mistakes, I won't."
+Her biggest concern about the adoption program: "I don't want something that flags my contact frequency to management. I know my clients better than any dashboard does. If I haven't called Summit in three weeks it's because I spoke to Nina at a conference and there's nothing pressing. A system won't know that."
+What would make her an advocate: One workflow that demonstrably saves her 30 minutes on a real task she does at least weekly. "If you can give me my Monday morning setup in 10 minutes instead of 45, I'm in. But it has to actually work."
+Her hidden strength: Sarah is a natural teacher. When she adopts something, she explains it to everyone around her. If she becomes a believer, she'll train half the team without being asked.
+Tom DeLuca
+Title: Relationship Manager, Commercial Banking Tenure at Northfield: 6 years Portfolio: 44 active relationships | $112M in total commitments Specialty: Financial services, commercial real estate development, professional services
+How He Works
+Tom describes himself as "always looking for a better way." He reads industry publications, attends fintech webinars on his own time, and has opinions about tools he's never used. He is the person other RMs come to when they have a tech question.
+His workflow is less structured than Sarah's. He works in bursts — highly productive periods punctuated by periods of distraction. His Outlook inbox is a single folder with 4,200 emails, all unread. He finds things through search. "The search function is basically my filing system."
+He spends roughly 25% of his time on documentation, which is lower than his peers. He attributes this to AI tools. "I'm not doing the same amount of work less — I'm doing better work in less time. The memos I write now are more thorough than the ones I wrote a year ago because I have the time to think instead of type."
+His most valuable task: client discovery and relationship development. "The part where I'm talking to a client and figuring out what they actually need — that's what I'm good at and what the bank pays me to do. Everything else is overhead."
+Relationship with Technology
+Tom uses: Outlook, ChatGPT Plus (personal account — currently under compliance review), Excel (basic), nCino (reluctantly). He is the only RM currently using AI tools.
+
+He is aware his ChatGPT usage created a compliance issue. He is cooperative but privately frustrated. "I built something that works and now I have to stop using it because of a policy that didn't exist when I started. I understand the reason but it's still frustrating."
+He is genuinely excited about Claude for Work. "If I can do what I was doing in ChatGPT but with enterprise data protections, that's strictly better. I want to be involved in building this — I've already figured out a lot of what doesn't work."
+His biggest concern about the adoption program: "That it'll get designed by people who don't do the job. The bank's previous tool rollouts have all been built for the CCO's reporting needs, not for what the RM actually does every morning."
+His value in the adoption program: Tom has four months of real-world prompt development and workflow design. His shadow workflows are a starting point, not a liability. The compliance issues are fixable; the insights aren't reproducible without months of trial and error.
+His risk in the adoption program: If Tom is positioned as "the guy who got caught using ChatGPT," other RMs will distance themselves from the program. He needs to be positioned as the power user who is now doing it right, not the cautionary tale.
+Marcus Webb
+Title: Relationship Manager, Commercial Banking Tenure at Northfield: 22 years Portfolio: 71 active relationships | $189M in total commitments Specialty: Retail, consumer services, hospitality, multi-unit operators
+How He Works
+Marcus is the highest-producing RM on the team by total commitments. He has relationships that have been with Northfield for 15+ years. Several of his borrowers have his cell phone number and call him directly on weekends about things unrelated to banking. He is what the team calls a "classic banker."
+His workflow is almost entirely relationship-driven. He does most of his documentation in short bursts immediately after client conversations — "while it's fresh." He uses Outlook for everything, Word for memos (no templates, writes from scratch), and Excel for his own tracking. He uses nCino under protest. "It takes me 15 clicks to do something I used to do in 3."
+He arrives at the office at 8:30am and rarely checks email before that. He makes two to three client calls before 10am. Afternoons are for internal work. He leaves by 5:30pm consistently.
+His most time-consuming task: "Honestly? The annual reviews. I have 71 relationships. That's 71 annual review memos. Some of them are straightforward but a lot of them require real thought."
+His relationship with the credit team is occasionally tense. He believes credit analysts sometimes "get in the way of good banking." He has strong opinions about which covenant structures actually serve the bank's interests.
+
+Relationship with Technology
+Marcus uses: Outlook, Word, Excel (basic). He does not use nCino more than required. He has not used any AI tools and has no intention of doing so voluntarily.
+On AI: "I've heard the pitch. It's been the pitch for every new system for 20 years. The bank rolled out nCino to 'save us time' and it added two hours a week to my administrative burden. I'll believe it when I see it."
+He is not hostile to the adoption program. He is indifferent to it in a way that could become hostile if the program feels like surveillance or adds compliance burden. "If it helps me, I'll use it. If it creates more things for me to explain to compliance, I won't touch it."
+His deepest concern — which he has not stated explicitly but his manager is aware of: Marcus has built his value on relationship knowledge and institutional memory that is entirely in his head. He is 54 years old. He worries, without saying so, that AI tools will make newer, less experienced RMs look like they know as much as he does. "The system can see the data. It can't see 22 years of sitting across the table from these people."
+What would make him a user: A single workflow that removes administrative burden from his annual review process without requiring him to change how he thinks about the work. He will not change his workflow for a tool. The tool has to fit his workflow.
+What would make him an active resister: Any perception that the system is tracking his contact frequency and reporting it to management. "I have 71 relationships. I know which ones need attention and which ones don't. I've been doing this for 22 years. I don't need a computer to tell me I haven't called Summit in three weeks."
+His hidden leverage: Marcus mentors four junior RMs informally. If he adopts something, they all will. If he publicly dismisses it, some of them will too.
+
+The Adoption Spectrum
+
+Current AI use
+Tech openness
+Workflow flexibility
+Influence on peers
+
+Sarah None Conditional Moderate High (teacher)
+
+Tom Active (noncompliant)
+High
+High
+Moderate (early adopter)
+
+Marcus None Low Very low High (skeptic anchor)
+
+Sarah
+
+Key motivator
+
+Time savings on real tasks
+
+Key fear
+
+Tools that create work to fix
+
+90-day adoption risk
+
+Low if first win delivered
+
+Path to advocate
+
+One workflow that works
+
+Tom Being involved in building Program designed without RM input
+Very low
+Involve in design
+
+Marcus
+Reduced admin burden
+Surveillance / loss of relationship advantage
+High
+One workflow on his terms
+
+What All Three Have In Common
+All three RMs cited the same top three pain points when asked what wastes the most time: 1. Writing memos and formal documentation — especially annual reviews and relationship review memos. Estimated 3–5 hours per memo, 71 required per year for Marcus alone. 2. Chasing covenant packages — sending the same follow-up email repeatedly. No systematic tracking, no automation. Each RM has their own manual system. 3. Preparing for client calls — pulling notes from three different systems (nCino, Outlook, personal tracking) before a call. "By the time I've found everything I need, I've spent 20 minutes and I've got 5 minutes left before the call."
+None of them asked for an "early warning system." That's the CCO's framing. The RMs want tools that make their existing work faster. The early warning insight is visible in the data; it is not visible to the RMs as a need.
+This document is confidential and for internal use in the Claude adoption pilot only.
+
+

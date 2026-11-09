@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "seconds": 79.4,
+  "input_tokens": 8904,
+  "output_tokens": 6921
+}

@@ -1,0 +1,111 @@
+{
+  "assessment": "The revolver worries me more than DSCR. The utilization trend is linear, not seasonal; they are covering operating cash shortfalls with it. If aerospace slips again, the revolver becomes a problem before the aerospace business arrives. On aerospace, we have believed the recovery story twice, and it has moved twice. We have asked twice for the PO and received nothing, and the answer on the 1/23 call felt evasive. We cannot keep accepting verbal assurances. David is cooperative and does not hide bad news, but he delivers it late and without the documentation. The business is sound, and the auto headwind is sector-wide. This is not a management quality problem. If aerospace delivers as now represented and auto stabilizes, DSCR could get to 1.15-1.20x by Q3. I want to see documentation before underwriting that again. The credit has moved into territory where we need more information and more frequent visibility.",
+  "recommendation": "I am not recommending a second waiver at this time. I recommend we hold the existing waiver and set a February 14 deadline for the following: (1) the aerospace PO, (2) 12-month cash flow projections with assumptions, and (3) names on the 60-90 day AR. If these arrive and support the recovery, I will come back with a recommendation to extend the waiver. I also recommend restricting revolver draws above 75% utilization pending review; utilization is currently 69%.",
+  "claim_map": [
+    {
+      "sentence": "The revolver worries me more than DSCR.",
+      "rm_note_lines": [
+        "revolver worries me more than DSCR."
+      ]
+    },
+    {
+      "sentence": "The utilization trend is linear, not seasonal; they are covering operating cash shortfalls with it.",
+      "rm_note_lines": [
+        "trend is linear, not seasonal; they're covering operating cash shortfalls with it."
+      ]
+    },
+    {
+      "sentence": "If aerospace slips again, the revolver becomes a problem before the aerospace business arrives.",
+      "rm_note_lines": [
+        "problem before aerospace arrives if it slips again"
+      ]
+    },
+    {
+      "sentence": "On aerospace, we have believed the recovery story twice, and it has moved twice.",
+      "rm_note_lines": [
+        "aerospace: we've believed the recovery story twice and it moved twice."
+      ]
+    },
+    {
+      "sentence": "We have asked twice for the PO and received nothing, and the answer on the 1/23 call felt evasive.",
+      "rm_note_lines": [
+        "asked twice for the PO, nothing. answer on the 1/23 call felt evasive."
+      ]
+    },
+    {
+      "sentence": "We cannot keep accepting verbal assurances.",
+      "rm_note_lines": [
+        "can't keep accepting verbal assurances"
+      ]
+    },
+    {
+      "sentence": "David is cooperative and does not hide bad news, but he delivers it late and without the documentation.",
+      "rm_note_lines": [
+        "David is cooperative, doesn't hide bad news, delivers it late and without the docs."
+      ]
+    },
+    {
+      "sentence": "The business is sound, and the auto headwind is sector-wide.",
+      "rm_note_lines": [
+        "business is sound, auto headwind is sector-wide."
+      ]
+    },
+    {
+      "sentence": "This is not a management quality problem.",
+      "rm_note_lines": [
+        "not a management quality problem"
+      ]
+    },
+    {
+      "sentence": "If aerospace delivers as now represented and auto stabilizes, DSCR could get to 1.15-1.20x by Q3.",
+      "rm_note_lines": [
+        "if aerospace delivers as now represented and auto stabilizes, DSCR could get to 1.15-1.20x by Q3."
+      ]
+    },
+    {
+      "sentence": "I want to see documentation before underwriting that again.",
+      "rm_note_lines": [
+        "want to see documentation before underwriting that again"
+      ]
+    },
+    {
+      "sentence": "The credit has moved into territory where we need more information and more frequent visibility.",
+      "rm_note_lines": [
+        "credit has moved into territory where we need more info and more frequent visibility"
+      ]
+    },
+    {
+      "sentence": "I am not recommending a second waiver at this time.",
+      "rm_note_lines": [
+        "NOT recommending a second waiver now."
+      ]
+    },
+    {
+      "sentence": "I recommend we hold the existing waiver and set a February 14 deadline for the following: (1) the aerospace PO, (2) 12-month cash flow projections with assumptions, and (3) names on the 60-90 day AR.",
+      "rm_note_lines": [
+        "hold existing waiver, Feb 14 deadline for (1) aerospace PO (2) 12-mo cash flow projections with assumptions (3) names on 60-90 day AR"
+      ]
+    },
+    {
+      "sentence": "If these arrive and support the recovery, I will come back with a recommendation to extend the waiver.",
+      "rm_note_lines": [
+        "if they arrive and support recovery -> I come back with waiver extension rec."
+      ]
+    },
+    {
+      "sentence": "I also recommend restricting revolver draws above 75% utilization pending review; utilization is currently 69%.",
+      "rm_note_lines": [
+        "restrict revolver draws above 75% utilization pending review (at 69% now)"
+      ]
+    }
+  ],
+  "questions_for_rm": [
+    "The notes do not say what happens if the three items are not received by February 14 or do not support the recovery. Do you want to state a next step for that case?",
+    "Your notes say we need more frequent visibility, but the recommendation does not specify a reporting requirement or cadence (e.g., monthly financials or borrowing base). Should one be added, or is the February 14 package the full ask?",
+    "'Pending review' for the 75% revolver restriction: which review, and is there a target date for it?",
+    "Please confirm that 'if it slips again' refers to the aerospace timeline slipping, as I have written it.",
+    "The current DSCR and covenant level are not in the notes. Do you want to cite them alongside the 1.15-1.20x projection?",
+    "Please confirm the year for the February 14 deadline and for Q3, and David's title for the memo.",
+    "Note line 7 contained a redacted internal classification reference (policy 2.1), which I have omitted. Please confirm whether anything from it should appear in the memo."
+  ]
+}

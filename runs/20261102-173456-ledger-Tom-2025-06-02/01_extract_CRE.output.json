@@ -1,0 +1,186 @@
+{
+  "items": [
+    {
+      "item_id": "CRE-01",
+      "description": "Schedule the annual review call with James Whitmore for late January 2024",
+      "owed_by": "RM Tom DeLuca",
+      "owed_to": "James Whitmore, CEO, Crestwood Capital Advisors",
+      "party": "rm",
+      "kind": "meeting_or_call",
+      "first_asked_date": "2024-01-11",
+      "first_asked_source": "CRM:2024-01-11:CRE",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": "\"Schedule review call for late January\" (no specific date)"
+    },
+    {
+      "item_id": "CRE-02",
+      "description": "Renewal discussion call or meeting requested by Whitmore after he received the First Midwest term sheet. Tom proposed connecting in mid-March, and a call was set for March 18, 2025.",
+      "owed_by": "RM Tom DeLuca",
+      "owed_to": "James Whitmore, CEO, Crestwood Capital Advisors",
+      "party": "rm",
+      "kind": "meeting_or_call",
+      "first_asked_date": "2025-02-12",
+      "first_asked_source": "EMAIL:T3.1",
+      "repeat_asks": [
+        "CRM:2025-02-12:CRE",
+        "EMAIL:T3.2",
+        "CRM:2025-03-18:CRE",
+        "EMAIL:T3.3",
+        "CRM:2025-04-03:CRE",
+        "PERF:CRE:2025-04"
+      ],
+      "due_date": "2025-03-18",
+      "due_basis": "\"We had scheduled a call for March 18th\" (EMAIL:T3.3); Tom had asked to \"find time in mid-March to connect\" (EMAIL:T3.2)"
+    },
+    {
+      "item_id": "CRE-03",
+      "description": "Prepare and deliver a renewal proposal with pricing for the term loan maturing Aug 2026 (\"pull together some numbers... and get back to you with a proposal\")",
+      "owed_by": "RM Tom DeLuca",
+      "owed_to": "James Whitmore, CEO, Crestwood Capital Advisors",
+      "party": "rm",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-02-26",
+      "first_asked_source": "EMAIL:T3.2",
+      "repeat_asks": [
+        "CRM:2025-02-26:CRE",
+        "EMAIL:T3.3",
+        "EMAIL:T3.4",
+        "CRM:2025-04-07:CRE"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "CRE-04",
+      "description": "Northfield's renewal offer must reach Whitmore within his 30-45 day decision window on the First Midwest offer",
+      "owed_by": "RM Tom DeLuca",
+      "owed_to": "James Whitmore, CEO, Crestwood Capital Advisors",
+      "party": "rm",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2025-04-03",
+      "first_asked_source": "EMAIL:T3.3",
+      "repeat_asks": [
+        "CRM:2025-04-03:CRE"
+      ],
+      "due_date": "2025-05-18",
+      "due_basis": "\"I need to make a decision on this in the next 30-45 days\" in an email dated April 3, 2025. That puts the window at 2025-05-03 to 2025-05-18; the outer end is used here."
+    },
+    {
+      "item_id": "CRE-05",
+      "description": "In-person renewal proposal meeting with Whitmore on Tuesday April 15, 2025 at 2pm",
+      "owed_by": "RM Tom DeLuca",
+      "owed_to": "James Whitmore, CEO, Crestwood Capital Advisors",
+      "party": "rm",
+      "kind": "meeting_or_call",
+      "first_asked_date": "2025-04-07",
+      "first_asked_source": "EMAIL:T3.4",
+      "repeat_asks": [
+        "CRM:2025-04-07:CRE",
+        "EMAIL:T3.5",
+        "NOTE:T3.1"
+      ],
+      "due_date": "2025-04-15",
+      "due_basis": "\"next Tuesday at 2pm works\" (EMAIL:T3.5, dated Tuesday April 8, 2025); \"Renewal meeting scheduled 4/15\" (NOTE:T3.1)"
+    },
+    {
+      "item_id": "CRE-06",
+      "description": "Send Whitmore a calendar invite for the Tuesday 2pm renewal meeting",
+      "owed_by": "RM Tom DeLuca",
+      "owed_to": "James Whitmore, CEO, Crestwood Capital Advisors",
+      "party": "rm",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-04-08",
+      "first_asked_source": "EMAIL:T3.5",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "CRE-07",
+      "description": "Renewal pricing must be at or below 4.90% fixed to match the First Midwest term sheet",
+      "owed_by": "Northfield Bank (RM Tom DeLuca)",
+      "owed_to": "James Whitmore, CEO, Crestwood Capital Advisors",
+      "party": "rm",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2025-04-08",
+      "first_asked_source": "EMAIL:T3.5",
+      "repeat_asks": [
+        "CRM:2025-04-15:CRE"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "CRE-08",
+      "description": "Manager pricing approval for the renewal proposal before the April 15 meeting with Whitmore",
+      "owed_by": "RM's manager / Northfield pricing",
+      "owed_to": "RM Tom DeLuca",
+      "party": "bank_internal",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2025-04-09",
+      "first_asked_source": "NOTE:T3.1",
+      "repeat_asks": [],
+      "due_date": "2025-04-14",
+      "due_basis": "\"Need pricing approval before Tuesday\" (note dated Wednesday April 9, 2025; the meeting is Tuesday 4/15)"
+    },
+    {
+      "item_id": "CRE-09",
+      "description": "Go back to pricing and respond to Whitmore's request to match 4.90% fixed",
+      "owed_by": "RM Tom DeLuca",
+      "owed_to": "James Whitmore, CEO, Crestwood Capital Advisors",
+      "party": "rm",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-04-15",
+      "first_asked_source": "CRM:2025-04-15:CRE",
+      "repeat_asks": [
+        "CRM:2025-05-08:CRE",
+        "CRM:2025-05-12:CRE",
+        "PERF:CRE:2025-05"
+      ],
+      "due_date": "2025-05-13",
+      "due_basis": "\"Whitmore's 2-week deadline expires May 13\" (CRM:2025-05-08). Note that \"He gave me 2 weeks\" on 2025-04-15 would instead give 2025-04-29."
+    },
+    {
+      "item_id": "CRE-10",
+      "description": "Approval of the pricing exception request to match First Midwest at 4.90% fixed",
+      "owed_by": "Northfield pricing / exception approvers",
+      "owed_to": "RM Tom DeLuca",
+      "party": "bank_internal",
+      "kind": "condition_or_limit",
+      "first_asked_date": "2025-05-08",
+      "first_asked_source": "CRM:2025-05-08:CRE",
+      "repeat_asks": [
+        "CRM:2025-05-12:CRE"
+      ],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "CRE-11",
+      "description": "Whitmore's reply to Tom's request for an extension of the 2-week pricing deadline while the pricing exception is in review",
+      "owed_by": "James Whitmore, CEO, Crestwood Capital Advisors",
+      "owed_to": "RM Tom DeLuca",
+      "party": "borrower",
+      "kind": "reply_or_deliverable",
+      "first_asked_date": "2025-05-12",
+      "first_asked_source": "CRM:2025-05-12:CRE",
+      "repeat_asks": [],
+      "due_date": null,
+      "due_basis": null
+    },
+    {
+      "item_id": "CRE-12",
+      "description": "Next covenant compliance package",
+      "owed_by": "James Whitmore, CEO, Crestwood Capital Advisors",
+      "owed_to": "RM Tom DeLuca",
+      "party": "borrower",
+      "kind": "document_or_information",
+      "first_asked_date": "2025-06-02",
+      "first_asked_source": "PROFILE:CRE",
+      "repeat_asks": [],
+      "due_date": "2025-09-30",
+      "due_basis": "Profile: \"next_covenant_due=2025-09-30\""
+    }
+  ]
+}
